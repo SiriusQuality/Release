@@ -1,0 +1,107 @@
+<?xml version="1.0" standalone="yes"?>
+<StrategyDefinition>
+  <Global>
+    <SimpleStrategy />
+    <CompositeStrategy />
+    <DataInterfacesDLL>C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusQuality-PhenologyComponent\obj\Debug\SiriusQuality-PhenologyComponent.dll</DataInterfacesDLL>
+    <StrategiesDLL />
+    <IStrategyComponentName>IStrategySiriusQualityPhenology</IStrategyComponentName>
+  </Global>
+  <General>
+    <Domain>Crop</Domain>
+    <ModelType>Development</ModelType>
+    <NameSpace>SiriusQualityPhenology.Strategies</NameSpace>
+    <StrategyName>RegisterZadok</StrategyName>
+    <StrategyDescription>record the zadok stage in the calendar</StrategyDescription>
+    <IsContext>false</IsContext>
+    <TimeSteps />
+    <AuthorFirstRelease>pierre Martre</AuthorFirstRelease>
+    <Institution>Inra</Institution>
+    <Email>pierre.martre@supagro.inra.fr</Email>
+    <DateFirstRelease>3/29/2018</DateFirstRelease>
+    <AuthorRevision />
+    <EmailAuthorRevision />
+    <DateRevision />
+  </General>
+  <Inputs>
+    <Variable>cumulTT</Variable>
+    <DomainClass>phenologystate - SiriusQualityPhenology.PhenologyState</DomainClass>
+  </Inputs>
+  <Inputs>
+    <Variable>phase_</Variable>
+    <DomainClass>phenologystate - SiriusQualityPhenology.PhenologyState</DomainClass>
+  </Inputs>
+  <Inputs>
+    <Variable>LeafNumber</Variable>
+    <DomainClass>phenologystate - SiriusQualityPhenology.PhenologyState</DomainClass>
+  </Inputs>
+  <Inputs>
+    <Variable>cumulTTFromZC_65</Variable>
+    <DomainClass>phenologystate - SiriusQualityPhenology.PhenologyState</DomainClass>
+  </Inputs>
+  <Inputs>
+    <Variable>currentdate</Variable>
+    <DomainClass>phenologystate - SiriusQualityPhenology.PhenologyState</DomainClass>
+  </Inputs>
+  <Inputs>
+    <Variable>Calendar</Variable>
+    <DomainClass>phenologystate1 - SiriusQualityPhenology.PhenologyState</DomainClass>
+  </Inputs>
+  <Outputs>
+    <Variable>hasZadokStageChanged</Variable>
+    <DomainClass>phenologystate - SiriusQualityPhenology.PhenologyState</DomainClass>
+  </Outputs>
+  <Outputs>
+    <Variable>currentZadokStage</Variable>
+    <DomainClass>phenologystate - SiriusQualityPhenology.PhenologyState</DomainClass>
+  </Outputs>
+  <Outputs>
+    <Variable>Calendar</Variable>
+    <DomainClass>phenologystate - SiriusQualityPhenology.PhenologyState</DomainClass>
+  </Outputs>
+  <Parameters>
+    <VarName>Der</VarName>
+    <Description>Duration of the endosperm endoreduplication phase</Description>
+    <MaxValue>10000</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>°Cd</Units>
+    <ValueType>Double</ValueType>
+  </Parameters>
+  <Parameters>
+    <VarName>slopeTSFLN</VarName>
+    <Description>used for the calcul of Terminal spikelet</Description>
+    <MaxValue>10000</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>-</Units>
+    <ValueType>Double</ValueType>
+  </Parameters>
+  <Parameters>
+    <VarName>intTSFLN</VarName>
+    <Description>used for the calcul of Terminal spikelet</Description>
+    <MaxValue>10000</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>-</Units>
+    <ValueType>Double</ValueType>
+  </Parameters>
+  <LoadedAssemblies>
+    <Name>SiriusQuality-PhenologyComponent, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>CRA.ModelLayer, Version=1.0.5212.29139, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>CRA.AgroManagement2014, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
+  </LoadedAssemblies>
+</StrategyDefinition>

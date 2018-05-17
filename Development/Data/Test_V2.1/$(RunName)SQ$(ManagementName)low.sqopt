@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<ArrayOfArrayOfArrayOfAnyType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ArrayOfArrayOfAnyType>
+    <ArrayOfAnyType>
+      <anyType xsi:type="xsd:string">Algorithm : </anyType>
+      <anyType xsi:type="xsd:string">CMA-ES</anyType>
+      <anyType xsi:type="xsd:string">Based on observations : </anyType>
+      <anyType xsi:type="xsd:string">Final leaf number</anyType>
+      <anyType xsi:type="xsd:string">ZC65_Anthesis</anyType>
+    </ArrayOfAnyType>
+    <ArrayOfAnyType />
+    <ArrayOfAnyType>
+      <anyType xsi:type="xsd:string">Round</anyType>
+      <anyType xsi:type="xsd:string">Fitness</anyType>
+      <anyType xsi:type="xsd:string">Yecora Rojo/SLDL</anyType>
+      <anyType xsi:type="xsd:string">Yecora Rojo/VAI</anyType>
+      <anyType xsi:type="xsd:string">Yecora Rojo/P</anyType>
+    </ArrayOfAnyType>
+    <ArrayOfAnyType>
+      <anyType xsi:type="xsd:int">1</anyType>
+      <anyType xsi:type="xsd:double">0.9918</anyType>
+      <anyType xsi:type="xsd:double">2</anyType>
+      <anyType xsi:type="xsd:double">0.1</anyType>
+      <anyType xsi:type="xsd:double">140</anyType>
+    </ArrayOfAnyType>
+  </ArrayOfArrayOfAnyType>
+</ArrayOfArrayOfArrayOfAnyType>

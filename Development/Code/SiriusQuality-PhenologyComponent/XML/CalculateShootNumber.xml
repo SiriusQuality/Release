@@ -1,0 +1,98 @@
+<?xml version="1.0" standalone="yes"?>
+<StrategyDefinition>
+  <Global>
+    <SimpleStrategy>checked</SimpleStrategy>
+    <CompositeStrategy />
+    <DataInterfacesDLL>C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusQuality-PhenologyComponent\obj\Debug\SiriusQuality-PhenologyComponent.dll</DataInterfacesDLL>
+    <StrategiesDLL />
+    <IStrategyComponentName>IStrategySiriusQualityPhenology</IStrategyComponentName>
+  </Global>
+  <General>
+    <Domain>Crop</Domain>
+    <ModelType>Development</ModelType>
+    <NameSpace>SiriusQualityPhenology.Strategies</NameSpace>
+    <StrategyName>CalculateShootNumber</StrategyName>
+    <StrategyDescription>calculate the shoot number and update the related variables if needed</StrategyDescription>
+    <IsContext>false</IsContext>
+    <TimeSteps />
+    <AuthorFirstRelease>pierre martre</AuthorFirstRelease>
+    <Institution>Inra</Institution>
+    <Email>pierre.martre@supagro.inra.fr</Email>
+    <DateFirstRelease>3/29/2018</DateFirstRelease>
+    <AuthorRevision />
+    <EmailAuthorRevision />
+    <DateRevision />
+  </General>
+  <Inputs>
+    <Variable>LeafNumber</Variable>
+    <DomainClass>phenologystate - SiriusQualityPhenology.PhenologyState</DomainClass>
+  </Inputs>
+  <Inputs>
+    <Variable>CanopyShootNumber</Variable>
+    <DomainClass>phenologystate1 - SiriusQualityPhenology.PhenologyState</DomainClass>
+  </Inputs>
+  <Inputs>
+    <Variable>tilleringProfile</Variable>
+    <DomainClass>phenologystate1 - SiriusQualityPhenology.PhenologyState</DomainClass>
+  </Inputs>
+  <Inputs>
+    <Variable>leafTillerNumberArray</Variable>
+    <DomainClass>phenologystate1 - SiriusQualityPhenology.PhenologyState</DomainClass>
+  </Inputs>
+  <Outputs>
+    <Variable>AverageShootNumberPerPlant</Variable>
+    <DomainClass>phenologystate - SiriusQualityPhenology.PhenologyState</DomainClass>
+  </Outputs>
+  <Outputs>
+    <Variable>CanopyShootNumber</Variable>
+    <DomainClass>phenologystate - SiriusQualityPhenology.PhenologyState</DomainClass>
+  </Outputs>
+  <Outputs>
+    <Variable>leafTillerNumberArray</Variable>
+    <DomainClass>phenologystate - SiriusQualityPhenology.PhenologyState</DomainClass>
+  </Outputs>
+  <Outputs>
+    <Variable>tilleringProfile</Variable>
+    <DomainClass>phenologystate - SiriusQualityPhenology.PhenologyState</DomainClass>
+  </Outputs>
+  <Outputs>
+    <Variable>TillerNumber</Variable>
+    <DomainClass>phenologystate1 - SiriusQualityPhenology.PhenologyState</DomainClass>
+  </Outputs>
+  <Parameters>
+    <VarName>SowingDensity</VarName>
+    <Description>number of plant /m²</Description>
+    <MaxValue>500</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue>280</DefaultValue>
+    <Units>plant/m²</Units>
+    <ValueType>Double</ValueType>
+  </Parameters>
+  <Parameters>
+    <VarName>TargetFertileShoot</VarName>
+    <Description>max value of shoot number for the canopy</Description>
+    <MaxValue>1000</MaxValue>
+    <MinValue>280</MinValue>
+    <DefaultValue>600</DefaultValue>
+    <Units>shoot</Units>
+    <ValueType>Double</ValueType>
+  </Parameters>
+  <LoadedAssemblies>
+    <Name>SiriusQuality-PhenologyComponent, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>CRA.ModelLayer, Version=1.0.5212.29139, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>CRA.AgroManagement2014, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
+  </LoadedAssemblies>
+</StrategyDefinition>

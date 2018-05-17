@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<ObservationFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsArray>
+    <ObservationItem name="new observation">
+      <Comments />
+      <ObservationList>
+        <string>ZC10_Emergence</string>
+        <string>ZC65_Anthesis</string>
+        <string>ZC92_Maturity</string>
+        <string>Final leaf number</string>
+        <string>Maturity shoot number</string>
+        <string>Grain number</string>
+        <string>Maturity single grain dry mass</string>
+        <string>Grain protein concentration</string>
+        <string>Maturity crop dry mass</string>
+        <string>Anthesis stem length</string>
+        <string>Maturity crop nitrogen</string>
+        <string>Maturity grain nitrogen</string>
+        <string>Maturity single grain nitrogen</string>
+        <string>DM harvest index</string>
+        <string>N harvest index</string>
+      </ObservationList>
+      <CanopyObservationFile>Observations\CanopyObs_V2.1.sqcan</CanopyObservationFile>
+      <PhytomerObservationFile>Observations\PhytomerObs_V2.1.sqphy</PhytomerObservationFile>
+      <SoilObservationFile>Observations\SoilObs_V2.1.sqos</SoilObservationFile>
+      <PhenologyObservationFile>Observations\PhenologyObs_V2.1.sqmat</PhenologyObservationFile>
+      <HaunIndexObservationFile>Observations\HaunIndexObs_V2.1.sqoln</HaunIndexObservationFile>
+    </ObservationItem>
+  </ItemsArray>
+</ObservationFile>

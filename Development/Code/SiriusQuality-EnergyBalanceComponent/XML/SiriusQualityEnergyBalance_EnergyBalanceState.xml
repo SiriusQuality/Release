@@ -1,0 +1,411 @@
+<?xml version="1.0" standalone="yes"?>
+<EnergyBalanceState>
+  <xs:schema id="EnergyBalanceState" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="EnergyBalanceState" msdata:IsDataSet="true" msdata:Locale="en-US">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="VarInfoVariables">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="MinValue" type="xs:double" minOccurs="0" />
+                <xs:element name="MaxValue" type="xs:double" minOccurs="0" />
+                <xs:element name="DefaultValue" type="xs:double" minOccurs="0" />
+                <xs:element name="Units" type="xs:string" minOccurs="0" />
+                <xs:element name="Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Description" type="xs:string" minOccurs="0" />
+                <xs:element name="URL" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Description">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="DomainClassNameSpace" type="xs:string" minOccurs="0" />
+                <xs:element name="DomainTypeName" type="xs:string" minOccurs="0" />
+                <xs:element name="DomainTypeURL" type="xs:string" minOccurs="0" />
+                <xs:element name="DomainTypeDescription" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <VarInfoVariables>
+    <Name>deficitOnTopLayers</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>100</MaxValue>
+    <DefaultValue>50</DefaultValue>
+    <Units>g.m-2.d-1</Units>
+    <Type>double</Type>
+    <Description>deficitOnTopLayers</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>minTair</Name>
+    <MinValue>-40</MinValue>
+    <MaxValue>40</MaxValue>
+    <DefaultValue>10</DefaultValue>
+    <Units>degree celsius</Units>
+    <Type>double</Type>
+    <Description>minimum air temperature</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>maxTair</Name>
+    <MinValue>-30</MinValue>
+    <MaxValue>50</MaxValue>
+    <DefaultValue>20</DefaultValue>
+    <Units>degree celsius</Units>
+    <Type>double</Type>
+    <Description>maximum air temperature</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>hourlyTemp</Name>
+    <MinValue>-40</MinValue>
+    <MaxValue>50</MaxValue>
+    <DefaultValue>15</DefaultValue>
+    <Units>degree celsius</Units>
+    <Type>double[24]</Type>
+    <Description>hourly temperature</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>solarRadiation</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1000</MaxValue>
+    <DefaultValue>100</DefaultValue>
+    <Units>MJ m-2 d-1</Units>
+    <Type>double</Type>
+    <Description>solarRadiation</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>extraSolarRadiation</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1000</MaxValue>
+    <DefaultValue>100</DefaultValue>
+    <Units>MJ m-2 d-1</Units>
+    <Type>double</Type>
+    <Description>extra solar raidation</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>vaporPressure</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1000</MaxValue>
+    <DefaultValue>100</DefaultValue>
+    <Units>P</Units>
+    <Type>double</Type>
+    <Description>vapor pressure</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>tau</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1</MaxValue>
+    <DefaultValue>0.5</DefaultValue>
+    <Units>dimensionless</Units>
+    <Type>double</Type>
+    <Description>tau</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>hslope</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>20</MaxValue>
+    <DefaultValue>10</DefaultValue>
+    <Units>dimensionless</Units>
+    <Type>double</Type>
+    <Description>hslope</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>plantHeight</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1000</MaxValue>
+    <DefaultValue>50</DefaultValue>
+    <Units>cm</Units>
+    <Type>double</Type>
+    <Description>plant height</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>wind</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1000</MaxValue>
+    <DefaultValue>100</DefaultValue>
+    <Units>m-1</Units>
+    <Type>double</Type>
+    <Description>wind</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>VPDair</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>100</MaxValue>
+    <DefaultValue>50</DefaultValue>
+    <Units>hPa</Units>
+    <Type>double</Type>
+    <Description>vpd</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>isWindVpDefined</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1</MaxValue>
+    <DefaultValue>1</DefaultValue>
+    <Units>dimensionless</Units>
+    <Type>int</Type>
+    <Description>isWindVpDefined</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>elevation</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1000</MaxValue>
+    <DefaultValue>100</DefaultValue>
+    <Units>m</Units>
+    <Type>double</Type>
+    <Description>elevation</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>netRadiation</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>100</MaxValue>
+    <DefaultValue>50</DefaultValue>
+    <Units>MJ.m-2.d-1</Units>
+    <Type>double</Type>
+    <Description>netRadiation</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>diffusionLimitedEvaporation</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>100</MaxValue>
+    <DefaultValue>50</DefaultValue>
+    <Units>g m-2 d-1</Units>
+    <Type>double</Type>
+    <Description>diffusionLimitedEvaporation</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>energyLimitedEvaporation</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1000</MaxValue>
+    <DefaultValue>500</DefaultValue>
+    <Units>g m-2 d-1</Units>
+    <Type>double</Type>
+    <Description>energyLimitedEvaporation</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>evapoTranspirationPriestlyTaylor</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>50</MaxValue>
+    <DefaultValue>30</DefaultValue>
+    <Units>g m-2 d-1</Units>
+    <Type>double</Type>
+    <Description>evapoTranspirationPriestlyTaylor</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>evapoTranspirationPenman</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>100</MaxValue>
+    <DefaultValue>50</DefaultValue>
+    <Units>g m-2 d-1</Units>
+    <Type>double</Type>
+    <Description>evapoTranspirationPenman</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>potentialTranspiration</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>100</MaxValue>
+    <DefaultValue>50</DefaultValue>
+    <Units>g m-2 d-1</Units>
+    <Type>double</Type>
+    <Description>potentialTranspiration</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>conductance</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>100</MaxValue>
+    <DefaultValue>50</DefaultValue>
+    <Units>m d-1</Units>
+    <Type>double</Type>
+    <Description>conductance</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>soilEvaporation</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>100</MaxValue>
+    <DefaultValue>50</DefaultValue>
+    <Units>g m-2 d-1</Units>
+    <Type>double</Type>
+    <Description>soilEvaporation</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>potentialEvapoTranspiration</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>100</MaxValue>
+    <DefaultValue>50</DefaultValue>
+    <Units>g m-2 d-1</Units>
+    <Type>double</Type>
+    <Description>PotentialEvapoTranspiration</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>soilHeatFlux</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>100</MaxValue>
+    <DefaultValue>50</DefaultValue>
+    <Units>g m-2 d-1</Units>
+    <Type>double</Type>
+    <Description>soilHeatFlux</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>cropHeatFlux</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>100</MaxValue>
+    <DefaultValue>50</DefaultValue>
+    <Units>g m-2 d-1</Units>
+    <Type>double</Type>
+    <Description>cropHeatFlux</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>minCanopyTemperature</Name>
+    <MinValue>-30</MinValue>
+    <MaxValue>50</MaxValue>
+    <DefaultValue>10</DefaultValue>
+    <Units>degree celsius</Units>
+    <Type>double</Type>
+    <Description>minCanopyTemperature</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>maxCanopyTemperature</Name>
+    <MinValue>-30</MinValue>
+    <MaxValue>50</MaxValue>
+    <DefaultValue>10</DefaultValue>
+    <Units>degree celsius</Units>
+    <Type>double</Type>
+    <Description>maxCanopyTemperature</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>hourlyCanopyTemperature</Name>
+    <MinValue>-30</MinValue>
+    <MaxValue>50</MaxValue>
+    <DefaultValue>10</DefaultValue>
+    <Units>degree celsius</Units>
+    <Type>double[24]</Type>
+    <Description>hourlyCanopyTemperature (maize)</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>evapoTranspiration</Name>
+    <MinValue>-30</MinValue>
+    <MaxValue>50</MaxValue>
+    <DefaultValue>10</DefaultValue>
+    <Units>g.m-2.d-1</Units>
+    <Type>double</Type>
+    <Description>evapoTranspiration</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>hourlyVPDair</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>100</MaxValue>
+    <DefaultValue>50</DefaultValue>
+    <Units>hPa</Units>
+    <Type>double[24]</Type>
+    <Description>hourlyVPDair (maize)</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>hourlySolarRadiation</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1000</MaxValue>
+    <DefaultValue>100</DefaultValue>
+    <Units>MJ m-2 d-1</Units>
+    <Type>double[24]</Type>
+    <Description>hourlySolarRadiation( maize)</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>wc3cm</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>100</MaxValue>
+    <DefaultValue>50</DefaultValue>
+    <Units>mm</Units>
+    <Type>double</Type>
+    <Description>water cotent in the first 3 cm</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>Ntip</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>30</MaxValue>
+    <DefaultValue>15</DefaultValue>
+    <Units>leaf</Units>
+    <Type>double</Type>
+    <Description>number of leaves (tip) (maize)</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>netRadiationEquivalentEvaporation</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>100</MaxValue>
+    <DefaultValue>50</DefaultValue>
+    <Units>?</Units>
+    <Type>double</Type>
+    <Description>netRadiationEquivalentEvaporation</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>RH</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>100</MaxValue>
+    <DefaultValue>10</DefaultValue>
+    <Units>%</Units>
+    <Type>double[24]</Type>
+    <Description>hourly relative humidity</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>hourlyVPDairLeaf</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>100</MaxValue>
+    <DefaultValue>50</DefaultValue>
+    <Units>hPa</Units>
+    <Type>double[24]</Type>
+    <Description>hourlyVPDairLEaf (maize)</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>VPDeq</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>100</MaxValue>
+    <DefaultValue>50</DefaultValue>
+    <Units>hPa</Units>
+    <Type>double[24]</Type>
+    <Description>VPDeq (maize)</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <Description>
+    <DomainClassNameSpace>SiriusQualityEnergyBalance</DomainClassNameSpace>
+    <DomainTypeName>EnergyBalanceState</DomainTypeName>
+    <DomainTypeURL>http://</DomainTypeURL>
+    <DomainTypeDescription>Domain class for the energy bakance component of Sirius Quality</DomainTypeDescription>
+  </Description>
+</EnergyBalanceState>

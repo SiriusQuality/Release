@@ -1,0 +1,7 @@
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.Interfaces.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.pdb

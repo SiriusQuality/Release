@@ -1,0 +1,8 @@
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusQuality-EnergyBalanceComponent\bin\Debug\SiriusQuality-EnergyBalanceComponent.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusQuality-EnergyBalanceComponent\bin\Debug\SiriusQuality-EnergyBalanceComponent.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusQuality-EnergyBalanceComponent\bin\Debug\CRA.AgroManagement2014.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusQuality-EnergyBalanceComponent\bin\Debug\CRA.AgroManagement2014.Impacts.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusQuality-EnergyBalanceComponent\bin\Debug\CRA.AgroManagement2014.Rules.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusQuality-EnergyBalanceComponent\bin\Debug\CRA.ModelLayer.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusQuality-EnergyBalanceComponent\obj\Debug\SiriusQuality-EnergyBalanceComponent.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusQuality-EnergyBalanceComponent\obj\Debug\SiriusQuality-EnergyBalanceComponent.pdb

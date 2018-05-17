@@ -1,0 +1,76 @@
+<?xml version="1.0" standalone="yes"?>
+<StrategyDefinition>
+  <Global>
+    <SimpleStrategy />
+    <CompositeStrategy>checked</CompositeStrategy>
+    <DataInterfacesDLL>C:\Users\mancealo\Documents\Sirius Quality\branches\LoopRami\Code\SiriusModel\bin\Debug\SiriusQuality-Model.dll</DataInterfacesDLL>
+    <StrategiesDLL>C:\Users\mancealo\Documents\Sirius Quality\branches\LoopRami\Code\SiriusModel\bin\Debug\SiriusQuality-Model.dll</StrategiesDLL>
+    <IStrategyComponentName>IStrategySiriusQualityWheatLAI</IStrategyComponentName>
+  </Global>
+  <General>
+    <Domain>Crop</Domain>
+    <NameSpace>SiriusQualityWheatLAI.Strategies</NameSpace>
+    <StrategyName>WheatLAI</StrategyName>
+    <TimeSteps />
+    <AuthorFirstRelease>pierre martre</AuthorFirstRelease>
+    <Institution>INRA</Institution>
+    <Email>pierre.martre@inra.fr</Email>
+  </General>
+  <AssociatedStrategies>
+    <StrategyFullName>SiriusQualityWheatLAI.Strategies.LeafExpansionDroughtFactor</StrategyFullName>
+  </AssociatedStrategies>
+  <AssociatedStrategies>
+    <StrategyFullName>SiriusQualityWheatLAI.Strategies.MaximumPotentialFinalLAI</StrategyFullName>
+  </AssociatedStrategies>
+  <AssociatedStrategies>
+    <StrategyFullName>SiriusQualityWheatLAI.Strategies.WaterLimitedLeafExpansion</StrategyFullName>
+  </AssociatedStrategies>
+  <LoadedAssemblies>
+    <Name>SiriusQuality-Model, Version=2.0.6192.23847, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>CRA.ModelLayer, Version=1.0.5212.29139, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>SiriusQuality-PhenologyComponent, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>csMTG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>SiriusQuality-MeteoComponent, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>SiriusQuality-EnergyBalanceComponent, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>SiriusQuality-ThermalTime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>Sirius.Model, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>ResponseFunctions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>CRA.AgroManagement2014, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+</StrategyDefinition>

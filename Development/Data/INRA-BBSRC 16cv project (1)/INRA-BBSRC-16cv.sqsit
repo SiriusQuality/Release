@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<SiteFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemsArray>
+    <SiteItem name="CF" format="YearJdayMinMaxRainRad">
+      <Comments>Check latitude and longitude value for CF</Comments>
+      <Latitude>45.78</Latitude>
+      <Longitude>3.15</Longitude>
+      <Elevation>331</Elevation>
+      <WeatherFiles>
+        <WeatherFile file="INRA-BBSRC_WeatherData\CF-2007-2008.sr" />
+      </WeatherFiles>
+    </SiteItem>
+    <SiteItem name="JIC" format="YearJdayMinMaxRainRad">
+      <Comments>ATTENTION : USES CF WEATHER FILE</Comments>
+      <Latitude>52.62</Latitude>
+      <Longitude>1.17</Longitude>
+      <Elevation>14</Elevation>
+      <WeatherFiles>
+        <WeatherFile file="INRA-BBSRC_WeatherData\JIC-2007-2008.sr" />
+      </WeatherFiles>
+    </SiteItem>
+    <SiteItem name="MONS" format="YearJdayMinMaxRainRad">
+      <Comments>Weather data of January 2008 was added as the data of January 2009 in case the model runs out of weather data.</Comments>
+      <Latitude>49.87</Latitude>
+      <Longitude>3.02</Longitude>
+      <Elevation>86</Elevation>
+      <WeatherFiles>
+        <WeatherFile file="INRA-BBSRC_WeatherData\MONS-2007-2008.sr" />
+      </WeatherFiles>
+    </SiteItem>
+    <SiteItem name="UNOT" format="YearJdayMinMaxRainRad">
+      <Comments>Weather data of January 2008 was added as the data of January 2009 in case the model runs out of weather data.</Comments>
+      <Latitude>52.92</Latitude>
+      <Longitude>1.16</Longitude>
+      <Elevation>50</Elevation>
+      <WeatherFiles>
+        <WeatherFile file="INRA-BBSRC_WeatherData\UNOT-2007-2008.sr" />
+      </WeatherFiles>
+    </SiteItem>
+  </ItemsArray>
+</SiteFile>

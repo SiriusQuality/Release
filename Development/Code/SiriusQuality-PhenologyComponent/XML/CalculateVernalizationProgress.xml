@@ -1,0 +1,182 @@
+<?xml version="1.0" standalone="yes"?>
+<StrategyDefinition>
+  <Global>
+    <SimpleStrategy />
+    <CompositeStrategy />
+    <DataInterfacesDLL>C:\Users\mancealo\Documents\Sirius Quality\branches\Development\DLLs\SiriusQuality-PhenologyComponent.dll</DataInterfacesDLL>
+    <StrategiesDLL />
+    <IStrategyComponentName>IStrategySiriusQualityPhenology</IStrategyComponentName>
+  </Global>
+  <General>
+    <Domain>Crop</Domain>
+    <ModelType>Development</ModelType>
+    <NameSpace>SiriusQualityPhenology.Strategies</NameSpace>
+    <StrategyName>CalculateVernalizationProgress</StrategyName>
+    <StrategyDescription>Calculate progress (VernaProg) towards vernalization, but there is no vernalization below minTvern (default = 0°C) and above maxTvern (default = 17°C). The maximum value of VernaProg is 1. Progress towards full vernalization is a linear function of shoot temperature (soil temperature until leaf # reach MaxLeafSoil and then canopy temperature)</StrategyDescription>
+    <IsContext>false</IsContext>
+    <TimeSteps />
+    <AuthorFirstRelease>Pierre Martre</AuthorFirstRelease>
+    <Institution>Inra</Institution>
+    <Email>pierre.martre@supagro.inra.fr</Email>
+    <DateFirstRelease>3/29/2018</DateFirstRelease>
+    <AuthorRevision />
+    <EmailAuthorRevision />
+    <DateRevision />
+  </General>
+  <Inputs>
+    <Variable>DayLength</Variable>
+    <DomainClass>phenologystate - SiriusQualityPhenology.PhenologyState</DomainClass>
+  </Inputs>
+  <Inputs>
+    <Variable>DeltaTT</Variable>
+    <DomainClass>phenologystate - SiriusQualityPhenology.PhenologyState</DomainClass>
+  </Inputs>
+  <Inputs>
+    <Variable>cumulTT</Variable>
+    <DomainClass>phenologystate - SiriusQualityPhenology.PhenologyState</DomainClass>
+  </Inputs>
+  <Inputs>
+    <Variable>LeafNumber</Variable>
+    <DomainClass>phenologystate - SiriusQualityPhenology.PhenologyState</DomainClass>
+  </Inputs>
+  <Inputs>
+    <Variable>Calendar</Variable>
+    <DomainClass>phenologystate - SiriusQualityPhenology.PhenologyState</DomainClass>
+  </Inputs>
+  <Inputs>
+    <Variable>Vernaprog</Variable>
+    <DomainClass>phenologystate1 - SiriusQualityPhenology.PhenologyState</DomainClass>
+  </Inputs>
+  <Inputs>
+    <Variable>MinFinalNumber</Variable>
+    <DomainClass>phenologystate1 - SiriusQualityPhenology.PhenologyState</DomainClass>
+  </Inputs>
+  <Outputs>
+    <Variable>Vernaprog</Variable>
+    <DomainClass>phenologystate - SiriusQualityPhenology.PhenologyState</DomainClass>
+  </Outputs>
+  <Outputs>
+    <Variable>MinFinalNumber</Variable>
+    <DomainClass>phenologystate - SiriusQualityPhenology.PhenologyState</DomainClass>
+  </Outputs>
+  <Parameters>
+    <VarName>AMNFLNO</VarName>
+    <Description>initial minimal final leaf number</Description>
+    <MaxValue>25</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>leaf</Units>
+    <ValueType>Double</ValueType>
+  </Parameters>
+  <Parameters>
+    <VarName>IsVernalizable</VarName>
+    <Description>true if the plant is vernalizable</Description>
+    <MaxValue>1</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>NA</Units>
+    <ValueType>Integer</ValueType>
+  </Parameters>
+  <Parameters>
+    <VarName>MinTvern</VarName>
+    <Description>Minimum temperature for vernalization to occur</Description>
+    <MaxValue>60</MaxValue>
+    <MinValue>-20</MinValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>°C</Units>
+    <ValueType>Double</ValueType>
+  </Parameters>
+  <Parameters>
+    <VarName>IntTvern</VarName>
+    <Description>Intermediate temperature for vernalization to occur</Description>
+    <MaxValue>60</MaxValue>
+    <MinValue>-20</MinValue>
+    <DefaultValue>10</DefaultValue>
+    <Units>°C</Units>
+    <ValueType>Double</ValueType>
+  </Parameters>
+  <Parameters>
+    <VarName>VAI</VarName>
+    <Description>Response of vernalization rate to temperature</Description>
+    <MaxValue>1</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>1/(d.°C)</Units>
+    <ValueType>Double</ValueType>
+  </Parameters>
+  <Parameters>
+    <VarName>VBEE</VarName>
+    <Description>Vernalization rate at 0°C</Description>
+    <MaxValue>1</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>1/d</Units>
+    <ValueType>Double</ValueType>
+  </Parameters>
+  <Parameters>
+    <VarName>MinDL</VarName>
+    <Description>Threshold daylength below which it does influence vernalization rate</Description>
+    <MaxValue>24</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue>12</DefaultValue>
+    <Units>h</Units>
+    <ValueType>Double</ValueType>
+  </Parameters>
+  <Parameters>
+    <VarName>MaxDL</VarName>
+    <Description>Saturating photoperiod above which final leaf number is not influenced by daylength</Description>
+    <MaxValue>24</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue>12</DefaultValue>
+    <Units>h</Units>
+    <ValueType>Double</ValueType>
+  </Parameters>
+  <Parameters>
+    <VarName>MaxTvern</VarName>
+    <Description>Maximum temperature for vernalization to occur</Description>
+    <MaxValue>60</MaxValue>
+    <MinValue>-20</MinValue>
+    <DefaultValue>17</DefaultValue>
+    <Units>°C</Units>
+    <ValueType>Double</ValueType>
+  </Parameters>
+  <Parameters>
+    <VarName>PNini</VarName>
+    <Description>Number of primorida in the apex at emergence</Description>
+    <MaxValue>24</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue>10</DefaultValue>
+    <Units>primordia</Units>
+    <ValueType>Double</ValueType>
+  </Parameters>
+  <Parameters>
+    <VarName>AMXLFNO</VarName>
+    <Description>Absolute maximum leaf number</Description>
+    <MaxValue>25</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue>10</DefaultValue>
+    <Units>leaf</Units>
+    <ValueType>Double</ValueType>
+  </Parameters>
+  <LoadedAssemblies>
+    <Name>SiriusQuality-PhenologyComponent, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>CRA.ModelLayer, Version=1.0.5212.29139, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>CRA.AgroManagement2014, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
+  </LoadedAssemblies>
+</StrategyDefinition>

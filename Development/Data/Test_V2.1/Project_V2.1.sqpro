@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<ProjectFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Inputs>
+    <OptimizationFileName>Optmization_V2.1.sqopz</OptimizationFileName>
+    <ObservationFileName>Observations_V2.1.sqobs</ObservationFileName>
+    <ManagementFileName>Management_V2.1.sqman</ManagementFileName>
+    <NonVarietyFileName>NonVarietal_V2.1.sqpar</NonVarietyFileName>
+    <RunOptionFileName>RunOption_V2.1.sqopt</RunOptionFileName>
+    <SiteFileName>Site_V2.1.sqsit</SiteFileName>
+    <SoilFileName>Soil_V2.1.sqsoi</SoilFileName>
+    <VarietyFileName>Varietal_V2.1.sqvar</VarietyFileName>
+    <RunFileName>Run_V2.1.sqrun</RunFileName>
+    <Comments />
+    <OutputVersion>V15</OutputVersion>
+  </Inputs>
+</ProjectFile>

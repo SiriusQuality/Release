@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<RunOptionFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsArray>
+    <RunOptionItem name="Default">
+      <Comments />
+      <CalculateGrainNumber>true</CalculateGrainNumber>
+      <LimitedWater>true</LimitedWater>
+      <LimitedNitrogen>true</LimitedNitrogen>
+    </RunOptionItem>
+  </ItemsArray>
+</RunOptionFile>

@@ -1,0 +1,211 @@
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicJanuary\Code\SiriusOptimization\bin\Debug\SiriusQuality-Optimization.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicJanuary\Code\SiriusOptimization\bin\Debug\SiriusQuality-Optimization.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicJanuary\Code\SiriusOptimization\bin\Debug\MathNet.Numerics.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicJanuary\Code\SiriusOptimization\bin\Debug\SiriusQuality-Model.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicJanuary\Code\SiriusOptimization\bin\Debug\SiriusQuality-PhenologyComponent.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicJanuary\Code\SiriusOptimization\bin\Debug\CRA.ModelLayer.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicJanuary\Code\SiriusOptimization\bin\Debug\csMTG.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicJanuary\Code\SiriusOptimization\bin\Debug\SiriusQuality-MeteoComponent.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicJanuary\Code\SiriusOptimization\bin\Debug\SiriusQuality-EnergyBalanceComponent.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicJanuary\Code\SiriusOptimization\bin\Debug\SiriusQuality-ThermalTime.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicJanuary\Code\SiriusOptimization\bin\Debug\Sirius.Model.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicJanuary\Code\SiriusOptimization\bin\Debug\CRA.AgroManagement2014.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicJanuary\Code\SiriusOptimization\bin\Debug\CRA.Clima.AirT.Interfaces.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicJanuary\Code\SiriusOptimization\bin\Debug\CRA.Clima.AirT.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicJanuary\Code\SiriusOptimization\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicJanuary\Code\SiriusOptimization\bin\Debug\SiriusQuality-Model.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicJanuary\Code\SiriusOptimization\bin\Debug\MathNet.Numerics.xml
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicJanuary\Code\SiriusOptimization\bin\Debug\SiriusQuality-PhenologyComponent.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicJanuary\Code\SiriusOptimization\bin\Debug\SiriusQuality-MeteoComponent.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicJanuary\Code\SiriusOptimization\bin\Debug\SiriusQuality-EnergyBalanceComponent.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicJanuary\Code\SiriusOptimization\bin\Debug\SiriusQuality-ThermalTime.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicJanuary\Code\SiriusOptimization\bin\Debug\Sirius.Model.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicJanuary\Code\SiriusOptimization\obj\Debug\SiriusOptimization.csprojResolveAssemblyReference.cache
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicJanuary\Code\SiriusOptimization\obj\Debug\SiriusQuality-Optimization.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicJanuary\Code\SiriusOptimization\obj\Debug\SiriusQuality-Optimization.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiJanuary\Code\SiriusOptimization\bin\Debug\SiriusQuality-Optimization.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiJanuary\Code\SiriusOptimization\bin\Debug\SiriusQuality-Optimization.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiJanuary\Code\SiriusOptimization\bin\Debug\MathNet.Numerics.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiJanuary\Code\SiriusOptimization\bin\Debug\SiriusQuality-Model.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiJanuary\Code\SiriusOptimization\bin\Debug\SiriusQuality-PhenologyComponent.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiJanuary\Code\SiriusOptimization\bin\Debug\CRA.ModelLayer.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiJanuary\Code\SiriusOptimization\bin\Debug\csMTG.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiJanuary\Code\SiriusOptimization\bin\Debug\SiriusQuality-MeteoComponent.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiJanuary\Code\SiriusOptimization\bin\Debug\SiriusQuality-PhotosynthesisComponent.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiJanuary\Code\SiriusOptimization\bin\Debug\SiriusQuality-EnergyBalanceComponent.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiJanuary\Code\SiriusOptimization\bin\Debug\SiriusQuality-ThermalTime.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiJanuary\Code\SiriusOptimization\bin\Debug\Sirius.Model.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiJanuary\Code\SiriusOptimization\bin\Debug\CRA.AgroManagement2014.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiJanuary\Code\SiriusOptimization\bin\Debug\CRA.Clima.AirT.Interfaces.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiJanuary\Code\SiriusOptimization\bin\Debug\CRA.Clima.AirT.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiJanuary\Code\SiriusOptimization\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiJanuary\Code\SiriusOptimization\bin\Debug\SiriusQuality-Model.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiJanuary\Code\SiriusOptimization\bin\Debug\MathNet.Numerics.xml
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiJanuary\Code\SiriusOptimization\bin\Debug\SiriusQuality-PhenologyComponent.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiJanuary\Code\SiriusOptimization\bin\Debug\SiriusQuality-MeteoComponent.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiJanuary\Code\SiriusOptimization\bin\Debug\SiriusQuality-PhotosynthesisComponent.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiJanuary\Code\SiriusOptimization\bin\Debug\SiriusQuality-EnergyBalanceComponent.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiJanuary\Code\SiriusOptimization\bin\Debug\SiriusQuality-ThermalTime.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiJanuary\Code\SiriusOptimization\bin\Debug\Sirius.Model.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiJanuary\Code\SiriusOptimization\obj\Debug\SiriusOptimization.csprojResolveAssemblyReference.cache
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiJanuary\Code\SiriusOptimization\obj\Debug\SiriusQuality-Optimization.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\RamiJanuary\Code\SiriusOptimization\obj\Debug\SiriusQuality-Optimization.pdb
+C:\Users\mancealo\Desktop\LoicMarch\Code\SiriusOptimization\bin\Debug\SiriusQuality-Optimization.dll
+C:\Users\mancealo\Desktop\LoicMarch\Code\SiriusOptimization\bin\Debug\SiriusQuality-Optimization.pdb
+C:\Users\mancealo\Desktop\LoicMarch\Code\SiriusOptimization\bin\Debug\MathNet.Numerics.dll
+C:\Users\mancealo\Desktop\LoicMarch\Code\SiriusOptimization\bin\Debug\SiriusQuality-Model.dll
+C:\Users\mancealo\Desktop\LoicMarch\Code\SiriusOptimization\bin\Debug\SiriusQuality-PhenologyComponent.dll
+C:\Users\mancealo\Desktop\LoicMarch\Code\SiriusOptimization\bin\Debug\CRA.ModelLayer.dll
+C:\Users\mancealo\Desktop\LoicMarch\Code\SiriusOptimization\bin\Debug\csMTG.dll
+C:\Users\mancealo\Desktop\LoicMarch\Code\SiriusOptimization\bin\Debug\SiriusQuality-MeteoComponent.dll
+C:\Users\mancealo\Desktop\LoicMarch\Code\SiriusOptimization\bin\Debug\SiriusQuality-PhotosynthesisComponent.dll
+C:\Users\mancealo\Desktop\LoicMarch\Code\SiriusOptimization\bin\Debug\SiriusQuality-EnergyBalanceComponent.dll
+C:\Users\mancealo\Desktop\LoicMarch\Code\SiriusOptimization\bin\Debug\SiriusQuality-ThermalTime.dll
+C:\Users\mancealo\Desktop\LoicMarch\Code\SiriusOptimization\bin\Debug\Sirius.Model.dll
+C:\Users\mancealo\Desktop\LoicMarch\Code\SiriusOptimization\bin\Debug\CRA.AgroManagement2014.dll
+C:\Users\mancealo\Desktop\LoicMarch\Code\SiriusOptimization\bin\Debug\CRA.Clima.AirT.Interfaces.dll
+C:\Users\mancealo\Desktop\LoicMarch\Code\SiriusOptimization\bin\Debug\CRA.Clima.AirT.dll
+C:\Users\mancealo\Desktop\LoicMarch\Code\SiriusOptimization\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\mancealo\Desktop\LoicMarch\Code\SiriusOptimization\bin\Debug\SiriusQuality-Model.pdb
+C:\Users\mancealo\Desktop\LoicMarch\Code\SiriusOptimization\bin\Debug\MathNet.Numerics.xml
+C:\Users\mancealo\Desktop\LoicMarch\Code\SiriusOptimization\bin\Debug\SiriusQuality-PhenologyComponent.pdb
+C:\Users\mancealo\Desktop\LoicMarch\Code\SiriusOptimization\bin\Debug\csMTG.pdb
+C:\Users\mancealo\Desktop\LoicMarch\Code\SiriusOptimization\bin\Debug\SiriusQuality-MeteoComponent.pdb
+C:\Users\mancealo\Desktop\LoicMarch\Code\SiriusOptimization\bin\Debug\SiriusQuality-PhotosynthesisComponent.pdb
+C:\Users\mancealo\Desktop\LoicMarch\Code\SiriusOptimization\bin\Debug\SiriusQuality-EnergyBalanceComponent.pdb
+C:\Users\mancealo\Desktop\LoicMarch\Code\SiriusOptimization\bin\Debug\SiriusQuality-ThermalTime.pdb
+C:\Users\mancealo\Desktop\LoicMarch\Code\SiriusOptimization\bin\Debug\Sirius.Model.pdb
+C:\Users\mancealo\Desktop\LoicMarch\Code\SiriusOptimization\obj\Debug\SiriusOptimization.csprojResolveAssemblyReference.cache
+C:\Users\mancealo\Desktop\LoicMarch\Code\SiriusOptimization\obj\Debug\SiriusQuality-Optimization.dll
+C:\Users\mancealo\Desktop\LoicMarch\Code\SiriusOptimization\obj\Debug\SiriusQuality-Optimization.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarch\Code\SiriusOptimization\obj\Debug\SiriusOptimization.csprojResolveAssemblyReference.cache
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarch\Code\SiriusOptimization\bin\Debug\SiriusQuality-Optimization.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarch\Code\SiriusOptimization\bin\Debug\SiriusQuality-Optimization.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarch\Code\SiriusOptimization\bin\Debug\MathNet.Numerics.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarch\Code\SiriusOptimization\bin\Debug\SiriusQuality-Model.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarch\Code\SiriusOptimization\bin\Debug\SiriusQuality-PhenologyComponent.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarch\Code\SiriusOptimization\bin\Debug\CRA.ModelLayer.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarch\Code\SiriusOptimization\bin\Debug\SiriusQuality-MeteoComponent.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarch\Code\SiriusOptimization\bin\Debug\csMTG.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarch\Code\SiriusOptimization\bin\Debug\SiriusQuality-PhotosynthesisComponent.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarch\Code\SiriusOptimization\bin\Debug\SiriusQuality-EnergyBalanceComponent.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarch\Code\SiriusOptimization\bin\Debug\SiriusQuality-ThermalTime.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarch\Code\SiriusOptimization\bin\Debug\Sirius.Model.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarch\Code\SiriusOptimization\bin\Debug\CRA.AgroManagement2014.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarch\Code\SiriusOptimization\bin\Debug\CRA.Clima.AirT.Interfaces.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarch\Code\SiriusOptimization\bin\Debug\CRA.Clima.AirT.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarch\Code\SiriusOptimization\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarch\Code\SiriusOptimization\bin\Debug\SiriusQuality-Model.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarch\Code\SiriusOptimization\bin\Debug\MathNet.Numerics.xml
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarch\Code\SiriusOptimization\bin\Debug\SiriusQuality-PhenologyComponent.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarch\Code\SiriusOptimization\bin\Debug\SiriusQuality-MeteoComponent.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarch\Code\SiriusOptimization\bin\Debug\csMTG.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarch\Code\SiriusOptimization\bin\Debug\SiriusQuality-PhotosynthesisComponent.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarch\Code\SiriusOptimization\bin\Debug\SiriusQuality-EnergyBalanceComponent.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarch\Code\SiriusOptimization\bin\Debug\SiriusQuality-ThermalTime.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarch\Code\SiriusOptimization\bin\Debug\Sirius.Model.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarch\Code\SiriusOptimization\obj\Debug\SiriusQuality-Optimization.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarch\Code\SiriusOptimization\obj\Debug\SiriusQuality-Optimization.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarchMTG\Code\SiriusOptimization\obj\Debug\SiriusOptimization.csprojResolveAssemblyReference.cache
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarchMTG\Code\SiriusOptimization\bin\Debug\SiriusQuality-Optimization.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarchMTG\Code\SiriusOptimization\bin\Debug\SiriusQuality-Optimization.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarchMTG\Code\SiriusOptimization\bin\Debug\MathNet.Numerics.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarchMTG\Code\SiriusOptimization\bin\Debug\SiriusQuality-Model.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarchMTG\Code\SiriusOptimization\bin\Debug\SiriusQuality-PhenologyComponent.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarchMTG\Code\SiriusOptimization\bin\Debug\CRA.ModelLayer.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarchMTG\Code\SiriusOptimization\bin\Debug\SiriusQuality-MeteoComponent.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarchMTG\Code\SiriusOptimization\bin\Debug\csMTG.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarchMTG\Code\SiriusOptimization\bin\Debug\SiriusQuality-PhotosynthesisComponent.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarchMTG\Code\SiriusOptimization\bin\Debug\SiriusQuality-EnergyBalanceComponent.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarchMTG\Code\SiriusOptimization\bin\Debug\SiriusQuality-ThermalTime.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarchMTG\Code\SiriusOptimization\bin\Debug\Sirius.Model.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarchMTG\Code\SiriusOptimization\bin\Debug\CRA.AgroManagement2014.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarchMTG\Code\SiriusOptimization\bin\Debug\CRA.Clima.AirT.Interfaces.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarchMTG\Code\SiriusOptimization\bin\Debug\CRA.Clima.AirT.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarchMTG\Code\SiriusOptimization\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarchMTG\Code\SiriusOptimization\bin\Debug\SiriusQuality-Model.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarchMTG\Code\SiriusOptimization\bin\Debug\MathNet.Numerics.xml
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarchMTG\Code\SiriusOptimization\bin\Debug\SiriusQuality-PhenologyComponent.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarchMTG\Code\SiriusOptimization\bin\Debug\SiriusQuality-MeteoComponent.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarchMTG\Code\SiriusOptimization\bin\Debug\csMTG.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarchMTG\Code\SiriusOptimization\bin\Debug\SiriusQuality-PhotosynthesisComponent.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarchMTG\Code\SiriusOptimization\bin\Debug\SiriusQuality-EnergyBalanceComponent.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarchMTG\Code\SiriusOptimization\bin\Debug\SiriusQuality-ThermalTime.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarchMTG\Code\SiriusOptimization\bin\Debug\Sirius.Model.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarchMTG\Code\SiriusOptimization\obj\Debug\SiriusQuality-Optimization.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\LoicMarchMTG\Code\SiriusOptimization\obj\Debug\SiriusQuality-Optimization.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\TestMeteoOct\Code\SiriusOptimization\bin\Debug\SiriusQuality-Optimization.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\TestMeteoOct\Code\SiriusOptimization\bin\Debug\SiriusQuality-Optimization.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\TestMeteoOct\Code\SiriusOptimization\bin\Debug\MathNet.Numerics.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\TestMeteoOct\Code\SiriusOptimization\bin\Debug\SiriusQuality-Model.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\TestMeteoOct\Code\SiriusOptimization\bin\Debug\SiriusQuality-PhenologyComponent.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\TestMeteoOct\Code\SiriusOptimization\bin\Debug\CRA.ModelLayer.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\TestMeteoOct\Code\SiriusOptimization\bin\Debug\csMTG.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\TestMeteoOct\Code\SiriusOptimization\bin\Debug\SiriusQuality-MeteoComponent.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\TestMeteoOct\Code\SiriusOptimization\bin\Debug\SiriusQuality-EnergyBalanceComponent.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\TestMeteoOct\Code\SiriusOptimization\bin\Debug\SiriusQuality-ThermalTime.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\TestMeteoOct\Code\SiriusOptimization\bin\Debug\Sirius.Model.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\TestMeteoOct\Code\SiriusOptimization\bin\Debug\CRA.AgroManagement2014.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\TestMeteoOct\Code\SiriusOptimization\bin\Debug\CRA.Clima.AirT.Interfaces.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\TestMeteoOct\Code\SiriusOptimization\bin\Debug\CRA.Clima.AirT.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\TestMeteoOct\Code\SiriusOptimization\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\TestMeteoOct\Code\SiriusOptimization\bin\Debug\SiriusQuality-Model.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\TestMeteoOct\Code\SiriusOptimization\bin\Debug\MathNet.Numerics.xml
+C:\Users\mancealo\Documents\Sirius Quality\branches\TestMeteoOct\Code\SiriusOptimization\bin\Debug\SiriusQuality-PhenologyComponent.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\TestMeteoOct\Code\SiriusOptimization\bin\Debug\SiriusQuality-MeteoComponent.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\TestMeteoOct\Code\SiriusOptimization\bin\Debug\SiriusQuality-EnergyBalanceComponent.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\TestMeteoOct\Code\SiriusOptimization\bin\Debug\SiriusQuality-ThermalTime.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\TestMeteoOct\Code\SiriusOptimization\bin\Debug\Sirius.Model.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\TestMeteoOct\Code\SiriusOptimization\obj\Debug\SiriusOptimization.csprojResolveAssemblyReference.cache
+C:\Users\mancealo\Documents\Sirius Quality\branches\TestMeteoOct\Code\SiriusOptimization\obj\Debug\SiriusQuality-Optimization.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\TestMeteoOct\Code\SiriusOptimization\obj\Debug\SiriusQuality-Optimization.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusOptimization\bin\Debug\SiriusQuality-Optimization.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusOptimization\bin\Debug\SiriusQuality-Optimization.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusOptimization\bin\Debug\MathNet.Numerics.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusOptimization\bin\Debug\SiriusQuality-Model.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusOptimization\bin\Debug\SiriusQuality-PhenologyComponent.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusOptimization\bin\Debug\CRA.ModelLayer.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusOptimization\bin\Debug\csMTG.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusOptimization\bin\Debug\SiriusQuality-MeteoComponent.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusOptimization\bin\Debug\SiriusQuality-EnergyBalanceComponent.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusOptimization\bin\Debug\SiriusQuality-ThermalTime.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusOptimization\bin\Debug\Sirius.Model.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusOptimization\bin\Debug\CRA.AgroManagement2014.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusOptimization\bin\Debug\CRA.Clima.AirT.Interfaces.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusOptimization\bin\Debug\CRA.Clima.AirT.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusOptimization\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusOptimization\bin\Debug\SiriusQuality-Model.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusOptimization\bin\Debug\MathNet.Numerics.xml
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusOptimization\bin\Debug\SiriusQuality-PhenologyComponent.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusOptimization\bin\Debug\SiriusQuality-MeteoComponent.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusOptimization\bin\Debug\SiriusQuality-EnergyBalanceComponent.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusOptimization\bin\Debug\SiriusQuality-ThermalTime.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusOptimization\bin\Debug\Sirius.Model.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusOptimization\obj\Debug\SiriusOptimization.csprojResolveAssemblyReference.cache
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusOptimization\obj\Debug\SiriusQuality-Optimization.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusOptimization\obj\Debug\SiriusQuality-Optimization.pdb
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCodeDev1\Development\Code\SiriusOptimization\bin\Debug\SiriusQuality-Optimization.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCodeDev1\Development\Code\SiriusOptimization\bin\Debug\SiriusQuality-Optimization.pdb
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCodeDev1\Development\Code\SiriusOptimization\bin\Debug\MathNet.Numerics.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCodeDev1\Development\Code\SiriusOptimization\bin\Debug\SiriusQuality-Model.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCodeDev1\Development\Code\SiriusOptimization\bin\Debug\SiriusQuality-PhenologyComponent.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCodeDev1\Development\Code\SiriusOptimization\bin\Debug\CRA.ModelLayer.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCodeDev1\Development\Code\SiriusOptimization\bin\Debug\csMTG.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCodeDev1\Development\Code\SiriusOptimization\bin\Debug\SiriusQuality-MeteoComponent.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCodeDev1\Development\Code\SiriusOptimization\bin\Debug\SiriusQuality-EnergyBalanceComponent.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCodeDev1\Development\Code\SiriusOptimization\bin\Debug\SiriusQuality-ThermalTime.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCodeDev1\Development\Code\SiriusOptimization\bin\Debug\Sirius.Model.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCodeDev1\Development\Code\SiriusOptimization\bin\Debug\CRA.AgroManagement2014.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCodeDev1\Development\Code\SiriusOptimization\bin\Debug\CRA.Clima.AirT.Interfaces.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCodeDev1\Development\Code\SiriusOptimization\bin\Debug\CRA.Clima.AirT.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCodeDev1\Development\Code\SiriusOptimization\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCodeDev1\Development\Code\SiriusOptimization\bin\Debug\SiriusQuality-Model.pdb
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCodeDev1\Development\Code\SiriusOptimization\bin\Debug\MathNet.Numerics.xml
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCodeDev1\Development\Code\SiriusOptimization\bin\Debug\SiriusQuality-PhenologyComponent.pdb
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCodeDev1\Development\Code\SiriusOptimization\bin\Debug\SiriusQuality-MeteoComponent.pdb
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCodeDev1\Development\Code\SiriusOptimization\bin\Debug\SiriusQuality-EnergyBalanceComponent.pdb
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCodeDev1\Development\Code\SiriusOptimization\bin\Debug\SiriusQuality-ThermalTime.pdb
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCodeDev1\Development\Code\SiriusOptimization\bin\Debug\Sirius.Model.pdb
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCodeDev1\Development\Code\SiriusOptimization\obj\Debug\SiriusOptimization.csprojResolveAssemblyReference.cache
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCodeDev1\Development\Code\SiriusOptimization\obj\Debug\SiriusQuality-Optimization.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCodeDev1\Development\Code\SiriusOptimization\obj\Debug\SiriusQuality-Optimization.pdb

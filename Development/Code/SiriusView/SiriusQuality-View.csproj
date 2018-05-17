@@ -1,0 +1,707 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6E748ACE-D7B8-48E3-9AD1-11748EE1182F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SiriusView</RootNamespace>
+    <AssemblyName>SiruisQuality-GUI</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+    <PublishUrl>C:\wamp\www\sirius\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <SupportUrl>http://www.inra.fr</SupportUrl>
+    <TargetCulture>fr</TargetCulture>
+    <ProductName>SiriusQuality</ProductName>
+    <PublisherName>INRA france</PublisherName>
+    <WebPage>Sirius.html</WebPage>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>false</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Released\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Released\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release public|AnyCPU' ">
+    <OutputPath>..\..\Released\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release public|x86' ">
+    <OutputPath>bin\x86\Release public\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>siriusqualitylogo2.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>1AEBE56198E12B3A5B62B54244EC8A4544BDB5CC</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>SiriusView_1_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DelaySign>false</DelaySign>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\Released\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>..\..\Released\</OutputPath>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release public|x64'">
+    <OutputPath>bin\x64\Release public\</OutputPath>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CRA.AgroManagement2014">
+      <HintPath>..\..\DLLs\CRA.AgroManagement2014.dll</HintPath>
+    </Reference>
+    <Reference Include="CRA.AgroManagement2014.Impacts">
+      <HintPath>..\..\DLLs\CRA.AgroManagement2014.Impacts.dll</HintPath>
+    </Reference>
+    <Reference Include="CRA.AgroManagement2014.Rules">
+      <HintPath>..\..\DLLs\CRA.AgroManagement2014.Rules.dll</HintPath>
+    </Reference>
+    <Reference Include="CRA.Clima.AirT">
+      <HintPath>..\..\DLLs\CRA.Clima.AirT.dll</HintPath>
+    </Reference>
+    <Reference Include="CRA.Clima.AirT.Interfaces">
+      <HintPath>..\..\DLLs\CRA.Clima.AirT.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="CRA.Core.Preconditions">
+      <HintPath>..\..\DLLs\CRA.Core.Preconditions.dll</HintPath>
+    </Reference>
+    <Reference Include="CRA.ModelLayer">
+      <HintPath>..\..\DLLs\CRA.ModelLayer.dll</HintPath>
+    </Reference>
+    <Reference Include="MathNet.Numerics">
+      <HintPath>..\packages\MathNet.Numerics.3.2.3\lib\net40\MathNet.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="ResponseFunctions">
+      <HintPath>..\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Serialization" />
+    <Reference Include="WeifenLuo.WinFormsUI.Docking, Version=2.2.2864.18696, Culture=neutral, PublicKeyToken=d481317c817cec47, processorArchitecture=MSIL">
+      <HintPath>import\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutSiriusQuality.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutSiriusQuality.Designer.cs">
+      <DependentUpon>AboutSiriusQuality.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\BaseCentralDockedForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\BaseCentralDockedForm.Designer.cs">
+      <DependentUpon>BaseCentralDockedForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\BaseFormSetting.cs" />
+    <Compile Include="BindingSource\BaseBindingSource.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BindingSource\FileContainerBindingSource.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BindingSource\ObservationBindingSource.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BindingSource\OptimizationBindingSource.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BindingSource\ProjectDataFileBindingSource.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BindingSource\RunItemsBindingSource.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BindingSource\VarietyItemsBindingSource.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BindingSource\SoilItemsBindingSource.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BindingSource\SiteItemsBindingSource.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BindingSource\RunOptionItemsBindingSource.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BindingSource\NonVarietyItemsBindingSource.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BindingSource\ManagementItemsBindingSource.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BindingSource\WarningItemBindingSource.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Book\PageControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Book\PageControl.Designer.cs">
+      <DependentUpon>PageControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Book\BookControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Book\BookControl.Designer.cs">
+      <DependentUpon>BookControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CropFileTranslator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CropFileTranslator.Designer.cs">
+      <DependentUpon>CropFileTranslator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CropParameterSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CropParameterSetting.Designer.cs">
+      <DependentUpon>CropParameterSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ErrorDialog.Designer.cs">
+      <DependentUpon>ErrorDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="File\ObservationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="File\ObservationForm.Designer.cs">
+      <DependentUpon>ObservationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="File\OptimizationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="File\OptimizationForm.Designer.cs">
+      <DependentUpon>OptimizationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FolderRunDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FolderRunDialog.Designer.cs">
+      <DependentUpon>FolderRunDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterSelector.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ParameterSelector.Designer.cs">
+      <DependentUpon>ParameterSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Trial version\FileReadWrite.cs" />
+    <Compile Include="Trial version\PassTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Trial version\SerialBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Trial version\SerialBox.Designer.cs">
+      <DependentUpon>SerialBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Trial version\SystemInfo.cs" />
+    <Compile Include="Trial version\TrialMaker.cs" />
+    <Compile Include="Trial version\TrialVersionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trial version\TrialVersionForm.Designer.cs">
+      <DependentUpon>TrialVersionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="txt2XML.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="txt2XML.Designer.cs">
+      <DependentUpon>txt2XML.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RenameItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RenameItem.Designer.cs">
+      <DependentUpon>RenameItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WarningForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WarningForm.Designer.cs">
+      <DependentUpon>WarningForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="File\FileContainerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="File\FileContainerForm.Designer.cs">
+      <DependentUpon>FileContainerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="File\RunForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="File\RunForm.Designer.cs">
+      <DependentUpon>RunForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\BaseForm.Designer.cs">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\ControlHelper.cs" />
+    <Compile Include="File\VarietyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="File\VarietyForm.Designer.cs">
+      <DependentUpon>VarietyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="File\SoilForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="File\SoilForm.Designer.cs">
+      <DependentUpon>SoilForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="File\SiteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="File\SiteForm.Designer.cs">
+      <DependentUpon>SiteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="File\RunOptionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="File\RunOptionForm.Designer.cs">
+      <DependentUpon>RunOptionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="File\NonVarietyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="File\NonVarietyForm.Designer.cs">
+      <DependentUpon>NonVarietyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="File\ProjectDataFileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="File\ProjectDataFileForm.Designer.cs">
+      <DependentUpon>ProjectDataFileForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="File\ProjectDataFileFormFactory.cs" />
+    <Compile Include="File\ManagementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="File\ManagementForm.Designer.cs">
+      <DependentUpon>ManagementForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OutputPatternForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OutputPatternForm.Designer.cs">
+      <DependentUpon>OutputPatternForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="BindingSource\ProjectFileBindingSource.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutSiriusQuality.resx">
+      <DependentUpon>AboutSiriusQuality.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\BaseCentralDockedForm.resx">
+      <DependentUpon>BaseCentralDockedForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\BaseForm.resx">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Book\PageControl.resx">
+      <DependentUpon>PageControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Book\BookControl.resx">
+      <DependentUpon>BookControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CropFileTranslator.resx">
+      <DependentUpon>CropFileTranslator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CropParameterSetting.resx">
+      <DependentUpon>CropParameterSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErrorDialog.resx">
+      <DependentUpon>ErrorDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="File\ObservationForm.resx">
+      <DependentUpon>ObservationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="File\OptimizationForm.resx">
+      <DependentUpon>OptimizationForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FolderRunDialog.resx">
+      <DependentUpon>FolderRunDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterSelector.resx">
+      <DependentUpon>ParameterSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trial version\TrialVersionForm.resx">
+      <DependentUpon>TrialVersionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RenameItem.resx">
+      <DependentUpon>RenameItem.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="txt2XML.resx">
+      <DependentUpon>txt2XML.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WarningForm.resx">
+      <DependentUpon>WarningForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="File\FileContainerForm.resx">
+      <DependentUpon>FileContainerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="File\ProjectDataFileForm.resx">
+      <DependentUpon>ProjectDataFileForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="File\ManagementForm.resx">
+      <DependentUpon>ManagementForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="File\NonVarietyForm.resx">
+      <DependentUpon>NonVarietyForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="File\RunOptionForm.resx">
+      <DependentUpon>RunOptionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="File\RunForm.resx">
+      <DependentUpon>RunForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="File\SiteForm.resx">
+      <DependentUpon>SiteForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="File\SoilForm.resx">
+      <DependentUpon>SoilForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="File\VarietyForm.resx">
+      <DependentUpon>VarietyForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutputPatternForm.resx">
+      <DependentUpon>OutputPatternForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkerControl.resx">
+      <DependentUpon>WorkerControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\SoilItemsBindingSource.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="WorkerControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WorkerControl.Designer.cs">
+      <DependentUpon>WorkerControl.cs</DependentUpon>
+    </Compile>
+    <None Include="ViewClassDiagram.cd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconWheat1.5.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SiriusModel\SiriusQuality-Model.csproj">
+      <Project>{3E22DE22-EEEE-48FE-BCC3-070617A2318B}</Project>
+      <Name>SiriusQuality-Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SiriusOptimization\SiriusOptimization.csproj">
+      <Project>{fa6d4c65-dc68-484b-95a9-465e8cf187a5}</Project>
+      <Name>SiriusOptimization</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SiriusQuality-PhenologyComponent\SiriusQuality-PhenologyComponent.csproj">
+      <Project>{a1eb8f2b-41d4-409f-b46f-cad0454ba7f4}</Project>
+      <Name>SiriusQuality-PhenologyComponent</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 et x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\siriusQualityLogo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Random_Uniform_Distribution.gif" />
+    <None Include="Resources\Standard_deviation_diagram_%28decimal_comma%29.svg.png" />
+    <None Include="Resources\logotype-INRA-RVB.jpg" />
+    <None Include="Resources\Logotype-INRA-transparent.png" />
+    <Content Include="siriusqualitylogo2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="Ami.Framework.pdb">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Auto</PublishState>
+      <IncludeHash>False</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Sirius.Model.pdb">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Auto</PublishState>
+      <IncludeHash>False</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="SiriusModel.pdb">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Auto</PublishState>
+      <IncludeHash>False</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="SiriusView.pdb">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Auto</PublishState>
+      <IncludeHash>False</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

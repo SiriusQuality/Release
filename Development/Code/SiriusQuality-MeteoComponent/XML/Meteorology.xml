@@ -1,0 +1,63 @@
+<?xml version="1.0" standalone="yes"?>
+<StrategyDefinition>
+  <Global>
+    <SimpleStrategy />
+    <CompositeStrategy>checked</CompositeStrategy>
+    <DataInterfacesDLL>C:\Users\mancealo\Documents\Sirius Quality\branches\TestMeteoOct\Code\SiriusQuality-MeteoComponent\bin\Debug\SiriusQuality-MeteoComponent.dll</DataInterfacesDLL>
+    <StrategiesDLL>C:\Users\mancealo\Documents\Sirius Quality\branches\TestMeteoOct\Code\SiriusQuality-MeteoComponent\bin\Debug\SiriusQuality-MeteoComponent.dll</StrategiesDLL>
+    <IStrategyComponentName>IStrategySiriusQualityMeteo</IStrategyComponentName>
+  </Global>
+  <General>
+    <Domain>Weather</Domain>
+    <NameSpace>SiriusQualityMeteo.Strategies</NameSpace>
+    <StrategyName>Meteorology</StrategyName>
+    <TimeSteps />
+    <AuthorFirstRelease>pierre martre</AuthorFirstRelease>
+    <Email>pierre.martre@inra.fr</Email>
+  </General>
+  <AssociatedStrategies>
+    <StrategyFullName>SiriusQualityMeteo.Strategies.CalculateDailyVPD</StrategyFullName>
+  </AssociatedStrategies>
+  <AssociatedStrategies>
+    <StrategyFullName>SiriusQualityMeteo.Strategies.CalculateHourlyAirTemperature</StrategyFullName>
+  </AssociatedStrategies>
+  <AssociatedStrategies>
+    <StrategyFullName>SiriusQualityMeteo.Strategies.CalculateHourlyDirDifRadiations</StrategyFullName>
+  </AssociatedStrategies>
+  <AssociatedStrategies>
+    <StrategyFullName>SiriusQualityMeteo.Strategies.CalculateHourlyRadiation</StrategyFullName>
+  </AssociatedStrategies>
+  <AssociatedStrategies>
+    <StrategyFullName>SiriusQualityMeteo.Strategies.calculateHourlyVPDAir</StrategyFullName>
+  </AssociatedStrategies>
+  <AssociatedStrategies>
+    <StrategyFullName>SiriusQualityMeteo.Strategies.CalculateHourlyWindSpeed</StrategyFullName>
+  </AssociatedStrategies>
+  <AssociatedStrategies>
+    <StrategyFullName>SiriusQualityMeteo.Strategies.CalculateMinMaxDailyWindSpeed</StrategyFullName>
+  </AssociatedStrategies>
+  <AssociatedStrategies>
+    <StrategyFullName>SiriusQualityMeteo.Strategies.CalculatePhotoperiod</StrategyFullName>
+  </AssociatedStrategies>
+  <LoadedAssemblies>
+    <Name>SiriusQuality-MeteoComponent, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>CRA.ModelLayer, Version=1.0.5212.29139, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>CRA.AgroManagement2014, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
+  </LoadedAssemblies>
+</StrategyDefinition>

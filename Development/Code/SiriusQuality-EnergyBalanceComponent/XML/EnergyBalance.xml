@@ -1,0 +1,102 @@
+<?xml version="1.0" standalone="yes"?>
+<StrategyDefinition>
+  <Global>
+    <SimpleStrategy />
+    <CompositeStrategy>checked</CompositeStrategy>
+    <DataInterfacesDLL>C:\Users\mouginot\Desktop\sirius\branches\MouginotJuly\Code\SiriusQuality-EnergyBalanceComponent\bin\Debug\SiriusQuality-EnergyBalanceComponent.dll</DataInterfacesDLL>
+    <StrategiesDLL>C:\Users\mouginot\Desktop\sirius\branches\MouginotJuly\Code\SiriusQuality-EnergyBalanceComponent\bin\Debug\SiriusQuality-EnergyBalanceComponent.dll</StrategiesDLL>
+    <IStrategyComponentName>IStrategySiriusQualityEnergyBalance</IStrategyComponentName>
+  </Global>
+  <General>
+    <Domain>EnergyBalance</Domain>
+    <ModelType />
+    <NameSpace>SiriusQualityEnergyBalance</NameSpace>
+    <StrategyName>EnergyBalance</StrategyName>
+    <StrategyDescription />
+    <IsContext />
+    <TimeSteps />
+    <AuthorFirstRelease>pierre martre</AuthorFirstRelease>
+    <Institution>Inra</Institution>
+    <Email>pierre.martre@supagro.inra.fr</Email>
+    <DateFirstRelease>30/11/2016</DateFirstRelease>
+    <AuthorRevision />
+    <EmailAuthorRevision />
+    <DateRevision />
+  </General>
+  <Inputs>
+    <Variable>isWindVpDefined</Variable>
+    <DomainClass>energybalancestate - SiriusQualityEnergyBalance.EnergyBalanceState</DomainClass>
+  </Inputs>
+  <Parameters>
+    <VarName>SwitchMaize</VarName>
+    <Description>true if maize false if wheat</Description>
+    <MaxValue>1</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>NA</Units>
+    <ValueType>Integer</ValueType>
+  </Parameters>
+  <AssociatedStrategies>
+    <StrategyFullName>SiriusQualityEnergyBalance.CalculateNetRadiation</StrategyFullName>
+  </AssociatedStrategies>
+  <AssociatedStrategies>
+    <StrategyFullName>SiriusQualityEnergyBalance.CalculateDiffusionLimitedEvaporation</StrategyFullName>
+  </AssociatedStrategies>
+  <AssociatedStrategies>
+    <StrategyFullName>SiriusQualityEnergyBalance.CalculatePriestlyTaylor</StrategyFullName>
+  </AssociatedStrategies>
+  <AssociatedStrategies>
+    <StrategyFullName>SiriusQualityEnergyBalance.CalculatePtSoil</StrategyFullName>
+  </AssociatedStrategies>
+  <AssociatedStrategies>
+    <StrategyFullName>SiriusQualityEnergyBalance.CalculateConductance</StrategyFullName>
+  </AssociatedStrategies>
+  <AssociatedStrategies>
+    <StrategyFullName>SiriusQualityEnergyBalance.CalculatePenman</StrategyFullName>
+  </AssociatedStrategies>
+  <AssociatedStrategies>
+    <StrategyFullName>SiriusQualityEnergyBalance.CalculatePotTranspiration</StrategyFullName>
+  </AssociatedStrategies>
+  <AssociatedStrategies>
+    <StrategyFullName>SiriusQuailtyEnergyBalance.CalculateSoilEvaporation</StrategyFullName>
+  </AssociatedStrategies>
+  <AssociatedStrategies>
+    <StrategyFullName>SiriusQualityEnergyBalance.CalculateSoilHeatFlux</StrategyFullName>
+  </AssociatedStrategies>
+  <AssociatedStrategies>
+    <StrategyFullName>SiriusQualityEnergyBalance.CalculateCropHeatFlux</StrategyFullName>
+  </AssociatedStrategies>
+  <AssociatedStrategies>
+    <StrategyFullName>SiriusQualityEnergyBalance.CalculateCanopyTemperature</StrategyFullName>
+  </AssociatedStrategies>
+  <AssociatedStrategies>
+    <StrategyFullName>SiriusQualityEnergyBalance.CalculateCanopyTemperatureMaize</StrategyFullName>
+  </AssociatedStrategies>
+  <AssociatedStrategies>
+    <StrategyFullName>SiriusQualityEnergyBalance.CaclulateVPDairLeaf</StrategyFullName>
+  </AssociatedStrategies>
+  <AssociatedStrategies>
+    <StrategyFullName>SiriusQualityEnergyBalance.calculateVPDeq</StrategyFullName>
+  </AssociatedStrategies>
+  <LoadedAssemblies>
+    <Name>SiriusQuality-EnergyBalanceComponent, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>CRA.ModelLayer, Version=1.0.5212.29139, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>CRA.AgroManagement2014, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
+  </LoadedAssemblies>
+</StrategyDefinition>

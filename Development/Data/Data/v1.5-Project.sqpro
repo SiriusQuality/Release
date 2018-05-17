@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ProjectFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Inputs>
+    <IsModified>true</IsModified>
+    <ManagementFileName>v1.5-Management.sqman</ManagementFileName>
+    <ParameterFileName>v1.5-NonVarietal.sqpar</ParameterFileName>
+    <RunOptionFileName>v1.5-RunOption.sqopt</RunOptionFileName>
+    <SiteFileName>v1.5-Site.sqsit</SiteFileName>
+    <SoilFileName>v1.5-Soil.sqsoi</SoilFileName>
+    <VarietyFileName>v1.5-Varietal.sqvar</VarietyFileName>
+    <RunFileName>v1.5-Run.sqrun</RunFileName>
+    <Comments />
+    <OutputVersion>V15</OutputVersion>
+  </Inputs>
+</ProjectFile>

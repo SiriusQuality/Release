@@ -1,0 +1,67 @@
+<?xml version="1.0" standalone="yes"?>
+<StrategyDefinition>
+  <Global>
+    <SimpleStrategy />
+    <CompositeStrategy />
+    <DataInterfacesDLL>C:\Users\mancealo\Documents\Sirius Quality\branches\TestMeteoOct\Code\SiriusQuality-MeteoComponent\bin\Debug\SiriusQuality-MeteoComponent.dll</DataInterfacesDLL>
+    <StrategiesDLL />
+    <IStrategyComponentName>IStrategySiriusQualityMeteo</IStrategyComponentName>
+  </Global>
+  <General>
+    <Domain>Weather</Domain>
+    <ModelType>VPD</ModelType>
+    <NameSpace>SiriusQualityMeteo.Strategies</NameSpace>
+    <StrategyName>calculateHourlyVPDAir</StrategyName>
+    <StrategyDescription />
+    <IsContext>false</IsContext>
+    <TimeSteps />
+    <AuthorFirstRelease>pierre martre</AuthorFirstRelease>
+    <Institution>INRA</Institution>
+    <Email>pierre.martre@inra.fr</Email>
+    <DateFirstRelease>4/12/2017</DateFirstRelease>
+    <AuthorRevision />
+    <EmailAuthorRevision />
+    <DateRevision />
+  </General>
+  <Inputs>
+    <Variable>hourlyAirTemperature</Variable>
+    <DomainClass>meteostate - SiriusQualityMeteo.MeteoState</DomainClass>
+  </Inputs>
+  <Inputs>
+    <Variable>maxTair</Variable>
+    <DomainClass>meteostate - SiriusQualityMeteo.MeteoState</DomainClass>
+  </Inputs>
+  <Inputs>
+    <Variable>minTair</Variable>
+    <DomainClass>meteostate - SiriusQualityMeteo.MeteoState</DomainClass>
+  </Inputs>
+  <Outputs>
+    <Variable>hourlyVPDAir</Variable>
+    <DomainClass>meteostate - SiriusQualityMeteo.MeteoState</DomainClass>
+  </Outputs>
+  <Outputs>
+    <Variable>RH</Variable>
+    <DomainClass>meteostate - SiriusQualityMeteo.MeteoState</DomainClass>
+  </Outputs>
+  <LoadedAssemblies>
+    <Name>SiriusQuality-MeteoComponent, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>CRA.ModelLayer, Version=1.0.5212.29139, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>CRA.AgroManagement2014, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
+  </LoadedAssemblies>
+</StrategyDefinition>

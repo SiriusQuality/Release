@@ -1,0 +1,331 @@
+<?xml version="1.0" standalone="yes"?>
+<PhenologyState>
+  <xs:schema id="PhenologyState" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="PhenologyState" msdata:IsDataSet="true" msdata:Locale="en-US">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="VarInfoVariables">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="MinValue" type="xs:double" minOccurs="0" />
+                <xs:element name="MaxValue" type="xs:double" minOccurs="0" />
+                <xs:element name="DefaultValue" type="xs:double" minOccurs="0" />
+                <xs:element name="Units" type="xs:string" minOccurs="0" />
+                <xs:element name="Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Description" type="xs:string" minOccurs="0" />
+                <xs:element name="URL" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Description">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="DomainClassNameSpace" type="xs:string" minOccurs="0" />
+                <xs:element name="DomainTypeName" type="xs:string" minOccurs="0" />
+                <xs:element name="DomainTypeURL" type="xs:string" minOccurs="0" />
+                <xs:element name="DomainTypeDescription" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <VarInfoVariables>
+    <Name>currentdate</Name>
+    <MinValue>-1</MinValue>
+    <MaxValue>-1</MaxValue>
+    <DefaultValue>-1</DefaultValue>
+    <Units>NA</Units>
+    <Type>Date</Type>
+    <Description>current date</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>cumulTT</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>10000</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>°Cd</Units>
+    <Type>List&lt;double&gt;</Type>
+    <Description>array of the different cumulTT to be saved in the calendar. The first element is the one used to advance the phenology</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>DayLength</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>24</MaxValue>
+    <DefaultValue>12</DefaultValue>
+    <Units>hours</Units>
+    <Type>double</Type>
+    <Description>length of the day</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>DeltaTT</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>100</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>°Cd</Units>
+    <Type>double</Type>
+    <Description>daily delta TT . It is the same kind of TT as cumulTT[0]</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>GrainCumulTT</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>10000</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>°Cd</Units>
+    <Type>double</Type>
+    <Description>cumulTT used for the grain developpment</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>GAI</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>10000</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>m²/m²</Units>
+    <Type>double</Type>
+    <Description>green area index</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>IsLatestLeafInternodeLengthPotPositive</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>NA</Units>
+    <Type>int</Type>
+    <Description>true if the potential length of the latest leaf's internode is positive. Used to test for the beginning stem expension</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>Calendar</Name>
+    <MinValue>-1</MinValue>
+    <MaxValue>-1</MaxValue>
+    <DefaultValue>-1</DefaultValue>
+    <Units>NA</Units>
+    <Type>double</Type>
+    <Description>Dictionnary containing for each stage the date it occurs as well as a copy of all types of cumulated thermal times</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>LeafNumber</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>25</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>leaf</Units>
+    <Type>double</Type>
+    <Description>Actual number of phytomers</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>FinalLeafNumber</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>25</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>leaf</Units>
+    <Type>double</Type>
+    <Description>final leaf number</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>phase_</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>7</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>NA</Units>
+    <Type>double</Type>
+    <Description>instance of the phase class . You can get the name of the phase using phase.getPhaseAsString(PhaseValue)</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>Phyllochron</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>25</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>NA</Units>
+    <Type>double</Type>
+    <Description>Phyllochron</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>Vernaprog</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>NA</Units>
+    <Type>double</Type>
+    <Description>progression on a 0  to 1 scale of the vernalization</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>HasFlagLeafLiguleAppeared</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>NA</Units>
+    <Type>int</Type>
+    <Description>true if flag leaf has appeared (leafnumber reached finalLeafNumber)</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>MinFinalNumber</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>25</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>leaf</Units>
+    <Type>double</Type>
+    <Description>minimum final leaf number</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>hasLastPrimordiumAppeared</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>NA</Units>
+    <Type>int</Type>
+    <Description>true if the last primordium has appeared</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>isMomentRegistredZC_39</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>NA</Units>
+    <Type>int</Type>
+    <Description>true if ZC_39 is regitered in the calendar</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>cumulTTFromZC_39</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>10000</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>°C/d</Units>
+    <Type>double</Type>
+    <Description>cumul of the thermal time ( DeltaTT) since the moment ZC_39</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>cumulTTFromZC_91</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>10000</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>°C/d</Units>
+    <Type>double</Type>
+    <Description>cumul of the thermal time (DeltaTT) since the moment ZC_91</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>cumulTTFromZC_65</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>10000</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>°C/d</Units>
+    <Type>double</Type>
+    <Description>cumul of the thermal time (DeltaTT) since the moment ZC_65</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>currentZadokStage</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>20</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>NA</Units>
+    <Type>int</Type>
+    <Description>current zadok stage see the definition of "GrowthStage" in the Phase class</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>hasZadokStageChanged</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>NA</Units>
+    <Type>int</Type>
+    <Description>true if the zadok stage has changed this time step</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>tilleringProfile</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>0</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>NA</Units>
+    <Type>List&lt;double&gt;</Type>
+    <Description>store the amount of new tiller created at each time a new tiller appears</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>leafTillerNumberArray</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>0</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>NA</Units>
+    <Type>List&lt;double&gt;</Type>
+    <Description>store the number of tiller for each leaf layer</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>CanopyShootNumber</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1000</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>shoot/m²</Units>
+    <Type>double</Type>
+    <Description>shoot number for the whole canopy</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>AverageShootNumberPerPlant</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>15</MaxValue>
+    <DefaultValue>1</DefaultValue>
+    <Units>shoot</Units>
+    <Type>double</Type>
+    <Description>average shoot number per plant in the canopy</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>TillerNumber</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>15</MaxValue>
+    <DefaultValue>1</DefaultValue>
+    <Units>shoot</Units>
+    <Type>int</Type>
+    <Description>number of tiller which have appeared</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>Ntip</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>20</MaxValue>
+    <DefaultValue>16</DefaultValue>
+    <Units>tip</Units>
+    <Type>double</Type>
+    <Description>Maize number of tip</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>cumulTTPhenoMaizeAtEmergence</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>8000</MaxValue>
+    <DefaultValue>140</DefaultValue>
+    <Units>°C/d</Units>
+    <Type>double</Type>
+    <Description>Cumul thermal time for maïze since emergence</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <Description>
+    <DomainClassNameSpace>SiriusQualityPhenology</DomainClassNameSpace>
+    <DomainTypeName>PhenologyState</DomainTypeName>
+    <DomainTypeURL>http://</DomainTypeURL>
+    <DomainTypeDescription>Domain class for the phenology component of Sirius Quality</DomainTypeDescription>
+  </Description>
+</PhenologyState>

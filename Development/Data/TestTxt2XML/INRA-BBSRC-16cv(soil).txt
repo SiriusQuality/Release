@@ -1,0 +1,34 @@
+CF07 (MG6B)	"28/08/09
+- Deacreased Ko to 2E-05"	0,35	0,0012699	903	0,05	0,05	65,5	46,5	23,8	0,3
+CF07 (MG6B)	"28/08/09
+- Deacreased Ko to 2E-05"	0,35	0,0012699	903	0,05	0,05	64,6	43,9	23,6	0,6
+CF08 (CR4)	"=> Filed capacity and permanent wilting point calculated using SOILPAR2.0 (method: Campbell's pedotransfert function)
+
+28/08/09
+- Deacreased Ko to 2E-05"	0,52	0,00018291	1051	0,05	0,05	65,9	47	23,1	0,3
+CF08 (CR4)	"=> Filed capacity and permanent wilting point calculated using SOILPAR2.0 (method: Campbell's pedotransfert function)
+
+28/08/09
+- Deacreased Ko to 2E-05"	0,52	0,00018291	1051	0,05	0,05	62,7	40,5	23,8	0,9
+JIC07	No information available to fill this soil	0,72	0,00088928	639	0,05	0,05	52	17,3	8,9	0,3
+JIC07	No information available to fill this soil	0,72	0,00088928	639	0,05	0,05	52	15,8	8,5	1,5
+JIC08	No information available to fill this soil	0,74	0,0014192	535	0,05	0,05	54	17,6	9,1	0,3
+JIC08	No information available to fill this soil	0,74	0,0014192	535	0,05	0,05	52	17,3	9,2	1,5
+MONS07 (C4)	=> Need to ask the PSD for depth > 30 cm to calculated WCs	0,94	0,00090181	571	0,05	0,05	35,4	32,1	11,8	0,3
+MONS07 (C4)	=> Need to ask the PSD for depth > 30 cm to calculated WCs	0,94	0,00090181	571	0,05	0,05	35,4	32,1	11,8	0,6
+MONS07 (C4)	=> Need to ask the PSD for depth > 30 cm to calculated WCs	0,94	0,00090181	571	0,05	0,05	35,4	32,1	11,8	0,9
+MONS07 (C4)	=> Need to ask the PSD for depth > 30 cm to calculated WCs	0,94	0,00090181	571	0,05	0,05	35,4	32,1	11,8	1,5
+MONS08 (C2)	"=> Need to calculated N mineralisation constant from observed crop N at anthesis (Rialto N-)
+=> Need to ask the PSD for depth > 30 cm to calculated WCs"	0,94	0,00210135	622	0,05	0,05	35,4	32,1	11,8	0,3
+MONS08 (C2)	"=> Need to calculated N mineralisation constant from observed crop N at anthesis (Rialto N-)
+=> Need to ask the PSD for depth > 30 cm to calculated WCs"	0,94	0,00210135	622	0,05	0,05	35,4	32,1	11,8	0,6
+MONS08 (C2)	"=> Need to calculated N mineralisation constant from observed crop N at anthesis (Rialto N-)
+=> Need to ask the PSD for depth > 30 cm to calculated WCs"	0,94	0,00210135	622	0,05	0,05	35,4	32,1	11,8	0,9
+MONS08 (C2)	"=> Need to calculated N mineralisation constant from observed crop N at anthesis (Rialto N-)
+=> Need to ask the PSD for depth > 30 cm to calculated WCs"	0,94	0,00210135	622	0,05	0,05	35,4	32,1	11,8	1,5
+UNOT07	=> Filed capacity and permanent wilting point calculated using SOILPAR2.0 (method: Campbell's pedotransfert function)	0,68	0,0007353	940	0,05	0,05	48	32,8	26,9	0,3
+UNOT07	=> Filed capacity and permanent wilting point calculated using SOILPAR2.0 (method: Campbell's pedotransfert function)	0,68	0,0007353	940	0,05	0,05	48	40,3	29	0,6
+UNOT07	=> Filed capacity and permanent wilting point calculated using SOILPAR2.0 (method: Campbell's pedotransfert function)	0,68	0,0007353	940	0,05	0,05	48	40,3	29	1,6
+UNOT08	=> Filed capacity and permanent wilting point calculated using SOILPAR2.0 (method: Campbell's pedotransfert function)	0,98	0,00035945	531	0,05	0,05	45	10,9	6,3	0,3
+UNOT08	=> Filed capacity and permanent wilting point calculated using SOILPAR2.0 (method: Campbell's pedotransfert function)	0,98	0,00035945	531	0,05	0,05	45	12,1	7,8	0,6
+UNOT08	=> Filed capacity and permanent wilting point calculated using SOILPAR2.0 (method: Campbell's pedotransfert function)	0,98	0,00035945	531	0,05	0,05	45	12,1	7,8	1,6

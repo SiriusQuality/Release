@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<SiteFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsArray>
+    <SiteItem name="AZ000306" format="YearJdayMinMaxRainRadWindVp">
+      <Comments>Maricopa Agric. Center, Univ. Arizona
+</Comments>
+      <Latitude>33.069</Latitude>
+      <Longitude>-114.53</Longitude>
+      <Elevation>360</Elevation>
+      <WeatherFiles>
+        <WeatherFile file="Weather\AZ000306.sr" />
+      </WeatherFiles>
+    </SiteItem>
+    <SiteItem name="AZ110306" format="YearJdayMinMaxRainRadWindVp">
+      <Comments>Maricopa Agric. Center, Univ. Arizona
+</Comments>
+      <Latitude>33.069</Latitude>
+      <Longitude>-114.53</Longitude>
+      <Elevation>361</Elevation>
+      <WeatherFiles>
+        <WeatherFile file="Weather\AZ110306.sr" />
+      </WeatherFiles>
+    </SiteItem>
+    <SiteItem name="AZ120306" format="YearJdayMinMaxRainRadWindVp">
+      <Comments>Maricopa Agric. Center, Univ. Arizona
+</Comments>
+      <Latitude>33.069</Latitude>
+      <Longitude>-114.53</Longitude>
+      <Elevation>361</Elevation>
+      <WeatherFiles>
+        <WeatherFile file="Weather\AZ120306.sr" />
+      </WeatherFiles>
+    </SiteItem>
+    <SiteItem name="AZ130306" format="YearJdayMinMaxRainRadWindVp">
+      <Comments>Maricopa Agric. Center, Univ. Arizona
+</Comments>
+      <Latitude>33.069</Latitude>
+      <Longitude>-114.53</Longitude>
+      <Elevation>361</Elevation>
+      <WeatherFiles>
+        <WeatherFile file="Weather\AZ130306.sr" />
+      </WeatherFiles>
+    </SiteItem>
+    <SiteItem name="AZ270306" format="YearJdayMinMaxRainRadWindVp">
+      <Comments>Maricopa Agric. Center, Univ. Arizona
+</Comments>
+      <Latitude>33.069</Latitude>
+      <Longitude>-114.53</Longitude>
+      <Elevation>361</Elevation>
+      <WeatherFiles>
+        <WeatherFile file="Weather\AZ270306.sr" />
+      </WeatherFiles>
+    </SiteItem>
+    <SiteItem name="AZ280306" format="YearJdayMinMaxRainRadWindVp">
+      <Comments>Maricopa Agric. Center, Univ. Arizona
+</Comments>
+      <Latitude>33.069</Latitude>
+      <Longitude>-114.53</Longitude>
+      <Elevation>361</Elevation>
+      <WeatherFiles>
+        <WeatherFile file="Weather\AZ280306.sr" />
+      </WeatherFiles>
+    </SiteItem>
+    <SiteItem name="AZ290306" format="YearJdayMinMaxRainRadWindVp">
+      <Comments>Maricopa Agric. Center, Univ. Arizona
+</Comments>
+      <Latitude>33.069</Latitude>
+      <Longitude>-114.53</Longitude>
+      <Elevation>361</Elevation>
+      <WeatherFiles>
+        <WeatherFile file="Weather\AZ290306.sr" />
+      </WeatherFiles>
+    </SiteItem>
+    <SiteItem name="AZ310306" format="YearJdayMinMaxRainRadWindVp">
+      <Comments>Maricopa Agric. Center, Univ. Arizona
+</Comments>
+      <Latitude>33.069</Latitude>
+      <Longitude>-114.53</Longitude>
+      <Elevation>361</Elevation>
+      <WeatherFiles>
+        <WeatherFile file="Weather\AZ310306.sr" />
+      </WeatherFiles>
+    </SiteItem>
+    <SiteItem name="AZ320306" format="YearJdayMinMaxRainRadWindVp">
+      <Comments>Maricopa Agric. Center, Univ. Arizona
+</Comments>
+      <Latitude>33.069</Latitude>
+      <Longitude>-114.53</Longitude>
+      <Elevation>361</Elevation>
+      <WeatherFiles>
+        <WeatherFile file="Weather\AZ320306.sr" />
+      </WeatherFiles>
+    </SiteItem>
+    <SiteItem name="AZ330306" format="YearJdayMinMaxRainRadWindVp">
+      <Comments>Maricopa Agric. Center, Univ. Arizona
+</Comments>
+      <Latitude>33.069</Latitude>
+      <Longitude>-114.53</Longitude>
+      <Elevation>361</Elevation>
+      <WeatherFiles>
+        <WeatherFile file="Weather\AZ330306.sr" />
+      </WeatherFiles>
+    </SiteItem>
+    <SiteItem name="AZ440306" format="YearJdayMinMaxRainRadWindVp">
+      <Comments>Maricopa Agric. Center, Univ. Arizona
+</Comments>
+      <Latitude>33.069</Latitude>
+      <Longitude>-114.53</Longitude>
+      <Elevation>361</Elevation>
+      <WeatherFiles>
+        <WeatherFile file="Weather\AZ440306.sr" />
+      </WeatherFiles>
+    </SiteItem>
+    <SiteItem name="AZ450306" format="YearJdayMinMaxRainRadWindVp">
+      <Comments>Maricopa Agric. Center, Univ. Arizona
+</Comments>
+      <Latitude>33.069</Latitude>
+      <Longitude>-114.53</Longitude>
+      <Elevation>361</Elevation>
+      <WeatherFiles>
+        <WeatherFile file="Weather\AZ450306.sr" />
+      </WeatherFiles>
+    </SiteItem>
+    <SiteItem name="AZ460306" format="YearJdayMinMaxRainRadWindVp">
+      <Comments>Maricopa Agric. Center, Univ. Arizona
+</Comments>
+      <Latitude>33.069</Latitude>
+      <Longitude>-114.53</Longitude>
+      <Elevation>361</Elevation>
+      <WeatherFiles>
+        <WeatherFile file="Weather\AZ460306.sr" />
+      </WeatherFiles>
+    </SiteItem>
+    <SiteItem name="AZ570306" format="YearJdayMinMaxRainRadWindVp">
+      <Comments>Maricopa Agric. Center, Univ. Arizona
+</Comments>
+      <Latitude>33.069</Latitude>
+      <Longitude>-114.53</Longitude>
+      <Elevation>361</Elevation>
+      <WeatherFiles>
+        <WeatherFile file="Weather\AZ570306.sr" />
+      </WeatherFiles>
+    </SiteItem>
+    <SiteItem name="AZ580306" format="YearJdayMinMaxRainRadWindVp">
+      <Comments>Maricopa Agric. Center, Univ. Arizona
+</Comments>
+      <Latitude>33.069</Latitude>
+      <Longitude>-114.53</Longitude>
+      <Elevation>361</Elevation>
+      <WeatherFiles>
+        <WeatherFile file="Weather\AZ580306.sr" />
+      </WeatherFiles>
+    </SiteItem>
+    <SiteItem name="AZ590306" format="YearJdayMinMaxRainRadWindVp">
+      <Comments>Maricopa Agric. Center, Univ. Arizona
+</Comments>
+      <Latitude>33.069</Latitude>
+      <Longitude>-114.53</Longitude>
+      <Elevation>361</Elevation>
+      <WeatherFiles>
+        <WeatherFile file="Weather\AZ590306.sr" />
+      </WeatherFiles>
+    </SiteItem>
+    <SiteItem name="AZ610306" format="YearJdayMinMaxRainRadWindVp">
+      <Comments>Maricopa Agric. Center, Univ. Arizona
+</Comments>
+      <Latitude>33.069</Latitude>
+      <Longitude>-114.53</Longitude>
+      <Elevation>361</Elevation>
+      <WeatherFiles>
+        <WeatherFile file="Weather\AZ610306.sr" />
+      </WeatherFiles>
+    </SiteItem>
+    <SiteItem name="AZ620306" format="YearJdayMinMaxRainRadWindVp">
+      <Comments>Maricopa Agric. Center, Univ. Arizona
+</Comments>
+      <Latitude>33.069</Latitude>
+      <Longitude>-114.53</Longitude>
+      <Elevation>361</Elevation>
+      <WeatherFiles>
+        <WeatherFile file="Weather\AZ620306.sr" />
+      </WeatherFiles>
+    </SiteItem>
+    <SiteItem name="AZ630306" format="YearJdayMinMaxRainRadWindVp">
+      <Comments>Maricopa Agric. Center, Univ. Arizona
+</Comments>
+      <Latitude>33.069</Latitude>
+      <Longitude>-114.53</Longitude>
+      <Elevation>361</Elevation>
+      <WeatherFiles>
+        <WeatherFile file="Weather\AZ630306.sr" />
+      </WeatherFiles>
+    </SiteItem>
+  </ItemsArray>
+</SiteFile>

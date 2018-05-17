@@ -1,0 +1,11 @@
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusQuality-ThermalTime\bin\Debug\SiriusQuality-ThermalTime.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusQuality-ThermalTime\bin\Debug\SiriusQuality-ThermalTime.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusQuality-ThermalTime\bin\Debug\CRA.AgroManagement2014.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusQuality-ThermalTime\bin\Debug\CRA.AgroManagement2014.Impacts.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusQuality-ThermalTime\bin\Debug\CRA.AgroManagement2014.Rules.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusQuality-ThermalTime\bin\Debug\CRA.ModelLayer.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusQuality-ThermalTime\bin\Debug\ResponseFunctions.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusQuality-ThermalTime\bin\Debug\ResponseFunctions.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusQuality-ThermalTime\obj\Debug\SiriusQuality-ThermalTime.csprojResolveAssemblyReference.cache
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusQuality-ThermalTime\obj\Debug\SiriusQuality-ThermalTime.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusQuality-ThermalTime\obj\Debug\SiriusQuality-ThermalTime.pdb

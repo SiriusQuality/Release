@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\mouginot\Desktop\sirius\trunk\Code\Import\Sirius.Model.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3D7768D4-D4DE-45DD-998B-C39E345D0EC9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Sirius.Model</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <ApplicationVersion>1.0.4527.16158</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Sirius.Model</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CRA.Clima.AirT">
+      <HintPath>..\..\..\DLLs\CRA.Clima.AirT.dll</HintPath>
+    </Reference>
+    <Reference Include="CRA.Clima.AirT.Interfaces">
+      <HintPath>..\..\..\DLLs\CRA.Clima.AirT.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="CRA.Core.Preconditions">
+      <HintPath>..\..\..\DLLs\CRA.Core.Preconditions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AmiFrameWork\Assert.cs" />
+    <Compile Include="AmiFrameWork\Cache.cs" />
+    <Compile Include="AmiFrameWork\DateHelper.cs" />
+    <Compile Include="Tools\Astronomy.cs" />
+    <Compile Include="AmiFrameWork\Calc.cs" />
+    <Compile Include="AmiFrameWork\CollectionHelper.cs" />
+    <Compile Include="Tools\Conversion.cs" />
+    <Compile Include="Interface\ILocation.cs" />
+    <Compile Include="Interface\IWeatherFormat.cs" />
+    <Compile Include="Interface\IWeatherInput.cs" />
+    <Compile Include="Location\Location.cs" />
+    <Compile Include="Location\LocationHelper.cs" />
+    <Compile Include="Weather\WeatherFormat.cs" />
+    <Compile Include="Weather\WeatherFormatID.cs" />
+    <Compile Include="Weather\WeatherInput.cs" />
+    <Compile Include="Weather\NumericParser.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Weather\NumericReader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Weather\TemperatureConverter.cs" />
+    <Compile Include="Weather\Cache.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

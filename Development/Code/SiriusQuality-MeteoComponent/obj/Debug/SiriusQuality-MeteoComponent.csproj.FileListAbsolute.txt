@@ -1,0 +1,8 @@
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusQuality-MeteoComponent\bin\Debug\SiriusQuality-MeteoComponent.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusQuality-MeteoComponent\bin\Debug\SiriusQuality-MeteoComponent.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusQuality-MeteoComponent\bin\Debug\CRA.AgroManagement2014.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusQuality-MeteoComponent\bin\Debug\CRA.AgroManagement2014.Impacts.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusQuality-MeteoComponent\bin\Debug\CRA.AgroManagement2014.Rules.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusQuality-MeteoComponent\bin\Debug\CRA.ModelLayer.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusQuality-MeteoComponent\obj\Debug\SiriusQuality-MeteoComponent.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusQuality-MeteoComponent\obj\Debug\SiriusQuality-MeteoComponent.pdb

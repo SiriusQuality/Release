@@ -1,0 +1,301 @@
+<?xml version="1.0" standalone="yes"?>
+<WheatLAIState>
+  <xs:schema id="WheatLAIState" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="WheatLAIState" msdata:IsDataSet="true" msdata:Locale="en-US">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="VarInfoVariables">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="MinValue" type="xs:double" minOccurs="0" />
+                <xs:element name="MaxValue" type="xs:double" minOccurs="0" />
+                <xs:element name="DefaultValue" type="xs:double" minOccurs="0" />
+                <xs:element name="Units" type="xs:string" minOccurs="0" />
+                <xs:element name="Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Description" type="xs:string" minOccurs="0" />
+                <xs:element name="URL" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Description">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="DomainClassNameSpace" type="xs:string" minOccurs="0" />
+                <xs:element name="DomainTypeName" type="xs:string" minOccurs="0" />
+                <xs:element name="DomainTypeURL" type="xs:string" minOccurs="0" />
+                <xs:element name="DomainTypeDescription" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <VarInfoVariables>
+    <Name>newLeafHasAppeared</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>NA</Units>
+    <Type>int</Type>
+    <Description />
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>leafNumber</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>20</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>leaf</Units>
+    <Type>double</Type>
+    <Description xml:space="preserve"> </Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>finalLeafNumber</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>20</MaxValue>
+    <DefaultValue>10</DefaultValue>
+    <Units>leaf</Units>
+    <Type>double</Type>
+    <Description xml:space="preserve"> </Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>roundedFinalLeafNumber</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>20</MaxValue>
+    <DefaultValue>10</DefaultValue>
+    <Units>leaf</Units>
+    <Type>int</Type>
+    <Description xml:space="preserve"> </Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>isSmallPhytomer</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>NA</Units>
+    <Type>int</Type>
+    <Description>true if the last phytomer appeared is "small"</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>phytonum</Name>
+    <MinValue>1</MinValue>
+    <MaxValue>21</MaxValue>
+    <DefaultValue>1</DefaultValue>
+    <Units>NA</Units>
+    <Type>int</Type>
+    <Description>phytonum of the last phytomer appeared</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>index</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>20</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>NA</Units>
+    <Type>int</Type>
+    <Description>index of the  last phytomer</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>MaximumPotentialLaminaeAI</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>100</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units xml:space="preserve"> </Units>
+    <Type>List&lt;double&gt;</Type>
+    <Description xml:space="preserve"> </Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>MaximumPotentialSheathAI</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>100</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units xml:space="preserve"> </Units>
+    <Type>List&lt;double&gt;</Type>
+    <Description xml:space="preserve"> </Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>FPAW</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1</MaxValue>
+    <DefaultValue>0.5</DefaultValue>
+    <Units>dimensionless</Units>
+    <Type>double</Type>
+    <Description>Fraction of plant available water</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>isPotentialLAI</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>NA</Units>
+    <Type>int</Type>
+    <Description xml:space="preserve"> </Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>VPDairCanopy</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>100</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units xml:space="preserve"> </Units>
+    <Type>double</Type>
+    <Description xml:space="preserve"> </Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>DSF</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>10</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units xml:space="preserve"> </Units>
+    <Type>double</Type>
+    <Description>drought senescence factor</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>DEF</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>10</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units xml:space="preserve"> </Units>
+    <Type>double</Type>
+    <Description>drought expansion factor</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>cumulTTShoot</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1000</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>°C/d</Units>
+    <Type>double</Type>
+    <Description xml:space="preserve"> </Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>deltaTTShoot</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>50</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>°C/d</Units>
+    <Type>double</Type>
+    <Description xml:space="preserve"> </Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>deltaTTSenescence</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>50</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>°C/d</Units>
+    <Type>double</Type>
+    <Description xml:space="preserve"> </Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>incDeltaAreaLimitSF</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units xml:space="preserve"> </Units>
+    <Type>double</Type>
+    <Description xml:space="preserve"> </Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>WaterLimitedPotDeltaAIList</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>0</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units xml:space="preserve"> </Units>
+    <Type>List&lt;double&gt;</Type>
+    <Description>list on each phytomer</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>potentialIncDeltaArea</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>10</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units xml:space="preserve"> </Units>
+    <Type>double</Type>
+    <Description xml:space="preserve"> </Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>LeafStateList</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>0</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>NA</Units>
+    <Type>List&lt;int&gt;</Type>
+    <Description> see the LeafState enum</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>isPrematurelyDying</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>1</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>NA</Units>
+    <Type>List&lt;int&gt;</Type>
+    <Description xml:space="preserve"> </Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>tilleringProfile</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>0</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units xml:space="preserve"> </Units>
+    <Type>List&lt;double&gt;</Type>
+    <Description xml:space="preserve"> </Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>leafTillerNumberArray</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>0</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units xml:space="preserve"> </Units>
+    <Type>List&lt;double&gt;</Type>
+    <Description xml:space="preserve"> </Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>TTgroSheathList</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>3000</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>°Cd</Units>
+    <Type>List&lt;double&gt;</Type>
+    <Description>List of Thermal Time at end of the sheath growth</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <VarInfoVariables>
+    <Name>TT</Name>
+    <MinValue>0</MinValue>
+    <MaxValue>3000</MaxValue>
+    <DefaultValue>0</DefaultValue>
+    <Units>°Cd</Units>
+    <Type>List&lt;double&gt;</Type>
+    <Description>list of Thermal times since emergence of this leaf Layer</Description>
+    <URL>http://</URL>
+  </VarInfoVariables>
+  <Description>
+    <DomainClassNameSpace>SiriusQualityWheatLAI</DomainClassNameSpace>
+    <DomainTypeName>WheatLAIState</DomainTypeName>
+    <DomainTypeURL>http://</DomainTypeURL>
+    <DomainTypeDescription>Domain class description</DomainTypeDescription>
+  </Description>
+</WheatLAIState>

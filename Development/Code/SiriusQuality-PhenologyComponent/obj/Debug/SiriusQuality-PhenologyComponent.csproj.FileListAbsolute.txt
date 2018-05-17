@@ -1,0 +1,10 @@
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusQuality-PhenologyComponent\obj\Debug\SiriusQuality-PhenologyComponent.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusQuality-PhenologyComponent\obj\Debug\SiriusQuality-PhenologyComponent.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\DLLs\SiriusQuality-PhenologyComponent.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\DLLs\SiriusQuality-PhenologyComponent.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\SiriusQuality-PhenologyComponent\obj\Debug\SiriusQuality-PhenologyComponent.csprojResolveAssemblyReference.cache
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCodeDev1\Development\DLLs\SiriusQuality-PhenologyComponent.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCodeDev1\Development\DLLs\SiriusQuality-PhenologyComponent.pdb
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCodeDev1\Development\Code\SiriusQuality-PhenologyComponent\obj\Debug\SiriusQuality-PhenologyComponent.csprojResolveAssemblyReference.cache
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCodeDev1\Development\Code\SiriusQuality-PhenologyComponent\obj\Debug\SiriusQuality-PhenologyComponent.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCodeDev1\Development\Code\SiriusQuality-PhenologyComponent\obj\Debug\SiriusQuality-PhenologyComponent.pdb

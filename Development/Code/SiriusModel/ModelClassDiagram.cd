@@ -1,0 +1,888 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SiriusModel.Check" Collapsed="true">
+    <Position X="2" Y="17.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAIAQCAAAAAACAAQAAAAAAAEAAAACA=</HashCode>
+      <FileName>Check.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.Base.BaseBindingList&lt;TChildType&gt;" Collapsed="true">
+    <Position X="6.25" Y="13.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAQAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>InOut\Base\BaseBindingList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.Base.Child&lt;TChildKey&gt;" Collapsed="true">
+    <Position X="6" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InOut\Base\Child.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SiriusModel.InOut.Base.ChildKeyGeneratorSorted&lt;TChildType, TChildKey&gt;" Collapsed="true">
+    <Position X="13.75" Y="10.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAABAQAAAAAAAQAAAiACgoBAAAAAAAAAEAAAA=</HashCode>
+      <FileName>InOut\Base\ChildKeyGenerator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SiriusModel.InOut.Base.ChildParent1&lt;TChildKey, TParentChildType, TParentChildKey, TParentChildKeyGenerator&gt;" Collapsed="true">
+    <Position X="13" Y="7" Width="6" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InOut\Base\ChildParent.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SiriusModel.InOut.Base.ChildParent2&lt;TChildKey, TParentChildType1, TParentChildKey1, TParentChildKeyGenerator1, TParentChildType2, TParentChildKey2, TParentChildKeyGenerator2&gt;" Collapsed="true">
+    <Position X="18.25" Y="3.75" Width="10.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InOut\Base\ChildParent.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SiriusModel.InOut.Base.CloneHelper" Collapsed="true">
+    <Position X="3.5" Y="17.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>InOut\Base\CloneHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.Base.CollectionHelper" Collapsed="true">
+    <Position X="5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>InOut\Base\CollectionHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.Base.CommentsHelper" Collapsed="true">
+    <Position X="6.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InOut\Base\CommentsHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.Base.ProjectItemHelper" Collapsed="true">
+    <Position X="3.5" Y="19.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAgAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>InOut\Base\IProjectItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.Base.Parent1Child&lt;TChildType, TChildKey, TChildKeyGenerator&gt;" Collapsed="true">
+    <Position X="13" Y="1.75" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>EAAIAAAAAIAAAAAACCAQAAEAEAAAAAAAAAggEAAAABQ=</HashCode>
+      <FileName>InOut\Base\Parent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.Base.Parent2Child&lt;TChildType1, TChildKey1, TChildKeyGenerator1, TChildType2, TChildKey2, TChildKeyGenerator2&gt;" Collapsed="true">
+    <Position X="19.75" Y="1.75" Width="7.25" />
+    <TypeIdentifier>
+      <HashCode>kAIIAAAAAIAAAAAACGAAAAEAEAAAAAAAAAkgFwAAABQ=</HashCode>
+      <FileName>InOut\Base\Parent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.Base.Parent7Child&lt;TChildType1, TChildType2, TChildType3, TChildType4, TChildType5, TChildType6, TChildType7&gt;" Collapsed="true">
+    <Position X="15.5" Y="2.75" Width="7.25" />
+    <TypeIdentifier>
+      <HashCode>3wAAAAAAAIAAAAAAAAAAAAEAAAAAAAAA8Aug/wEAABQ=</HashCode>
+      <FileName>InOut\Base\Parent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.Base.ProjectDataFile&lt;TItemType&gt;" Collapsed="true">
+    <Position X="22" Y="7" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAIAAAAUAmKABAAAIAABAEAAAIAAAACEAAKAQAAA=</HashCode>
+      <FileName>InOut\Base\ProjectDataFile.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SiriusModel.InOut.Base.ProjectDataFileItemNoChild" Collapsed="true">
+    <Position X="7" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAgAIAAAAAAAIQAgAAAAAQAAAAEIgAAAAAAAIAAIAA=</HashCode>
+      <FileName>InOut\Base\ProjectDataFileItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SiriusModel.InOut.Base.ProjectDataFileItem1Child&lt;TChildType, TChildKey, TChildKeyGenerator&gt;" Collapsed="true">
+    <Position X="13.75" Y="8.25" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>CAAgAIAAAAAAAIQAgAAAAAQAAAAEIgAAAAAAAIAAIAA=</HashCode>
+      <FileName>InOut\Base\ProjectDataFileItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SiriusModel.InOut.Base.ProjectDataFileItem2Child&lt;TChildType1, TChildKey1, TChildKeyGenerator1, TChildType2, TChildKey2, TChildKeyGenerator2&gt;" Collapsed="true">
+    <Position X="19.75" Y="4.75" Width="7.25" />
+    <TypeIdentifier>
+      <HashCode>CAAgAIAAAAAAAIQAgQAAAAQAAAAEIgAAAAAAAIAAIAA=</HashCode>
+      <FileName>InOut\Base\ProjectDataFileItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SiriusModel.InOut.Base.ProjectDataFileItemKeyGenerator&lt;TItemType&gt;" Collapsed="true">
+    <Position X="8.75" Y="11.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAABAAAAAAAAAAAAAiACgABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InOut\Base\ProjectDataFileItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.Base.ProjectItem" Collapsed="true">
+    <Position X="15" Y="0.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAIAAAAAAAAEAgAAAIAAAAAAAAIAAAAA=</HashCode>
+      <FileName>InOut\Base\ProjectItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SiriusModel.InOut.FileContainer" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>RIFggLAIEENBAqhDiDANKAFkRQCAIAACADAirCFgY0E=</HashCode>
+      <FileName>InOut\FileContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.ManagementFile" Collapsed="true">
+    <Position X="25.25" Y="9.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>InOut\ManagementFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.Application&lt;TKeyApp&gt;" Collapsed="true">
+    <Position X="3.5" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAEABCAgAAAgIAEAAIAAAAA=</HashCode>
+      <FileName>InOut\ManagementItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.DateApplication" Collapsed="true">
+    <Position X="2" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAIAABAAAAAQAAAAA=</HashCode>
+      <FileName>InOut\ManagementItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.DateApplicationGenerator" Collapsed="true">
+    <Position X="14.75" Y="13" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAABAAAAAAAAAAAAAiACgABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InOut\ManagementItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.GrowthStageApplication" Collapsed="true">
+    <Position X="4" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAgIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InOut\ManagementItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.GrowthStageApplicationGenerator" Collapsed="true">
+    <Position X="15.5" Y="11.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAABAAAAAAAAAAAAAiACgABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InOut\ManagementItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.ManagementItem" Collapsed="true">
+    <Position X="22.5" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACCggAAAhIMAAIECBAAIAQFADAAAAoAAAgAAAgAAoAI=</HashCode>
+      <FileName>InOut\ManagementItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.OutputFile" Collapsed="true">
+    <Position X="3.5" Y="18.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAACAgAAAIAAAAAAAAAQAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>InOut\OutputFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.OutputFileExtractor" Collapsed="true">
+    <Position X="25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAIAAAAAAAAEIgAAAAAAQAQAAAAAABBAAQAAAAAQA=</HashCode>
+      <FileName>InOut\OutputFileExtractor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.OutputFileExtractorV13" Collapsed="true">
+    <Position X="23.5" Y="11.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABIAYAIAwABBAEAgAAAAACAIAAQAAACwBAiAAAAQAAA=</HashCode>
+      <FileName>InOut\OutputFileExtractorV13.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.OutputFileExtractorV15" Collapsed="true">
+    <Position X="25.75" Y="11.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AhkCJEAAACAABkAkIABBAAQAogAACAAAJiCACAgAkAQ=</HashCode>
+      <FileName>InOut\OutputFileExtractorV15.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.NonVarietyFile" Collapsed="true">
+    <Position X="19.25" Y="8.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>InOut\NonVarietyFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.ProjectFile" Collapsed="true">
+    <Position X="27.25" Y="1.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>YAAAgZAAAFAYgKIQAAAAAAEEQAAAgIAAQEEAQABAAAA=</HashCode>
+      <FileName>InOut\Optimization\ProjectFileWithOpt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.ProjectHelper" Collapsed="true">
+    <Position X="2" Y="19.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InOut\ProjectHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.RunException" Collapsed="true">
+    <Position X="10" Y="18.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InOut\RunException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.RunFile" Collapsed="true">
+    <Position X="22" Y="8.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>InOut\RunFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.RunItem" Collapsed="true">
+    <Position X="10" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAIEAIAUBUAAFAAEAAkICCoIwoCiAQAgkBAAACQ=</HashCode>
+      <FileName>InOut\RunItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SiriusModel.InOut.OutputPatternVarDef" Collapsed="true">
+    <Position X="5" Y="18.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAEABAACgAAAAAABAAAAAAAAAQAEAAAAAAAAAAAAgg=</HashCode>
+      <FileName>InOut\RunItemModeContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.RunCore" Collapsed="true">
+    <Position X="7" Y="19.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAI=</HashCode>
+      <FileName>InOut\RunItemModeContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.RunItemModeContainerNoChild" Collapsed="true">
+    <Position X="2.5" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAiCAAAIDAEQAgSgAAYAgAAgAAAAEAAAAEABA=</HashCode>
+      <FileName>InOut\RunItemModeContainer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SiriusModel.InOut.RunItemModeContainer1ChildKeyGenerator&lt;TChildType, TChildKey&gt;" Collapsed="true">
+    <Position X="9.75" Y="13" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAABAAAAAAAAAAAAAiACgABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InOut\RunItemModeContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.RunItemModeContainer1Child&lt;TChildType, TChildKey&gt;" Collapsed="true">
+    <Position X="7" Y="7" Width="5.75" />
+    <TypeIdentifier>
+      <HashCode>CAAAAgAAiKAAAIDAEQAgSgAAYAgAAgAAAAEAAAAEABA=</HashCode>
+      <FileName>InOut\RunItemModeContainer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SiriusModel.InOut.MultiRunItem" Collapsed="true">
+    <Position X="5.5" Y="4" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>EAAAQhAAAEAABIAAECAAAAEAIBAgACAAMgAggAIAAIA=</HashCode>
+      <FileName>InOut\RunItemModeMulti.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.RunItemModeMulti" Collapsed="true">
+    <Position X="6.75" Y="8.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>gAAiAIAAiAAAAASAEAAFAAAAAgAAAAAAAIEAAAAEAhA=</HashCode>
+      <FileName>InOut\RunItemModeMulti.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.RunItemModeNormal" Collapsed="true">
+    <Position X="2.5" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAAAQBAAiEAAAACAEAAAAAEAAAAgAAAAMgEAgAIEAJA=</HashCode>
+      <FileName>InOut\RunItemModeNormal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.SensitivityRunItem" Collapsed="true">
+    <Position X="9.25" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ggAAEAGAIJAQAsCAGEAAAAEAAABAoAAAKIICAJACAAA=</HashCode>
+      <FileName>InOut\RunItemModeSensitivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.RunItemModeSensitivity" Collapsed="true">
+    <Position X="10" Y="8.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAiBAAAACAoQABAIAIAgAAAAAAAIEAAAIEABA=</HashCode>
+      <FileName>InOut\RunItemModeSensitivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.RunOptionFile" Collapsed="true">
+    <Position X="23" Y="9.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>InOut\RunOptionFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.RunOptionItem" Collapsed="true">
+    <Position X="6" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAEAAAUAAAAEAgAAAAEAABAAAAA=</HashCode>
+      <FileName>InOut\RunOptionItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.SiteFile" Collapsed="true">
+    <Position X="24.25" Y="8.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>InOut\SiteFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.WeatherFile" Collapsed="true">
+    <Position X="2" Y="4" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAKABAIAAAAAAAAEABAAEIgAAAAAAAIAAAAA=</HashCode>
+      <FileName>InOut\SiteItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SiriusModel.InOut.WeatherFileGenerator" Collapsed="true">
+    <Position X="12.5" Y="11.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAABAAAAAAAAAAAAAiACgABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InOut\SiteItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.SiteItem" Collapsed="true">
+    <Position X="11.75" Y="9.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAYQAAAGgAAAIAAAAICAAACEgAAiBAAAAAAAAAAAA=</HashCode>
+      <FileName>InOut\SiteItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SiriusModel.InOut.SoilFile" Collapsed="true">
+    <Position X="26.5" Y="8.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>InOut\SoilFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.SoilItem" Collapsed="true">
+    <Position X="16" Y="9.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>CQABgAAAAIAAAAAAAEAAIAFAACABAgAEAAAAAAAAAQA=</HashCode>
+      <FileName>InOut\SoilItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SiriusModel.InOut.SoilLayerGenerator" Collapsed="true">
+    <Position X="19.5" Y="11.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAABAAAAAAAAAAAAAiACgABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InOut\SoilItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.SoilLayer" Collapsed="true">
+    <Position X="11.25" Y="4" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAoAAAAAQCAIAABAAAAAEAAAIEIAEhAAAAIIAAAQA=</HashCode>
+      <FileName>InOut\SoilLayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.VarietyFile" Collapsed="true">
+    <Position X="20.5" Y="9.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>InOut\VarietyFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.WarningItem" Collapsed="true">
+    <Position X="0.5" Y="4" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AEAEABAAAAAAAAAAAAQACAEAAAggAAAIIAAACAJAAAA=</HashCode>
+      <FileName>InOut\WarningItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.WarningList" Collapsed="true">
+    <Position X="6.25" Y="14.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAIAAAAAAAAABAAAAAAAAQAAAAABAAAA=</HashCode>
+      <FileName>InOut\WarningList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.Model.Base.Algo" Collapsed="true">
+    <Position X="0.5" Y="17.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAgAAAAAAQ=</HashCode>
+      <FileName>Model\Base\Algo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.Model.Base.Compartment" Collapsed="true">
+    <Position X="11.25" Y="15" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AQBAIAAAAAAgBCCABAAABAIAACEECAAEAAAyAAABAAA=</HashCode>
+      <FileName>Model\Base\Compartment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.Model.Base.Pool" Collapsed="true">
+    <Position X="0.5" Y="19.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AQAAAgABAAAAAQAgAAAAKAAAAAAAQABIAAACSBAAAAA=</HashCode>
+      <FileName>Model\Base\Pool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.Model.Base.Link.RunLink" Collapsed="true">
+    <Position X="2.75" Y="13.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAEAABAAAAAAAAAAI=</HashCode>
+      <FileName>Model\Base\Link\RunLink.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SiriusModel.Model.UniverseLink" Collapsed="true">
+    <Position X="11.25" Y="14" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>KiypEgMxQOcSovLUFn3IAQ4GtHIpi5IJoGgQEpNYdRM=</HashCode>
+      <FileName>Model\Base\Link\UniverseLink.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SiriusModel.Model.Management" Collapsed="true">
+    <Position X="1.25" Y="14.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAACAAA=</HashCode>
+      <FileName>Model\Management.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.Model.Run" Collapsed="true">
+    <Position X="5.5" Y="19.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>gGAAYAQgACAMAEAgAYAAAAkABBAJEAQRIJAACCTAgko=</HashCode>
+      <FileName>Model\Run.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.Model.Universe" Collapsed="true">
+    <Position X="2.75" Y="14.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAgAAAAAAAABQAAACAEAAAEAAACAAACAAA=</HashCode>
+      <FileName>Model\Universe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.Model.Weather" Collapsed="true">
+    <Position X="4.25" Y="14.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AGCAAAAAADAACAAAAAAACIABAIEAgAAAAAAWACBCABA=</HashCode>
+      <FileName>Model\Weather.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.Model.CropModel.Crop" Collapsed="true">
+    <Position X="8" Y="16.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>gYcACAVFSSAAAAAAgAAgGwCAIAgmSUwAAIACAQECXCg=</HashCode>
+      <FileName>Model\CropModel\Crop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.Model.CropModel.Grain" Collapsed="true">
+    <Position X="11" Y="16.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>gQYACEwBAgAoAABAAGAATgCAKgQSWACAAAlCABDBwCQ=</HashCode>
+      <FileName>Model\CropModel\Grain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.Model.CropModel.PhasesAndMomentsHelper" Collapsed="true">
+    <Position X="7" Y="18.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAEAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Model\CropModel\PhasesAndMoments.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.Model.CropModel.Root" Collapsed="true">
+    <Position X="15.5" Y="16.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAABEAAAAAAAAAAAAABAgAAAAEAAAAACAAAIAAA=</HashCode>
+      <FileName>Model\CropModel\Root.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.Model.CropModel.SenescencePool" Collapsed="true">
+    <Position X="18.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAAoCAAAAAAAAAAAADAAABAAAACEAACAAAAABA=</HashCode>
+      <FileName>Model\CropModel\SenescencePool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.Model.CropModel.Shoot" Collapsed="true">
+    <Position X="0.5" Y="16.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>gQAQAgQBACACAAAAAAAACgAAIQAAQAAAABACABBAQiA=</HashCode>
+      <FileName>Model\CropModel\Shoot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.Model.CropModel.Stem" Collapsed="true">
+    <Position X="3.5" Y="16.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>EQAAIoABAAAACAAAAAIAQIAAAAAMAAAAAAACEJBQEAA=</HashCode>
+      <FileName>Model\CropModel\Stem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.Model.CropModel.Phytomers.EarPeduncle" Collapsed="true">
+    <Position X="13.25" Y="17.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAACAAAAABA=</HashCode>
+      <FileName>Model\CropModel\Phytomers\EarPeduncle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.Model.CropModel.Phytomers.ExposedSheath" Collapsed="true">
+    <Position X="17" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Model\CropModel\Phytomers\ExposedSheath.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.Model.CropModel.Phytomers.InterNode" Collapsed="true">
+    <Position X="16.25" Y="17.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAABAAAAAAAAAAAAAABAABgAAAAAAAACAIAAAAA=</HashCode>
+      <FileName>Model\CropModel\Phytomers\InterNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.Model.CropModel.Phytomers.LeafLaminae" Collapsed="true">
+    <Position X="18.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAACAAAAACAAAAA=</HashCode>
+      <FileName>Model\CropModel\Phytomers\LeafLaminae.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.Model.CropModel.Phytomers.LeafLayer" Collapsed="true">
+    <Position X="14.75" Y="17.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>kQAAskTFAGCkAgAAQEMKCwwCJAAsxISQEEQCToAARLw=</HashCode>
+      <FileName>Model\CropModel\Phytomers\LeafLayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.Model.CropModel.Phytomers.LeafLayerCompartment" Collapsed="true">
+    <Position X="17.75" Y="17.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAKkABACgAAgAAAAIAAAAAAAAMAAAAEAACAbAAAAE=</HashCode>
+      <FileName>Model\CropModel\Phytomers\LeafLayerCompartment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.Model.CropModel.Phytomers.Phytomer" Collapsed="true">
+    <Position X="14" Y="16.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAgAAIAAAAAgAAAAAIAAAAAAAAAAAAAAAAEAAAAAAJA=</HashCode>
+      <FileName>Model\CropModel\Phytomers\Phytomer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.Model.CropModel.Phytomers.PhytomerElement" Collapsed="true">
+    <Position X="17" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAEAAAABEAAAAAAIA=</HashCode>
+      <FileName>Model\CropModel\Phytomers\PhytomerElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.Model.CropModel.Phytomers.Phytomers" Collapsed="true">
+    <Position X="20.5" Y="16.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>gyAAJqQdDSGzQoIQQMGEikHgaiMsYBwQkqjKRIUIUHg=</HashCode>
+      <FileName>Model\CropModel\Phytomers\Phytomers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.Model.Observation.Calendar" Collapsed="true">
+    <Position X="2" Y="16.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAACAABACACAAAAAAAAAAABAAAQAACAAAAAAE=</HashCode>
+      <FileName>Model\Observation\Calendar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.Model.Observation.Sensor" Collapsed="true">
+    <Position X="5" Y="16.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>A0AAAgAAQCQAAAIACAAAAAAgCAAAAAQACAACAAAAgAQ=</HashCode>
+      <FileName>Model\Observation\Sensor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.Model.Observation.StressFactor" Collapsed="true">
+    <Position X="6.5" Y="16.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AQwAAAAAAAACAAAAAIAAACAAAACAAAAAAACCAACAABA=</HashCode>
+      <FileName>Model\Observation\StressFactor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.Model.SoilModel.DeepLayer" Collapsed="true">
+    <Position X="9.5" Y="16.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAACAAAAAiAAAAAgAAAAAAEAAAACAAAEQAA=</HashCode>
+      <FileName>Model\SoilModel\DeepLayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.Model.SoilModel.Layer" Collapsed="true">
+    <Position X="2" Y="18.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAACgAAAAAQBAAAAAAAAAAKAAAADAAAEAQEAJAAAAyA=</HashCode>
+      <FileName>Model\SoilModel\Layer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.Model.SoilModel.Soil" Collapsed="true">
+    <Position X="12.5" Y="16.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>HwRCEQKBDHBBAYBBAVBAh9qgFYRDCQIk0qQCmkg7BAY=</HashCode>
+      <FileName>Model\SoilModel\Soil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.Structure.Vector&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.5" Y="19.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACAAABAACAgAAAQAAAAAAAAEAAAAAABAABA=</HashCode>
+      <FileName>Structure\Vector.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Bottom" Position="1.05" Collapsed="true" />
+  </Class>
+  <Class Name="SiriusModel.Structure.VectorEnumerator&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.25" Y="18.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAABAAAAACAAAAAAAAAQAAAoAAAAAABAAA=</HashCode>
+      <FileName>Structure\VectorEnumerator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SiriusModel.Structure.VectorSegment&lt;T, ST&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.5" Y="17.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAgCAAAAAQAAAAgQAAEIEAAAABQAAA=</HashCode>
+      <FileName>Structure\VectorSegment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SiriusModel.Structure.VectorSegmentEnumerator&lt;T, ST&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.5" Y="17.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAACAABAAAAACAAAAAAAAAAAAAoAAAAAABAAA=</HashCode>
+      <FileName>Structure\VectorSegmentEnumerator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SiriusModel.Structure.VectorSelection&lt;T, ST&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.5" Y="18.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACAAABAACAAABAQAAAAAQAAEAEAAAABRAAA=</HashCode>
+      <FileName>Structure\VectorSelection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SiriusModel.Structure.VectorSelectionEnumerator&lt;T, ST&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.75" Y="18.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQCAABAAAAACAAAAAAAAAAAAAoAAAAAABAAA=</HashCode>
+      <FileName>Structure\VectorSelectionEnumerator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SiriusModel.InOut.CropParameterItem" Collapsed="true">
+    <Position X="8" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAIAABECAAQAAgAEAAAAAQAAAAE=</HashCode>
+      <FileName>InOut\CropParameterItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.Base.FileHelper" Collapsed="true">
+    <Position X="0.5" Y="18.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAgAAAAAAAAAAAAAAAAIAAAAAAAAiAAAA=</HashCode>
+      <FileName>InOut\Base\FileHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.Base.SerializableDictionary&lt;TKey, TVal&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="11.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAACAAAAABAQIAAAACEAAACABAAAAAAIAEAAAAA=</HashCode>
+      <FileName>InOut\Base\SerializableDictionary.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SiriusModel.InOut.Base.Serialization" Collapsed="true">
+    <Position X="24.5" Y="17.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAIAAQAAAAAAA=</HashCode>
+      <FileName>InOut\Base\Serialization.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.OutputWriter.Book" Collapsed="true">
+    <Position X="23.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>InOut\OutputWriter\Book.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.OutputWriter.LineData" Collapsed="true">
+    <Position X="25.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAgAAAgAAAAAAAQAAAAAAQAAAAAAAAAAAAAAAQQ=</HashCode>
+      <FileName>InOut\OutputWriter\LineData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.OutputWriter.PageData" Collapsed="true">
+    <Position X="27" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAACAAAAAAAQAQAAAAAAAACAAFAAAA=</HashCode>
+      <FileName>InOut\OutputWriter\PageData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.OutputWriter.RawData" Collapsed="true">
+    <Position X="25.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InOut\OutputWriter\RawData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusModel.InOut.OutputWriter.RawData&lt;T&gt;" Collapsed="true">
+    <Position X="25.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAABAADAQAAAQAAAAIABAEAAAQAABAAAA=</HashCode>
+      <FileName>InOut\OutputWriter\RawData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="SiriusModel.InOut.Base.IChild" Collapsed="true">
+    <Position X="4" Y="7.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InOut\Base\Child.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SiriusModel.InOut.Base.IChild&lt;TChildKey&gt;" Collapsed="true">
+    <Position X="3.75" Y="8.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InOut\Base\Child.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SiriusModel.InOut.Base.IChildKeyGenerator&lt;TChildType, TChildKey&gt;" Collapsed="true">
+    <Position X="10.25" Y="10.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAABAQAAAAAAAQAAAiACgoBAAAAAAAAAEAAAA=</HashCode>
+      <FileName>InOut\Base\ChildKeyGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SiriusModel.InOut.Base.IProjectDataFile" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgCABAAAAAABAEAAAAAAAAAEAACAQAAA=</HashCode>
+      <FileName>InOut\Base\IProjectDataFile.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SiriusModel.InOut.Base.IProjectItem" Collapsed="true">
+    <Position X="2.5" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAIAAAAAAAAEAAAAAIAAAAAAAAIAAAAA=</HashCode>
+      <FileName>InOut\Base\IProjectItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SiriusModel.InOut.Base.IWithPath" Collapsed="true">
+    <Position X="2.5" Y="7.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>InOut\Base\IWithPath.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SiriusModel.InOut.Base.IProjectDataFileItem" Collapsed="true">
+    <Position X="3.5" Y="9.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAQAAAAAAgAAAAAAAAAAIAA=</HashCode>
+      <FileName>InOut\Base\ProjectDataFileItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SiriusModel.InOut.IRunItemModeContainer" Collapsed="true">
+    <Position X="1.25" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAiAAAAADAEQAgAAAAQAgAAAAAAAEAAAAEABA=</HashCode>
+      <FileName>InOut\RunItemModeContainer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="SiriusModel.InOut.OutputVersion" Collapsed="true">
+    <Position X="22.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>InOut\OutputFile.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SiriusModel.InOut.SensitivityMode" Collapsed="true">
+    <Position X="24.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InOut\RunItemModeSensitivity.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SiriusModel.InOut.WeatherFileFormat" Collapsed="true">
+    <Position X="26" Y="16.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InOut\SiteItem.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SiriusModel.Model.CropModel.Phase" Collapsed="true">
+    <Position X="22.75" Y="16.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAEEABAAAAAAAAAAAAAQAAAAAAAAQAAgQ=</HashCode>
+      <FileName>Model\CropModel\PhasesAndMoments.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SiriusModel.Model.CropModel.GrowthStage" Collapsed="true">
+    <Position X="25.75" Y="16" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>IQEBgAAAAAABQAAAAAAAAABCAAIiAAAAAQAAAQAYEBA=</HashCode>
+      <FileName>Model\CropModel\PhasesAndMoments.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SiriusModel.Model.CropModel.Phytomers.LeafState" Collapsed="true">
+    <Position X="27.25" Y="16" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAACAAAAAAAAAAAAAAAAAAAAAACAAIAAA=</HashCode>
+      <FileName>Model\CropModel\Phytomers\LeafState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SiriusModel.Model.Observation.Cumul" Collapsed="true">
+    <Position X="22.75" Y="16" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAQAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Observation\Sensor.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SiriusModel.Model.Observation.Delta" Collapsed="true">
+    <Position X="24.25" Y="16" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAQAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Observation\Sensor.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,103 @@
+<?xml version="1.0" standalone="yes"?>
+<StrategyDefinition>
+  <Global>
+    <CompositeStrategy />
+    <DataInterfacesDLL>C:\Users\mouginot\Desktop\sirius\branches\MouginotJuly\Code\SiriusQuality-EnergyBalanceComponent\bin\Debug\SiriusQuality-EnergyBalanceComponent.dll</DataInterfacesDLL>
+    <IStrategyComponentName>IStrategySiriusQualityEnergyBalance</IStrategyComponentName>
+  </Global>
+  <General>
+    <Domain>EnergyBalance</Domain>
+    <NameSpace>SiriusQualityEnergyBalance</NameSpace>
+    <StrategyName>CalculatePenman</StrategyName>
+    <TimeSteps />
+    <AuthorFirstRelease>pierre martre</AuthorFirstRelease>
+    <Institution>Inra</Institution>
+    <Email>pierre.martre@supagro.inra.fr</Email>
+  </General>
+  <Inputs>
+    <Variable>evapoTranspirationPriestlyTaylor</Variable>
+    <DomainClass>energybalancestate - SiriusQualityEnergyBalance.EnergyBalanceState</DomainClass>
+  </Inputs>
+  <Inputs>
+    <Variable>hslope</Variable>
+    <DomainClass>energybalancestate - SiriusQualityEnergyBalance.EnergyBalanceState</DomainClass>
+  </Inputs>
+  <Inputs>
+    <Variable>VPDair</Variable>
+    <DomainClass>energybalancestate - SiriusQualityEnergyBalance.EnergyBalanceState</DomainClass>
+  </Inputs>
+  <Inputs>
+    <Variable>conductance</Variable>
+    <DomainClass>energybalancestate - SiriusQualityEnergyBalance.EnergyBalanceState</DomainClass>
+  </Inputs>
+  <Outputs>
+    <Variable>evapoTranspirationPenman</Variable>
+    <DomainClass>energybalancestate - SiriusQualityEnergyBalance.EnergyBalanceState</DomainClass>
+  </Outputs>
+  <Parameters>
+    <VarName>psychrometricConstant</VarName>
+    <Description>psychrometric constant</Description>
+    <MaxValue>1</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue>0.66</DefaultValue>
+    <Units>?</Units>
+    <ValueType>Double</ValueType>
+  </Parameters>
+  <Parameters>
+    <VarName>rhoDensityAir</VarName>
+    <Description>Density of air</Description>
+    <MaxValue>10</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue>1.225</DefaultValue>
+    <Units>?</Units>
+    <ValueType>Double</ValueType>
+  </Parameters>
+  <Parameters>
+    <VarName>specificHeatCapacityAir</VarName>
+    <Description>Specific heat capacity of dry air</Description>
+    <MaxValue>1</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue>0.00101</DefaultValue>
+    <Units>?</Units>
+    <ValueType>Double</ValueType>
+  </Parameters>
+  <Parameters>
+    <VarName>lambda</VarName>
+    <Description>latent heat of vaporization of water</Description>
+    <MaxValue>10</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue>2.454</DefaultValue>
+    <Units>?</Units>
+    <ValueType>Double</ValueType>
+  </Parameters>
+  <Parameters>
+    <VarName>Alpha</VarName>
+    <Description>Priestley-Taylor evapotranspiration proportionality constant</Description>
+    <MaxValue>10</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue>1</DefaultValue>
+    <Units>dimensionless</Units>
+    <ValueType>Double</ValueType>
+  </Parameters>
+  <LoadedAssemblies>
+    <Name>SiriusQuality-EnergyBalanceComponent, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>CRA.ModelLayer, Version=1.0.5212.29139, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>CRA.AgroManagement2014, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
+  </LoadedAssemblies>
+  <LoadedAssemblies>
+    <Name>System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
+  </LoadedAssemblies>
+</StrategyDefinition>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<SoilFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemsArray>
+    <SoilItem name="Clermont-C1-1994">
+      <Comments />
+      <Kq>0.39</Kq>
+      <Ko>3.71E-05</Ko>
+      <No>1078.9</No>
+      <MinNir>0.15</MinNir>
+      <Ndp>0.05</Ndp>
+      <LayersArray>
+        <SoilLayer>
+          <SSAT>57</SSAT>
+          <SDUL>40</SDUL>
+          <SLL>29</SLL>
+          <Depth>1.2</Depth>
+        </SoilLayer>
+      </LayersArray>
+    </SoilItem>
+  </ItemsArray>
+</SoilFile>

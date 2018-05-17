@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SiriusView.AboutSiriusQuality" Collapsed="true">
+    <Position X="12.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EBAAAAAAACAAABBAAACAAAACAAAAAAAAAAAAAAFAACA=</HashCode>
+      <FileName>AboutSiriusQuality.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.ControlHelper" Collapsed="true">
+    <Position X="14.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIQAAgACIAACAAAEAAAIAAEgAAIAAAAAgBQAAA=</HashCode>
+      <FileName>Base\ControlHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.BaseBindingSource" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAABAAAAAAAQAAAEAAAAAAAAA=</HashCode>
+      <FileName>BindingSource\BaseBindingSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.FileContainerBindingSource" Collapsed="true">
+    <Position X="11.25" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BindingSource\FileContainerBindingSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.ManagementItemsBindingSource" Collapsed="true">
+    <Position X="1.75" Y="3" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BindingSource\ManagementItemsBindingSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.ProjectDataFileBindingSource" Collapsed="true">
+    <Position X="7.25" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BindingSource\ProjectDataFileBindingSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.ProjectFileBindingSource" Collapsed="true">
+    <Position X="0.75" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BindingSource\ProjectFileBindingSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.RunItemsBindingSource" Collapsed="true">
+    <Position X="6.25" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BindingSource\RunItemsBindingSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.RunOptionItemsBindingSource" Collapsed="true">
+    <Position X="8.5" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BindingSource\RunOptionItemsBindingSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.SiteItemsBindingSource" Collapsed="true">
+    <Position X="13.75" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BindingSource\SiteItemsBindingSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.SoilItemsBindingSource" Collapsed="true">
+    <Position X="5" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BindingSource\SoilItemsBindingSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.VarietyItemsBindingSource" Collapsed="true">
+    <Position X="10" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BindingSource\VarietyItemsBindingSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.WarningItemBindingSource" Collapsed="true">
+    <Position X="12.5" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BindingSource\WarningItemBindingSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.ErrorDialog" Collapsed="true">
+    <Position X="14.75" Y="6.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQACAAAAAIAIKAAAACAKAAAAAAEQAAAAgAACA=</HashCode>
+      <FileName>ErrorDialog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.FolderRunDialog" Collapsed="true">
+    <Position X="2.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RAQBAFAVAOAAADBQDwWBgCADoMA5AAQAgOABAKOhAGE=</HashCode>
+      <FileName>FolderRunDialog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.MainForm" Collapsed="true">
+    <Position X="4" Y="9.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>FQQABI0ghCgYJTCjgAiGwChDAoDMAwnCBBAAAAgA2hE=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.OutputPatternForm" Collapsed="true">
+    <Position X="5.5" Y="9.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAUBBAAIACAAAAAIAAKABACSuICBAGAIEQGAABAhAAQ=</HashCode>
+      <FileName>OutputPatternForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.Program" Collapsed="true">
+    <Position X="10.5" Y="9.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.RenameItem" Collapsed="true">
+    <Position X="14.75" Y="7.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABDAAABAAAASABAAWEIAAAAAIEAAAAAEAAAA=</HashCode>
+      <FileName>RenameItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.txt2XML" Collapsed="true">
+    <Position X="13.25" Y="7.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>CKgJAAAQCCAAAABagQSISAACIAIgCAAAkiAwAYABBKA=</HashCode>
+      <FileName>txt2XML.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.WarningForm" Collapsed="true">
+    <Position X="1.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQIAAAGEAAACAAACAAAACAAoAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>WarningForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.WorkerControl" Collapsed="true">
+    <Position X="14.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADAEgBAAUCAUAgAAAAKBAAQCAEBAAAAEEYSABAAAAQo=</HashCode>
+      <FileName>WorkerControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.Base.BaseCentralDockedForm" Collapsed="true">
+    <Position X="4" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Base\BaseCentralDockedForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.Base.BaseForm" Collapsed="true">
+    <Position X="4.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAQAAAACAAAACAAECAAAgCAQEACBAAACAAACAAIAA=</HashCode>
+      <FileName>Base\BaseForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.Base.BaseFormSetting" Collapsed="true">
+    <Position X="14.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAABAAAAAAAAAAAAEAAAAAIAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Base\BaseFormSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.Controls.BookControl" Collapsed="true">
+    <Position X="12.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAABAAACAQAACAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Book\BookControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.Controls.PageControl" Collapsed="true">
+    <Position X="7.5" Y="9.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAQCAQAAIAEACAAAACAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Book\PageControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.File.FileContainerForm" Collapsed="true">
+    <Position X="3.5" Y="6.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BADAQAFgUCYIABDKsBSA6QgDgJDXTwgCMAAYfAABACI=</HashCode>
+      <FileName>File\FileContainerForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.File.ManagementForm" Collapsed="true">
+    <Position X="5.5" Y="8" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACFIABFQC3BKmHKBAAjESgICAtgjQUAAkkEoACgERBQ=</HashCode>
+      <FileName>File\ManagementForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.File.ProjectDataFileForm" Collapsed="true">
+    <Position X="5.5" Y="6.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BACQAIAAACQAAADAAMDYwAgCAAAFAgAAIBAAAAIAACA=</HashCode>
+      <FileName>File\ProjectDataFileForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.File.ProjectDataFileFormFactory" Collapsed="true">
+    <Position X="10.25" Y="5.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAIAAAACAAAAAAAAABAAAAAAAAAAACQIAI=</HashCode>
+      <FileName>File\ProjectDataFileFormFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.File.RunForm" Collapsed="true">
+    <Position X="0.75" Y="8" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>/yEsAKUSDjzIpv+REP/PR09CoplfYwRRlWKABIsEQDU=</HashCode>
+      <FileName>File\RunForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.File.RunOptionForm" Collapsed="true">
+    <Position X="2.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAFABBEQCCCAgFIAABiAAgICAKAAAQAAEgAABAAAAAA=</HashCode>
+      <FileName>File\RunOptionForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.File.SiteForm" Collapsed="true">
+    <Position X="4" Y="8" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAEAQAkYCCAAgFIEgCiAAgoCAYABAwgAkgAACSIEAAA=</HashCode>
+      <FileName>File\SiteForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.File.SoilForm" Collapsed="true">
+    <Position X="7.5" Y="8" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAUAAEEQCDEIwFKAAAyABgoCAIAhAQAQ0QABAAQkACU=</HashCode>
+      <FileName>File\SoilForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.File.VarietyForm" Collapsed="true">
+    <Position X="10.75" Y="8" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>QGEgCAEACCAEgFKAAAyAAgMKBYgIAQAAkAAEAQBEgAA=</HashCode>
+      <FileName>File\VarietyForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.Properties.Resources" Collapsed="true">
+    <Position X="0.75" Y="10.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAABEAAAAQAAAAAAAAABAEAAAYA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.Properties.Settings" Collapsed="true">
+    <Position X="3.75" Y="10.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQBAAAAAAAAAIAACAAABAIAAAABAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.LockerTrialVersion.FileReadWrite" Collapsed="true">
+    <Position X="0.75" Y="9.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAEAAAAAAAAAAAAAAAACAAAIAA=</HashCode>
+      <FileName>Trial version\FileReadWrite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.LockerTrialVersion.Cryptage" Collapsed="true">
+    <Position X="13.25" Y="6.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAQACAAAAQAAAAAAAAAAIAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Trial version\FileReadWrite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.LockerTrialVersion.PassTextBox" Collapsed="true">
+    <Position X="9" Y="9.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAIAAAAAAIAAIAAAAAAAAkAgAAAAAQACAAABAA=</HashCode>
+      <FileName>Trial version\PassTextBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.LockerTrialVersion.SerialBox" Collapsed="true">
+    <Position X="2.25" Y="10.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAgIACAAAABoAQCAAAACRAjwAQAAAAAYCAAEAAA=</HashCode>
+      <FileName>Trial version\SerialBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.LockerTrialVersion.SystemInfo" Collapsed="true">
+    <Position X="5.75" Y="10.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>EACAAAEAAAAAAAAAAAAAIAAAQgAAwCAAAACQAAEAAAA=</HashCode>
+      <FileName>Trial version\SystemInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.LockerTrialVersion.TrialMaker" Collapsed="true">
+    <Position X="13" Y="9.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>EACwiAFgQABAAEAAAAECAAFBYwAAoCAEAACQBgIAQAA=</HashCode>
+      <FileName>Trial version\TrialMaker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.LockerTrialVersion.TrialVersionForm" Collapsed="true">
+    <Position X="13" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAIAAACBICAAAABECACAAIACAACQGEgAAAAAACAAAIA=</HashCode>
+      <FileName>Trial version\TrialVersionForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.NonVarietyItemsBindingSource" Collapsed="true">
+    <Position X="3.25" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BindingSource\NonVarietyItemsBindingSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.File.NonVarietyForm" Collapsed="true">
+    <Position X="9" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEEgCAEQCCAEgEKAAAyAAgIKhYgAAQACMCAEAABEgAA=</HashCode>
+      <FileName>File\NonVarietyForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.CropParameterSetting" Collapsed="true">
+    <Position X="8.75" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAIAACABAAABAACAAgECAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>CropParameterSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.ParameterSelector" Collapsed="true">
+    <Position X="8.25" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AoAAgQAQACARAAAAAACAAAACAAAAABBEgIAAAwSAADA=</HashCode>
+      <FileName>ParameterSelector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SiriusView.Parameters" Collapsed="true">
+    <Position X="10.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAQgAIAAI=</HashCode>
+      <FileName>ParameterSelector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="SiriusView.RunMode" Collapsed="true">
+    <Position X="14.75" Y="8.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAEAAAAAIIAgABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WorkerControl.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
