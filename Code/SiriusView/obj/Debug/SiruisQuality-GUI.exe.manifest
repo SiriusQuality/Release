@@ -211,14 +211,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SiriusQuality-Model.dll" size="742912">
-      <assemblyIdentity name="SiriusQuality-Model" version="2.0.6711.20840" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SiriusQuality-Model.dll" size="741888">
+      <assemblyIdentity name="SiriusQuality-Model" version="3.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>DtiS4Ps3OKqojiEH+EAH90MVw+20sSzeYli0hvOh6FA=</dsig:DigestValue>
+        <dsig:DigestValue>8J2gFDOMJNtMUIoXb2oKhEVNucd7B2Qgthoi7WLHfOo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -230,7 +230,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>p6w6Vt9ckl9OXtfP39Azin8/wMH/RvJjW0iqzYNnU1o=</dsig:DigestValue>
+        <dsig:DigestValue>//Lb6rkYymPd6YZzVimF3+Iu7zXY8yM/sIOFvbSmbYE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -266,7 +266,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>8R2gH8xV5RXtZB27pU6bTtSoDNTafeo3aTcXkGHiLn4=</dsig:DigestValue>
+        <dsig:DigestValue>mAsD9Rsa3yGOeJSTVgMWEZa6dwV5e+kz5y2XbZNxIYU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

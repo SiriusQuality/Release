@@ -7,14 +7,14 @@
     <framework targetVersion="4.5" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="SiruisQuality-GUI.exe.manifest" size="18540">
+    <dependentAssembly dependencyType="install" codebase="SiruisQuality-GUI.exe.manifest" size="18533">
       <assemblyIdentity name="SiruisQuality-GUI.exe" version="1.0.0.2" publicKeyToken="0000000000000000" language="fr" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>sA+51OPnFAW1xECCfroM0fCjTj0gmiHvTzqIEqQg1TE=</dsig:DigestValue>
+        <dsig:DigestValue>BsbqyKiP41hDO/Rrn+rOc/FS7DtXnLR9bognwF+vKHI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
