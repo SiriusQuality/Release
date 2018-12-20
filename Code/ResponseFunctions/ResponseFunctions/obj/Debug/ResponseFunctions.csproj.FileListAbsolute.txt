@@ -2,3 +2,8 @@ C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\ResponseFun
 C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.pdb
 C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.dll
 C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.pdb
+C:\Users\mancealo\Documents\GitSiriusCode\Release\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.dll
+C:\Users\mancealo\Documents\GitSiriusCode\Release\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.pdb
+C:\Users\mancealo\Documents\GitSiriusCode\Release\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csprojResolveAssemblyReference.cache
+C:\Users\mancealo\Documents\GitSiriusCode\Release\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.dll
+C:\Users\mancealo\Documents\GitSiriusCode\Release\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.pdb

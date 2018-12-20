@@ -8,3 +8,8 @@ C:\Users\mancealo\Documents\GitSiriusCode\SiriusCodeDev1\Development\DLLs\Sirius
 C:\Users\mancealo\Documents\GitSiriusCode\SiriusCodeDev1\Development\Code\SiriusQuality-PhenologyComponent\obj\Debug\SiriusQuality-PhenologyComponent.csprojResolveAssemblyReference.cache
 C:\Users\mancealo\Documents\GitSiriusCode\SiriusCodeDev1\Development\Code\SiriusQuality-PhenologyComponent\obj\Debug\SiriusQuality-PhenologyComponent.dll
 C:\Users\mancealo\Documents\GitSiriusCode\SiriusCodeDev1\Development\Code\SiriusQuality-PhenologyComponent\obj\Debug\SiriusQuality-PhenologyComponent.pdb
+C:\Users\mancealo\Documents\GitSiriusCode\Release\DLLs\SiriusQuality-PhenologyComponent.dll
+C:\Users\mancealo\Documents\GitSiriusCode\Release\DLLs\SiriusQuality-PhenologyComponent.pdb
+C:\Users\mancealo\Documents\GitSiriusCode\Release\Code\SiriusQuality-PhenologyComponent\obj\Debug\SiriusQuality-PhenologyComponent.csprojResolveAssemblyReference.cache
+C:\Users\mancealo\Documents\GitSiriusCode\Release\Code\SiriusQuality-PhenologyComponent\obj\Debug\SiriusQuality-PhenologyComponent.dll
+C:\Users\mancealo\Documents\GitSiriusCode\Release\Code\SiriusQuality-PhenologyComponent\obj\Debug\SiriusQuality-PhenologyComponent.pdb
