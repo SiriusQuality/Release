@@ -46,22 +46,23 @@ namespace Sirius.Model.Weather
       this.buffer = lineBuffer;
     }
 
-    public void Read(IEnumerable<string> files)
-    {
-      try
-      {
-        foreach (string path in files)
+
+        public void Read(IEnumerable<string> files)
         {
-          this.currentFile = path;
-          this.ReadFile(path);
-          this.currentFile = (string) null;
+            try
+            {
+                foreach (string path in files)
+                {
+                    this.currentFile = path;
+                    this.ReadFile(path);
+                    this.currentFile = (string)null;
+                }
+            }
+            catch (Exception ex)
+            {
+                this.onException(this, ex);
+            }
         }
-      }
-      catch (Exception ex)
-      {
-        this.onException(this, ex);
-      }
-    }
 
     private void ReadFile(string path)
     {

@@ -1,0 +1,5 @@
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Release\ResponseFunctions.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Release\ResponseFunctions.pdb
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Release\ResponseFunctions.csproj.CoreCompileInputs.cache
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Release\ResponseFunctions.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Release\ResponseFunctions.pdb

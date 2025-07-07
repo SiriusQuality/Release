@@ -1,0 +1,6 @@
+PythonTranslatorExcelAgMIP.exe -i "C:\Users\vargas\Documents\PhD\development\translator-excel-agmip\test_data\input\pierre_july_2021\Breedwheat Biotech panel trials for model calibration (T1.3)_2021-07-15.xlsx" -o "Breedwheat Biotech panel trials for model calibration (T1.3)_2021-07-15.json"
+
+
+PythonTranslatorExcelAgMIP.exe -i "C:\Users\vargas\Documents\PhD\development\translator-excel-agmip\test_data\input\pierre_july_2021\SolACE_data_template_v3.2_(with sample data)_2021-07-15.xlsx" -o "SolACE_data_template_v3.2_(with sample data)_2021-07-15.json"
+
+

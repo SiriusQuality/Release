@@ -192,7 +192,7 @@ namespace Ami.Framework.Tool
             throw new ArgumentException("Start index must be <= stop index.", "start");
         }
         if (start == stop) return 0.0;
-        if (stop >= Math.Min(values1.Length, values2.Length)) 
+        if (stop > Math.Min(values1.Length, values2.Length)) 
         { 
             throw new ArgumentException("You try to reach values past the end of the meteo file");
         }

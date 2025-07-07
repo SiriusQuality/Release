@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="API\" />
+    <Folder Include="DomainClass\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CRA.AgroManagement2014">
+      <HintPath>..\..\DLLs\CRA.AgroManagement2014.dll</HintPath>
+    </Reference>
+    <Reference Include="CRA.AgroManagement2014.Impacts">
+      <HintPath>..\..\DLLs\CRA.AgroManagement2014.Impacts.dll</HintPath>
+    </Reference>
+    <Reference Include="CRA.AgroManagement2014.Rules">
+      <HintPath>..\..\DLLs\CRA.AgroManagement2014.Rules.dll</HintPath>
+    </Reference>
+    <Reference Include="CRA.Core.Preconditions">
+      <HintPath>..\..\DLLs\CRA.Core.Preconditions.dll</HintPath>
+    </Reference>
+    <Reference Include="CRA.ModelLayer">
+      <HintPath>..\..\DLLs\CRA.ModelLayer.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

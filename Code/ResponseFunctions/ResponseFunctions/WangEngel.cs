@@ -7,6 +7,7 @@ using System.Xml;
 
 namespace ResponseFunctions
 {
+
     public class WangEngel
     {
 
@@ -39,7 +40,7 @@ namespace ResponseFunctions
         /// <param name="independentVariable">Independent variable - input</param>
         /// <returns></returns>
         public double Calculate(double minimumValue, double optimumValue, double maximumValue, double shapeParameter,
-            double independentVariable)
+                   double independentVariable, bool SwitchMaize, double TrefMaize)
         {
             double output = new double();
 
@@ -51,9 +52,27 @@ namespace ResponseFunctions
             {
 
                 double alpha = Math.Log(2) / Math.Log((maximumValue - minimumValue) / (optimumValue - minimumValue));
+                output = Math.Pow((2 * Math.Pow(independentVariable - minimumValue, alpha) * Math.Pow(optimumValue - minimumValue, alpha) - Math.Pow(independentVariable - minimumValue, (2 * alpha)))
+                    / Math.Pow(optimumValue - minimumValue, (2 * alpha)), shapeParameter);
 
-                output = (2 * Math.Pow(independentVariable - minimumValue, alpha) * Math.Pow(optimumValue - minimumValue, alpha) - Math.Pow(independentVariable - minimumValue, (2 * alpha)))
-                    / Math.Pow(optimumValue - minimumValue, (2 * alpha));
+                
+
+                if (SwitchMaize) {
+
+                    if (TrefMaize > minimumValue || TrefMaize < maximumValue)
+                    {
+
+                        double RespTRefMaize = Math.Pow((2 * Math.Pow(TrefMaize - minimumValue, alpha) * Math.Pow(optimumValue - minimumValue, alpha) - Math.Pow(TrefMaize - minimumValue, (2 * alpha)))
+                    / Math.Pow(optimumValue - minimumValue, (2 * alpha)), shapeParameter);
+
+                        output = output / RespTRefMaize; //Lucille 30 / 03 / 2021 pour Tref at 20°C
+
+                    }
+                    else
+                    {
+                        output = 0;
+                    }
+                }
 
 
             }
@@ -62,7 +81,7 @@ namespace ResponseFunctions
             return output;
         }
 
-        
+
 
 
     }

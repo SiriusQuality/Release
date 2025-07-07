@@ -1,0 +1,11 @@
+C:\Users\loicm\SQ_Last_2\SiriusCode\Code\MTGGramene\bin\Debug\csMTG.dll
+C:\Users\loicm\SQ_Last_2\SiriusCode\Code\MTGGramene\bin\Debug\csMTG.pdb
+C:\Users\loicm\SQ_Last_2\SiriusCode\Code\MTGGramene\bin\Debug\MathNet.Numerics.dll
+C:\Users\loicm\SQ_Last_2\SiriusCode\Code\MTGGramene\bin\Debug\System.ValueTuple.dll
+C:\Users\loicm\SQ_Last_2\SiriusCode\Code\MTGGramene\bin\Debug\MathNet.Numerics.xml
+C:\Users\loicm\SQ_Last_2\SiriusCode\Code\MTGGramene\bin\Debug\System.ValueTuple.xml
+C:\Users\loicm\SQ_Last_2\SiriusCode\Code\MTGGramene\obj\Debug\MTGGramene.csproj.AssemblyReference.cache
+C:\Users\loicm\SQ_Last_2\SiriusCode\Code\MTGGramene\obj\Debug\MTGGramene.csproj.CoreCompileInputs.cache
+C:\Users\loicm\SQ_Last_2\SiriusCode\Code\MTGGramene\obj\Debug\MTGGramene.csproj.Up2Date
+C:\Users\loicm\SQ_Last_2\SiriusCode\Code\MTGGramene\obj\Debug\csMTG.dll
+C:\Users\loicm\SQ_Last_2\SiriusCode\Code\MTGGramene\obj\Debug\csMTG.pdb

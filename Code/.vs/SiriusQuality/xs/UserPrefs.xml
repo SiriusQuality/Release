@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{D63FBC47-9CB2-400C-8163-E22E752D3D71}|Default">
+  <MonoDevelop.Ide.ItemProperties.SiriusQuality-Console PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SiriusConsole/Program.cs">
+    <Files>
+      <File FileName="SiriusConsole/Program.cs" Line="3" Column="7" />
+      <File FileName="SiriusConsole/ConfigFileItem.cs" Line="13" Column="24" />
+      <File FileName="Import_Export_SQ_ICASA/Import_Export_SQ_ICASA/Traducteur/ImportDBM.cs" Line="77" Column="26" />
+      <File FileName="SiriusModel/InOut/Optimization/ProjectFileWithOpt.cs" Line="25" Column="1" />
+      <File FileName="SiriusModel/InOut/ProjectFile.cs" Line="101" Column="1" />
+      <File FileName="SiriusModel/InOut/Optimization/FileContainerWithOpt.cs" Line="92" Column="1" />
+      <File FileName="SiriusModel/InOut/ProjectHelper.cs" Line="151" Column="1" />
+      <File FileName="SiriusModel/InOut/RunItemModeSensitivity.cs" Line="825" Column="73" />
+      <File FileName="Import_Export_SQ_ICASA/Import_Export_SQ_ICASA/Traducteur/Cultivations/Run.cs" Line="174" Column="27" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/home/loic/Bureau/SiriusCode_Linux_V0_02_20_2019_Deb/Code/SiriusConsole/Program.cs" relfile="SiriusConsole/Program.cs" line="285" column="1" />
+      <Breakpoint file="/home/loic/Bureau/SiriusCode_Linux_V0_02_20_2019_Deb/Code/SiriusConsole/Program.cs" relfile="SiriusConsole/Program.cs" line="278" column="1" />
+      <Breakpoint file="/home/loic/Bureau/SiriusCode_Linux_V0_02_20_2019_Deb/Code/SiriusModel/InOut/ProjectFile.cs" relfile="SiriusModel/InOut/ProjectFile.cs" line="101" column="1" />
+      <Breakpoint file="/home/loic/Bureau/SiriusCode_Linux_V0_02_20_2019_Deb/Code/SiriusConsole/Program.cs" relfile="SiriusConsole/Program.cs" line="229" column="1" />
+      <Breakpoint file="/home/loic/Bureau/SiriusCode_Linux_V0_02_20_2019_Deb/Code/SiriusConsole/Program.cs" relfile="SiriusConsole/Program.cs" line="255" column="1" />
+      <Breakpoint file="/home/loic/Bureau/SiriusCode_Linux_V0_02_20_2019_Deb/Code/SiriusConsole/Program.cs" relfile="SiriusConsole/Program.cs" line="240" column="1" />
+      <Breakpoint file="/home/loic/Bureau/SiriusCode_Linux_V0_02_20_2019_Deb/Code/SiriusConsole/Program.cs" relfile="SiriusConsole/Program.cs" line="233" column="1" />
+      <Breakpoint file="/home/loic/Bureau/SiriusCode_Linux_V0_02_20_2019_Deb/Code/SiriusConsole/Program.cs" relfile="SiriusConsole/Program.cs" line="315" column="1" />
+      <Breakpoint file="/home/loic/Bureau/SiriusCode_Linux_V0_02_20_2019_Deb/Code/SiriusConsole/Program.cs" relfile="SiriusConsole/Program.cs" line="351" column="1" />
+      <Breakpoint file="/home/loic/Bureau/SiriusCode_Linux_V0_02_20_2019_Deb/Code/SiriusConsole/Program.cs" relfile="SiriusConsole/Program.cs" line="85" column="1" />
+      <Breakpoint file="/home/loic/Bureau/SiriusCode_Linux_V0_02_20_2019_Deb/Code/SiriusConsole/Program.cs" relfile="SiriusConsole/Program.cs" line="248" column="1" />
+      <Breakpoint file="/home/loic/Bureau/SiriusCode_Linux_V0_02_20_2019_Deb/Code/SiriusModel/InOut/ProjectHelper.cs" relfile="SiriusModel/InOut/ProjectHelper.cs" line="202" column="1" />
+      <Breakpoint file="/home/loic/Bureau/SiriusCode_Linux_V0_02_20_2019_Deb/Code/SiriusModel/InOut/RunItemModeSensitivity.cs" relfile="SiriusModel/InOut/RunItemModeSensitivity.cs" line="820" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

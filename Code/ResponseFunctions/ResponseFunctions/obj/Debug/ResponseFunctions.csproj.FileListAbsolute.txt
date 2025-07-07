@@ -2,8 +2,218 @@ C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\ResponseFun
 C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.pdb
 C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.dll
 C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.pdb
-C:\Users\mancealo\Documents\GitSiriusCode\Release\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.dll
-C:\Users\mancealo\Documents\GitSiriusCode\Release\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.pdb
-C:\Users\mancealo\Documents\GitSiriusCode\Release\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csprojResolveAssemblyReference.cache
-C:\Users\mancealo\Documents\GitSiriusCode\Release\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.dll
-C:\Users\mancealo\Documents\GitSiriusCode\Release\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development2\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development2\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development2\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development2\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.pdb
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode\Development2\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode\Development2\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.pdb
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode\Development2\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csprojResolveAssemblyReference.cache
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode\Development2\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode\Development2\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.pdb
+C:\Users\mancealo\Documents\DesktopBU\SibylleBU\MergeFix\SiriusCode-MergeFix\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.dll
+C:\Users\mancealo\Documents\DesktopBU\SibylleBU\MergeFix\SiriusCode-MergeFix\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.pdb
+C:\Users\mancealo\Documents\DesktopBU\SibylleBU\MergeFix\SiriusCode-MergeFix\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csprojResolveAssemblyReference.cache
+C:\Users\mancealo\Documents\DesktopBU\SibylleBU\MergeFix\SiriusCode-MergeFix\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.dll
+C:\Users\mancealo\Documents\DesktopBU\SibylleBU\MergeFix\SiriusCode-MergeFix\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.pdb
+C:\Users\mancealo\Documents\DesktopBU\SibylleBU\SiriusCode-Development\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.dll
+C:\Users\mancealo\Documents\DesktopBU\SibylleBU\SiriusCode-Development\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.pdb
+C:\Users\mancealo\Documents\DesktopBU\SibylleBU\SiriusCode-Development\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.CoreCompileInputs.cache
+C:\Users\mancealo\Documents\DesktopBU\SibylleBU\SiriusCode-Development\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.dll
+C:\Users\mancealo\Documents\DesktopBU\SibylleBU\SiriusCode-Development\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.pdb
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.pdb
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csprojAssemblyReference.cache
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.CoreCompileInputs.cache
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.pdb
+C:\Users\rouxluci\Documents\Git_Sirius_Code - Copie pour maizepheno\SiriusMais\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.dll
+C:\Users\rouxluci\Documents\Git_Sirius_Code - Copie pour maizepheno\SiriusMais\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.pdb
+C:\Users\rouxluci\Documents\Git_Sirius_Code - Copie pour maizepheno\SiriusMais\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.dll
+C:\Users\rouxluci\Documents\Git_Sirius_Code - Copie pour maizepheno\SiriusMais\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.pdb
+C:\Users\rouxluci\Documents\Git_Sirius_Code - Copie pour maizepheno\SiriusMais\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csprojAssemblyReference.cache
+C:\Users\rouxluci\Documents\Git_Sirius_Code\SiriusMais\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.dll
+C:\Users\rouxluci\Documents\Git_Sirius_Code\SiriusMais\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.pdb
+C:\Users\rouxluci\Documents\Git_Sirius_Code\SiriusMais\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csprojAssemblyReference.cache
+C:\Users\rouxluci\Documents\Git_Sirius_Code\SiriusMais\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.dll
+C:\Users\rouxluci\Documents\Git_Sirius_Code\SiriusMais\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.pdb
+C:\Users\loicm\DesktopBU\BU\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.dll
+C:\Users\loicm\DesktopBU\BU\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.pdb
+C:\Users\loicm\DesktopBU\BU\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\MathNet.Numerics.dll
+C:\Users\loicm\DesktopBU\BU\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\MathNet.Numerics.xml
+C:\Users\loicm\DesktopBU\BU\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.CoreCompileInputs.cache
+C:\Users\loicm\DesktopBU\BU\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.CopyComplete
+C:\Users\loicm\DesktopBU\BU\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.dll
+C:\Users\loicm\DesktopBU\BU\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.pdb
+C:\Users\loicm\DesktopBU\BU\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csprojAssemblyReference.cache
+C:\Users\raihauti\Documents\SiriusMay\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.dll
+C:\Users\raihauti\Documents\SiriusMay\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.pdb
+C:\Users\raihauti\Documents\SiriusMay\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\MathNet.Numerics.dll
+C:\Users\raihauti\Documents\SiriusMay\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\MathNet.Numerics.xml
+C:\Users\raihauti\Documents\SiriusMay\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.CoreCompileInputs.cache
+C:\Users\raihauti\Documents\SiriusMay\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.CopyComplete
+C:\Users\raihauti\Documents\SiriusMay\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.dll
+C:\Users\raihauti\Documents\SiriusMay\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.pdb
+C:\Users\raihauti\Documents\SiriusJune\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.dll
+C:\Users\raihauti\Documents\SiriusJune\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.pdb
+C:\Users\raihauti\Documents\SiriusJune\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\MathNet.Numerics.dll
+C:\Users\raihauti\Documents\SiriusJune\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\MathNet.Numerics.xml
+C:\Users\raihauti\Documents\SiriusJune\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.CoreCompileInputs.cache
+C:\Users\raihauti\Documents\SiriusJune\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.CopyComplete
+C:\Users\raihauti\Documents\SiriusJune\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.dll
+C:\Users\raihauti\Documents\SiriusJune\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.pdb
+C:\Users\loicm\GitSiriusCode\SiriusQuality\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.pdb
+C:\Users\loicm\GitSiriusCode\SiriusQuality\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\MathNet.Numerics.dll
+C:\Users\loicm\GitSiriusCode\SiriusQuality\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\System.ValueTuple.dll
+C:\Users\loicm\GitSiriusCode\SiriusQuality\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\MathNet.Numerics.xml
+C:\Users\loicm\GitSiriusCode\SiriusQuality\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\System.ValueTuple.xml
+C:\Users\loicm\GitSiriusCode\SiriusQuality\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.CoreCompileInputs.cache
+C:\Users\loicm\GitSiriusCode\SiriusQuality\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.CopyComplete
+C:\Users\loicm\GitSiriusCode\SiriusQuality\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.dll
+C:\Users\loicm\GitSiriusCode\SiriusQuality\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.pdb
+C:\Users\raihauti\Documents\SiriusSeptember\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.pdb
+C:\Users\raihauti\Documents\SiriusSeptember\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\MathNet.Numerics.dll
+C:\Users\raihauti\Documents\SiriusSeptember\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\MathNet.Numerics.xml
+C:\Users\raihauti\Documents\SiriusSeptember\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.AssemblyReference.cache
+C:\Users\raihauti\Documents\SiriusSeptember\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.CoreCompileInputs.cache
+C:\Users\raihauti\Documents\SiriusSeptember\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.CopyComplete
+C:\Users\raihauti\Documents\SiriusSeptember\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.dll
+C:\Users\raihauti\Documents\SiriusSeptember\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.pdb
+C:\Users\teiki\OneDrive\Bureau\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.pdb
+C:\Users\teiki\OneDrive\Bureau\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\MathNet.Numerics.dll
+C:\Users\teiki\OneDrive\Bureau\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\MathNet.Numerics.xml
+C:\Users\teiki\OneDrive\Bureau\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.AssemblyReference.cache
+C:\Users\teiki\OneDrive\Bureau\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.CoreCompileInputs.cache
+C:\Users\teiki\OneDrive\Bureau\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.CopyComplete
+C:\Users\teiki\OneDrive\Bureau\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.dll
+C:\Users\teiki\OneDrive\Bureau\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.pdb
+C:\Users\raihauti\Documents\SiriusSeptember\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\System.ValueTuple.dll
+C:\Users\raihauti\Documents\SiriusSeptember\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\System.ValueTuple.xml
+C:\Users\loicm\Git_SQ_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.pdb
+C:\Users\loicm\Git_SQ_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\MathNet.Numerics.dll
+C:\Users\loicm\Git_SQ_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\System.ValueTuple.dll
+C:\Users\loicm\Git_SQ_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\MathNet.Numerics.xml
+C:\Users\loicm\Git_SQ_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\System.ValueTuple.xml
+C:\Users\loicm\Git_SQ_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csprojAssemblyReference.cache
+C:\Users\loicm\Git_SQ_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.CoreCompileInputs.cache
+C:\Users\loicm\Git_SQ_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.CopyComplete
+C:\Users\loicm\Git_SQ_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.dll
+C:\Users\loicm\Git_SQ_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.pdb
+C:\Users\raihauti\Documents\SiriusNovember\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.pdb
+C:\Users\raihauti\Documents\SiriusNovember\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\MathNet.Numerics.dll
+C:\Users\raihauti\Documents\SiriusNovember\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\System.ValueTuple.dll
+C:\Users\raihauti\Documents\SiriusNovember\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\MathNet.Numerics.xml
+C:\Users\raihauti\Documents\SiriusNovember\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\System.ValueTuple.xml
+C:\Users\raihauti\Documents\SiriusNovember\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.AssemblyReference.cache
+C:\Users\raihauti\Documents\SiriusNovember\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.CoreCompileInputs.cache
+C:\Users\raihauti\Documents\SiriusNovember\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.CopyComplete
+C:\Users\raihauti\Documents\SiriusNovember\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.dll
+C:\Users\raihauti\Documents\SiriusNovember\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.pdb
+C:\Users\raihauti\Documents\SiriusJanuary\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.pdb
+C:\Users\raihauti\Documents\SiriusJanuary\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\MathNet.Numerics.dll
+C:\Users\raihauti\Documents\SiriusJanuary\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\System.ValueTuple.dll
+C:\Users\raihauti\Documents\SiriusJanuary\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\MathNet.Numerics.xml
+C:\Users\raihauti\Documents\SiriusJanuary\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\System.ValueTuple.xml
+C:\Users\raihauti\Documents\SiriusJanuary\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.CoreCompileInputs.cache
+C:\Users\raihauti\Documents\SiriusJanuary\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.CopyComplete
+C:\Users\raihauti\Documents\SiriusJanuary\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.dll
+C:\Users\raihauti\Documents\SiriusJanuary\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.pdb
+C:\Users\raihauti\Desktop\SQ_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.pdb
+C:\Users\raihauti\Desktop\SQ_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\MathNet.Numerics.dll
+C:\Users\raihauti\Desktop\SQ_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\System.ValueTuple.dll
+C:\Users\raihauti\Desktop\SQ_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\MathNet.Numerics.xml
+C:\Users\raihauti\Desktop\SQ_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\System.ValueTuple.xml
+C:\Users\raihauti\Desktop\SQ_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.CoreCompileInputs.cache
+C:\Users\raihauti\Desktop\SQ_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.CopyComplete
+C:\Users\raihauti\Desktop\SQ_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.dll
+C:\Users\raihauti\Desktop\SQ_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.pdb
+C:\Users\loicm\SQ_last_tr\SQ_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.pdb
+C:\Users\loicm\SQ_last_tr\SQ_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\MathNet.Numerics.dll
+C:\Users\loicm\SQ_last_tr\SQ_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\System.ValueTuple.dll
+C:\Users\loicm\SQ_last_tr\SQ_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\MathNet.Numerics.xml
+C:\Users\loicm\SQ_last_tr\SQ_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\System.ValueTuple.xml
+C:\Users\loicm\SQ_last_tr\SQ_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.CoreCompileInputs.cache
+C:\Users\loicm\SQ_last_tr\SQ_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.CopyComplete
+C:\Users\loicm\SQ_last_tr\SQ_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.dll
+C:\Users\loicm\SQ_last_tr\SQ_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.pdb
+C:\Users\loicm\SQ_last_tr\SQ_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.AssemblyReference.cache
+C:\Users\loicm\SQ_last_tr - Copie\SQ_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.pdb
+C:\Users\loicm\SQ_last_tr - Copie\SQ_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\MathNet.Numerics.dll
+C:\Users\loicm\SQ_last_tr - Copie\SQ_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\System.ValueTuple.dll
+C:\Users\loicm\SQ_last_tr - Copie\SQ_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\MathNet.Numerics.xml
+C:\Users\loicm\SQ_last_tr - Copie\SQ_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\System.ValueTuple.xml
+C:\Users\loicm\SQ_last_tr - Copie\SQ_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.AssemblyReference.cache
+C:\Users\loicm\SQ_last_tr - Copie\SQ_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.CoreCompileInputs.cache
+C:\Users\loicm\SQ_last_tr - Copie\SQ_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.CopyComplete
+C:\Users\loicm\SQ_last_tr - Copie\SQ_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.dll
+C:\Users\loicm\SQ_last_tr - Copie\SQ_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.pdb
+C:\Users\raihauti\Desktop\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.pdb
+C:\Users\raihauti\Desktop\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\MathNet.Numerics.dll
+C:\Users\raihauti\Desktop\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\System.ValueTuple.dll
+C:\Users\raihauti\Desktop\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\MathNet.Numerics.xml
+C:\Users\raihauti\Desktop\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\System.ValueTuple.xml
+C:\Users\raihauti\Desktop\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.CoreCompileInputs.cache
+C:\Users\raihauti\Desktop\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.CopyComplete
+C:\Users\raihauti\Desktop\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.dll
+C:\Users\raihauti\Desktop\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.pdb
+C:\Users\raihauti\Desktop\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.AssemblyReference.cache
+C:\Users\loicm\SQ_MIN3P_AS_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.pdb
+C:\Users\loicm\SQ_MIN3P_AS_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\MathNet.Numerics.dll
+C:\Users\loicm\SQ_MIN3P_AS_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\System.ValueTuple.dll
+C:\Users\loicm\SQ_MIN3P_AS_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\MathNet.Numerics.xml
+C:\Users\loicm\SQ_MIN3P_AS_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\System.ValueTuple.xml
+C:\Users\loicm\SQ_MIN3P_AS_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.CoreCompileInputs.cache
+C:\Users\loicm\SQ_MIN3P_AS_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.CopyComplete
+C:\Users\loicm\SQ_MIN3P_AS_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.dll
+C:\Users\loicm\SQ_MIN3P_AS_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.pdb
+C:\Users\loicm\SQ_MIN3P_AS_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.AssemblyReference.cache
+C:\Users\raihauti\Documents\SiriusApril\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.pdb
+C:\Users\raihauti\Documents\SiriusApril\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\MathNet.Numerics.dll
+C:\Users\raihauti\Documents\SiriusApril\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\System.ValueTuple.dll
+C:\Users\raihauti\Documents\SiriusApril\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\MathNet.Numerics.xml
+C:\Users\raihauti\Documents\SiriusApril\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\System.ValueTuple.xml
+C:\Users\raihauti\Documents\SiriusApril\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.AssemblyReference.cache
+C:\Users\raihauti\Documents\SiriusApril\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.CoreCompileInputs.cache
+C:\Users\raihauti\Documents\SiriusApril\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.CopyComplete
+C:\Users\raihauti\Documents\SiriusApril\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.dll
+C:\Users\raihauti\Documents\SiriusApril\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.pdb
+C:\Users\loicm\SQ_Merge_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.pdb
+C:\Users\loicm\SQ_Merge_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\MathNet.Numerics.dll
+C:\Users\loicm\SQ_Merge_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\System.ValueTuple.dll
+C:\Users\loicm\SQ_Merge_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\MathNet.Numerics.xml
+C:\Users\loicm\SQ_Merge_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\System.ValueTuple.xml
+C:\Users\loicm\SQ_Merge_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.AssemblyReference.cache
+C:\Users\loicm\SQ_Merge_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.CoreCompileInputs.cache
+C:\Users\loicm\SQ_Merge_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.CopyComplete
+C:\Users\loicm\SQ_Merge_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.dll
+C:\Users\loicm\SQ_Merge_Last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.pdb
+C:\Users\raihauti\Documents\Sirius\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.pdb
+C:\Users\raihauti\Documents\Sirius\Code\ResponseFunctions\ResponseFunctions\bin\Debug\MathNet.Numerics.dll
+C:\Users\raihauti\Documents\Sirius\Code\ResponseFunctions\ResponseFunctions\bin\Debug\System.ValueTuple.dll
+C:\Users\raihauti\Documents\Sirius\Code\ResponseFunctions\ResponseFunctions\bin\Debug\MathNet.Numerics.xml
+C:\Users\raihauti\Documents\Sirius\Code\ResponseFunctions\ResponseFunctions\bin\Debug\System.ValueTuple.xml
+C:\Users\raihauti\Documents\Sirius\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.AssemblyReference.cache
+C:\Users\raihauti\Documents\Sirius\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.CoreCompileInputs.cache
+C:\Users\raihauti\Documents\Sirius\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.dll
+C:\Users\raihauti\Documents\Sirius\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.pdb
+C:\Users\loicm\SQ_last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.pdb
+C:\Users\loicm\SQ_last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\MathNet.Numerics.dll
+C:\Users\loicm\SQ_last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\System.ValueTuple.dll
+C:\Users\loicm\SQ_last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\MathNet.Numerics.xml
+C:\Users\loicm\SQ_last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\System.ValueTuple.xml
+C:\Users\loicm\SQ_last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.CoreCompileInputs.cache
+C:\Users\loicm\SQ_last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.CopyComplete
+C:\Users\loicm\SQ_last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.dll
+C:\Users\loicm\SQ_last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.pdb
+C:\Users\loicm\SQ_last\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.AssemblyReference.cache
+C:\Users\raihauti\Documents\Sirius\Code\ResponseFunctions\ResponseFunctions\obj\Debug\Response.CBD68DB5.Up2Date
+C:\Users\loicm\SQ_Last_2\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\ResponseFunctions.pdb
+C:\Users\loicm\SQ_Last_2\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\MathNet.Numerics.dll
+C:\Users\loicm\SQ_Last_2\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\System.ValueTuple.dll
+C:\Users\loicm\SQ_Last_2\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\MathNet.Numerics.xml
+C:\Users\loicm\SQ_Last_2\SiriusCode\Code\ResponseFunctions\ResponseFunctions\bin\Debug\System.ValueTuple.xml
+C:\Users\loicm\SQ_Last_2\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.AssemblyReference.cache
+C:\Users\loicm\SQ_Last_2\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.csproj.CoreCompileInputs.cache
+C:\Users\loicm\SQ_Last_2\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\Response.CBD68DB5.Up2Date
+C:\Users\loicm\SQ_Last_2\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.dll
+C:\Users\loicm\SQ_Last_2\SiriusCode\Code\ResponseFunctions\ResponseFunctions\obj\Debug\ResponseFunctions.pdb

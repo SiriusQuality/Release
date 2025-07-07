@@ -1,0 +1,12 @@
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Released\SiriusQuality-Console.exe.config
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Released\SiriusQuality-Console.exe.manifest
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Released\SiriusQuality-Console.application
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Released\SiriusQuality-Console.exe
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Released\SiriusQuality-Console.pdb
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\SiriusConsole\obj\Release\SiriusQuality-Console.csprojAssemblyReference.cache
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\SiriusConsole\obj\Release\SiriusQuality-Console.csproj.CoreCompileInputs.cache
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\SiriusConsole\obj\Release\SiriusQuality-Console.exe.manifest
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\SiriusConsole\obj\Release\SiriusQuality-Console.application
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\SiriusConsole\obj\Release\SiriusQuality-Console.csproj.CopyComplete
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\SiriusConsole\obj\Release\SiriusQuality-Console.exe
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\SiriusConsole\obj\Release\SiriusQuality-Console.pdb

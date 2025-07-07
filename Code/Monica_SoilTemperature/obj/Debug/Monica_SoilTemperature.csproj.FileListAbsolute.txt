@@ -1,0 +1,6 @@
+C:\Users\loicm\SQ_Last_2\SiriusCode\Code\Monica_SoilTemperature\bin\Debug\Monica_SoilTemperature.dll
+C:\Users\loicm\SQ_Last_2\SiriusCode\Code\Monica_SoilTemperature\bin\Debug\Monica_SoilTemperature.pdb
+C:\Users\loicm\SQ_Last_2\SiriusCode\Code\Monica_SoilTemperature\obj\Debug\Monica_SoilTemperature.csproj.AssemblyReference.cache
+C:\Users\loicm\SQ_Last_2\SiriusCode\Code\Monica_SoilTemperature\obj\Debug\Monica_SoilTemperature.csproj.CoreCompileInputs.cache
+C:\Users\loicm\SQ_Last_2\SiriusCode\Code\Monica_SoilTemperature\obj\Debug\Monica_SoilTemperature.dll
+C:\Users\loicm\SQ_Last_2\SiriusCode\Code\Monica_SoilTemperature\obj\Debug\Monica_SoilTemperature.pdb

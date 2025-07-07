@@ -43,13 +43,15 @@ namespace Sirius.Model.Weather
         //hourly to min max
         static public double HourlyToMin(double[] hourlyTemperature)
         {
-            return
-            Math.Min(hourlyTemperature[0],(Math.Min(hourlyTemperature[1],(Math.Min(hourlyTemperature[2],(Math.Min(hourlyTemperature[3],
-            (Math.Min(hourlyTemperature[4],(Math.Min(hourlyTemperature[5],(Math.Min(hourlyTemperature[6],(Math.Min(hourlyTemperature[7],
-            (Math.Min(hourlyTemperature[8],(Math.Min(hourlyTemperature[9],(Math.Min(hourlyTemperature[10],(Math.Min(hourlyTemperature[11],
-            (Math.Min(hourlyTemperature[12],(Math.Min(hourlyTemperature[13],(Math.Min(hourlyTemperature[14],(Math.Min(hourlyTemperature[15],
-            (Math.Min(hourlyTemperature[16],(Math.Min(hourlyTemperature[17],(Math.Min(hourlyTemperature[18],(Math.Min(hourlyTemperature[19],
-            (Math.Min(hourlyTemperature[20],(Math.Min(hourlyTemperature[21],(Math.Min(hourlyTemperature[22],hourlyTemperature[23])))))))))))))))))))))))))))))))))))))))))))));
+            if (hourlyTemperature != null) return
+                Math.Min(hourlyTemperature[0], (Math.Min(hourlyTemperature[1], (Math.Min(hourlyTemperature[2], (Math.Min(hourlyTemperature[3],
+                (Math.Min(hourlyTemperature[4], (Math.Min(hourlyTemperature[5], (Math.Min(hourlyTemperature[6], (Math.Min(hourlyTemperature[7],
+                (Math.Min(hourlyTemperature[8], (Math.Min(hourlyTemperature[9], (Math.Min(hourlyTemperature[10], (Math.Min(hourlyTemperature[11],
+                (Math.Min(hourlyTemperature[12], (Math.Min(hourlyTemperature[13], (Math.Min(hourlyTemperature[14], (Math.Min(hourlyTemperature[15],
+                (Math.Min(hourlyTemperature[16], (Math.Min(hourlyTemperature[17], (Math.Min(hourlyTemperature[18], (Math.Min(hourlyTemperature[19],
+                (Math.Min(hourlyTemperature[20], (Math.Min(hourlyTemperature[21], (Math.Min(hourlyTemperature[22], hourlyTemperature[23])))))))))))))))))))))))))))))))))))))))))))));
+            else return 999;
+        
         }
         static public double HourlyToMax(double[] hourlyTemperature)
         {

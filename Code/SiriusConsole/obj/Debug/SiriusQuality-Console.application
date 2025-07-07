@@ -4,17 +4,17 @@
   <description asmv2:publisher="SiriusQuality-Console" asmv2:product="SiriusQuality-Console" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <deployment install="true" mapFileExtensions="true" />
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
-    <framework targetVersion="4.5" profile="Full" supportedRuntime="4.0.30319" />
+    <framework targetVersion="4.7.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="SiriusQuality-Console.exe.manifest" size="12248">
+    <dependentAssembly dependencyType="install" codebase="SiriusQuality-Console.exe.manifest" size="36666">
       <assemblyIdentity name="SiriusQuality-Console.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>1BR2gjvBRmHj5IWf5XT50TZ5k7omGw0INraUESHHGqY=</dsig:DigestValue>
+        <dsig:DigestValue>u8hQxApCEnF/GDyYm4oHCeyHU0ZkyhbgJLMP++eRDt8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

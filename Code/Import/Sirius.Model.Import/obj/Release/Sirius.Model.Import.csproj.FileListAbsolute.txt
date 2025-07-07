@@ -1,0 +1,10 @@
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\Import\Sirius.Model.Import\bin\Release\Sirius.Model.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\Import\Sirius.Model.Import\bin\Release\Sirius.Model.pdb
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\Import\Sirius.Model.Import\bin\Release\CRA.Clima.AirT.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\Import\Sirius.Model.Import\bin\Release\CRA.Clima.AirT.Interfaces.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\Import\Sirius.Model.Import\bin\Release\CRA.Core.Preconditions.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\Import\Sirius.Model.Import\obj\Release\Sirius.Model.Import.csprojAssemblyReference.cache
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\Import\Sirius.Model.Import\obj\Release\Sirius.Model.Import.csproj.CoreCompileInputs.cache
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\Import\Sirius.Model.Import\obj\Release\Sirius.Model.Import.csproj.CopyComplete
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\Import\Sirius.Model.Import\obj\Release\Sirius.Model.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\Import\Sirius.Model.Import\obj\Release\Sirius.Model.pdb

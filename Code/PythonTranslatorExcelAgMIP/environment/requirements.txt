@@ -1,0 +1,4 @@
+altgraph==0.17
+certifi==2019.6.16
+PyInstaller==3.6
+xlrd==1.2.0

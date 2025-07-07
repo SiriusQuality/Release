@@ -5,11 +5,314 @@ C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\Import\Siri
 C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Core.Preconditions.dll
 C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.dll
 C:\Users\mancealo\Documents\Sirius Quality\branches\Development\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.pdb
-C:\Users\mancealo\Documents\GitSiriusCode\Release\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.dll
-C:\Users\mancealo\Documents\GitSiriusCode\Release\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.pdb
-C:\Users\mancealo\Documents\GitSiriusCode\Release\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.dll
-C:\Users\mancealo\Documents\GitSiriusCode\Release\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.Interfaces.dll
-C:\Users\mancealo\Documents\GitSiriusCode\Release\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Core.Preconditions.dll
-C:\Users\mancealo\Documents\GitSiriusCode\Release\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csprojResolveAssemblyReference.cache
-C:\Users\mancealo\Documents\GitSiriusCode\Release\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.dll
-C:\Users\mancealo\Documents\GitSiriusCode\Release\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development2\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development2\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.pdb
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development2\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development2\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.Interfaces.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development2\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development2\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.dll
+C:\Users\mancealo\Documents\Sirius Quality\branches\Development2\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.pdb
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode\Development2\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode\Development2\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.pdb
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode\Development2\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode\Development2\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.Interfaces.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode\Development2\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode\Development2\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csprojResolveAssemblyReference.cache
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode\Development2\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode\Development2\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.pdb
+C:\Users\mancealo\Documents\DesktopBU\SibylleBU\MergeFix\SiriusCode-MergeFix\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.dll
+C:\Users\mancealo\Documents\DesktopBU\SibylleBU\MergeFix\SiriusCode-MergeFix\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.pdb
+C:\Users\mancealo\Documents\DesktopBU\SibylleBU\MergeFix\SiriusCode-MergeFix\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.dll
+C:\Users\mancealo\Documents\DesktopBU\SibylleBU\MergeFix\SiriusCode-MergeFix\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.Interfaces.dll
+C:\Users\mancealo\Documents\DesktopBU\SibylleBU\MergeFix\SiriusCode-MergeFix\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\mancealo\Documents\DesktopBU\SibylleBU\MergeFix\SiriusCode-MergeFix\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csprojResolveAssemblyReference.cache
+C:\Users\mancealo\Documents\DesktopBU\SibylleBU\MergeFix\SiriusCode-MergeFix\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.dll
+C:\Users\mancealo\Documents\DesktopBU\SibylleBU\MergeFix\SiriusCode-MergeFix\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.pdb
+C:\Users\mancealo\Documents\DesktopBU\SibylleBU\SiriusCode-Development\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.dll
+C:\Users\mancealo\Documents\DesktopBU\SibylleBU\SiriusCode-Development\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.pdb
+C:\Users\mancealo\Documents\DesktopBU\SibylleBU\SiriusCode-Development\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.dll
+C:\Users\mancealo\Documents\DesktopBU\SibylleBU\SiriusCode-Development\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.Interfaces.dll
+C:\Users\mancealo\Documents\DesktopBU\SibylleBU\SiriusCode-Development\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\mancealo\Documents\DesktopBU\SibylleBU\SiriusCode-Development\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csprojAssemblyReference.cache
+C:\Users\mancealo\Documents\DesktopBU\SibylleBU\SiriusCode-Development\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CoreCompileInputs.cache
+C:\Users\mancealo\Documents\DesktopBU\SibylleBU\SiriusCode-Development\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CopyComplete
+C:\Users\mancealo\Documents\DesktopBU\SibylleBU\SiriusCode-Development\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.dll
+C:\Users\mancealo\Documents\DesktopBU\SibylleBU\SiriusCode-Development\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.pdb
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusEB\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusEB\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.pdb
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusEB\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusEB\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.Interfaces.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusEB\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusEB\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csprojAssemblyReference.cache
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusEB\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CoreCompileInputs.cache
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusEB\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CopyComplete
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusEB\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusEB\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.pdb
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.pdb
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.Interfaces.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csprojAssemblyReference.cache
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CoreCompileInputs.cache
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CopyComplete
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.pdb
+C:\Users\rouxluci\Documents\Git_Sirius_Code\SiriusMais\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.dll
+C:\Users\rouxluci\Documents\Git_Sirius_Code\SiriusMais\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.pdb
+C:\Users\rouxluci\Documents\Git_Sirius_Code\SiriusMais\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.dll
+C:\Users\rouxluci\Documents\Git_Sirius_Code\SiriusMais\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.Interfaces.dll
+C:\Users\rouxluci\Documents\Git_Sirius_Code\SiriusMais\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\rouxluci\Documents\Git_Sirius_Code\SiriusMais\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csprojAssemblyReference.cache
+C:\Users\rouxluci\Documents\Git_Sirius_Code\SiriusMais\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CopyComplete
+C:\Users\rouxluci\Documents\Git_Sirius_Code\SiriusMais\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.dll
+C:\Users\rouxluci\Documents\Git_Sirius_Code\SiriusMais\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.pdb
+C:\Users\rouxluci\Documents\Git_Sirius_Code - Copie pour maizepheno\SiriusMais\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.dll
+C:\Users\rouxluci\Documents\Git_Sirius_Code - Copie pour maizepheno\SiriusMais\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.pdb
+C:\Users\rouxluci\Documents\Git_Sirius_Code - Copie pour maizepheno\SiriusMais\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.dll
+C:\Users\rouxluci\Documents\Git_Sirius_Code - Copie pour maizepheno\SiriusMais\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.Interfaces.dll
+C:\Users\rouxluci\Documents\Git_Sirius_Code - Copie pour maizepheno\SiriusMais\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\rouxluci\Documents\Git_Sirius_Code - Copie pour maizepheno\SiriusMais\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CopyComplete
+C:\Users\rouxluci\Documents\Git_Sirius_Code - Copie pour maizepheno\SiriusMais\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.dll
+C:\Users\rouxluci\Documents\Git_Sirius_Code - Copie pour maizepheno\SiriusMais\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.pdb
+C:\Users\rouxluci\Documents\Git_Sirius_Code - Copie pour maizepheno\SiriusMais\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csprojAssemblyReference.cache
+C:\Users\loicm\DesktopBU\BU\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.dll
+C:\Users\loicm\DesktopBU\BU\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.pdb
+C:\Users\loicm\DesktopBU\BU\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.dll
+C:\Users\loicm\DesktopBU\BU\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.Interfaces.dll
+C:\Users\loicm\DesktopBU\BU\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\loicm\DesktopBU\BU\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\MathNet.Numerics.dll
+C:\Users\loicm\DesktopBU\BU\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\MathNet.Numerics.xml
+C:\Users\loicm\DesktopBU\BU\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csprojAssemblyReference.cache
+C:\Users\loicm\DesktopBU\BU\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CoreCompileInputs.cache
+C:\Users\loicm\DesktopBU\BU\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CopyComplete
+C:\Users\loicm\DesktopBU\BU\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.dll
+C:\Users\loicm\DesktopBU\BU\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.pdb
+C:\Users\raihauti\Documents\SiriusMay\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.dll
+C:\Users\raihauti\Documents\SiriusMay\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.pdb
+C:\Users\raihauti\Documents\SiriusMay\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.dll
+C:\Users\raihauti\Documents\SiriusMay\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.Interfaces.dll
+C:\Users\raihauti\Documents\SiriusMay\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\raihauti\Documents\SiriusMay\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\MathNet.Numerics.dll
+C:\Users\raihauti\Documents\SiriusMay\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\MathNet.Numerics.xml
+C:\Users\raihauti\Documents\SiriusMay\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CoreCompileInputs.cache
+C:\Users\raihauti\Documents\SiriusMay\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CopyComplete
+C:\Users\raihauti\Documents\SiriusMay\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.dll
+C:\Users\raihauti\Documents\SiriusMay\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.pdb
+C:\Users\raihauti\Documents\SiriusJune\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.dll
+C:\Users\raihauti\Documents\SiriusJune\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.pdb
+C:\Users\raihauti\Documents\SiriusJune\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.dll
+C:\Users\raihauti\Documents\SiriusJune\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.Interfaces.dll
+C:\Users\raihauti\Documents\SiriusJune\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\raihauti\Documents\SiriusJune\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\MathNet.Numerics.dll
+C:\Users\raihauti\Documents\SiriusJune\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\MathNet.Numerics.xml
+C:\Users\raihauti\Documents\SiriusJune\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CoreCompileInputs.cache
+C:\Users\raihauti\Documents\SiriusJune\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CopyComplete
+C:\Users\raihauti\Documents\SiriusJune\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.dll
+C:\Users\raihauti\Documents\SiriusJune\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.pdb
+C:\Users\raihauti\Documents\SiriusJune\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.AssemblyReference.cache
+C:\Users\loicm\GitSiriusCode\SiriusQuality\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.dll
+C:\Users\loicm\GitSiriusCode\SiriusQuality\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.pdb
+C:\Users\loicm\GitSiriusCode\SiriusQuality\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.dll
+C:\Users\loicm\GitSiriusCode\SiriusQuality\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.Interfaces.dll
+C:\Users\loicm\GitSiriusCode\SiriusQuality\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\loicm\GitSiriusCode\SiriusQuality\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\MathNet.Numerics.dll
+C:\Users\loicm\GitSiriusCode\SiriusQuality\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\System.ValueTuple.dll
+C:\Users\loicm\GitSiriusCode\SiriusQuality\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\MathNet.Numerics.xml
+C:\Users\loicm\GitSiriusCode\SiriusQuality\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\System.ValueTuple.xml
+C:\Users\loicm\GitSiriusCode\SiriusQuality\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CoreCompileInputs.cache
+C:\Users\loicm\GitSiriusCode\SiriusQuality\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CopyComplete
+C:\Users\loicm\GitSiriusCode\SiriusQuality\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.dll
+C:\Users\loicm\GitSiriusCode\SiriusQuality\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.pdb
+C:\Users\raihauti\Documents\SiriusSeptember\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.dll
+C:\Users\raihauti\Documents\SiriusSeptember\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.pdb
+C:\Users\raihauti\Documents\SiriusSeptember\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.dll
+C:\Users\raihauti\Documents\SiriusSeptember\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.Interfaces.dll
+C:\Users\raihauti\Documents\SiriusSeptember\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\raihauti\Documents\SiriusSeptember\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\MathNet.Numerics.dll
+C:\Users\raihauti\Documents\SiriusSeptember\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\MathNet.Numerics.xml
+C:\Users\raihauti\Documents\SiriusSeptember\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CoreCompileInputs.cache
+C:\Users\raihauti\Documents\SiriusSeptember\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CopyComplete
+C:\Users\raihauti\Documents\SiriusSeptember\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.dll
+C:\Users\raihauti\Documents\SiriusSeptember\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.pdb
+C:\Users\raihauti\Documents\SiriusSeptember\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\System.ValueTuple.dll
+C:\Users\raihauti\Documents\SiriusSeptember\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\System.ValueTuple.xml
+C:\Users\raihauti\Documents\SiriusSeptember\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.AssemblyReference.cache
+C:\Users\loicm\Git_SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.dll
+C:\Users\loicm\Git_SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.pdb
+C:\Users\loicm\Git_SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.dll
+C:\Users\loicm\Git_SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.Interfaces.dll
+C:\Users\loicm\Git_SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\loicm\Git_SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\MathNet.Numerics.dll
+C:\Users\loicm\Git_SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\System.ValueTuple.dll
+C:\Users\loicm\Git_SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\MathNet.Numerics.xml
+C:\Users\loicm\Git_SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\System.ValueTuple.xml
+C:\Users\loicm\Git_SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csprojAssemblyReference.cache
+C:\Users\loicm\Git_SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CoreCompileInputs.cache
+C:\Users\loicm\Git_SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CopyComplete
+C:\Users\loicm\Git_SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.dll
+C:\Users\loicm\Git_SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.pdb
+C:\Users\raihauti\Documents\SiriusNovember\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.dll
+C:\Users\raihauti\Documents\SiriusNovember\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.pdb
+C:\Users\raihauti\Documents\SiriusNovember\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.dll
+C:\Users\raihauti\Documents\SiriusNovember\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.Interfaces.dll
+C:\Users\raihauti\Documents\SiriusNovember\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\raihauti\Documents\SiriusNovember\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\MathNet.Numerics.dll
+C:\Users\raihauti\Documents\SiriusNovember\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\System.ValueTuple.dll
+C:\Users\raihauti\Documents\SiriusNovember\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\MathNet.Numerics.xml
+C:\Users\raihauti\Documents\SiriusNovember\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\System.ValueTuple.xml
+C:\Users\raihauti\Documents\SiriusNovember\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.AssemblyReference.cache
+C:\Users\raihauti\Documents\SiriusNovember\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CoreCompileInputs.cache
+C:\Users\raihauti\Documents\SiriusNovember\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CopyComplete
+C:\Users\raihauti\Documents\SiriusNovember\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.dll
+C:\Users\raihauti\Documents\SiriusNovember\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.pdb
+C:\Users\raihauti\Documents\SiriusJanuary\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.dll
+C:\Users\raihauti\Documents\SiriusJanuary\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.pdb
+C:\Users\raihauti\Documents\SiriusJanuary\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.dll
+C:\Users\raihauti\Documents\SiriusJanuary\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.Interfaces.dll
+C:\Users\raihauti\Documents\SiriusJanuary\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\raihauti\Documents\SiriusJanuary\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\MathNet.Numerics.dll
+C:\Users\raihauti\Documents\SiriusJanuary\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\System.ValueTuple.dll
+C:\Users\raihauti\Documents\SiriusJanuary\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\MathNet.Numerics.xml
+C:\Users\raihauti\Documents\SiriusJanuary\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\System.ValueTuple.xml
+C:\Users\raihauti\Documents\SiriusJanuary\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CoreCompileInputs.cache
+C:\Users\raihauti\Documents\SiriusJanuary\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CopyComplete
+C:\Users\raihauti\Documents\SiriusJanuary\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.dll
+C:\Users\raihauti\Documents\SiriusJanuary\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.pdb
+C:\Users\raihauti\Desktop\SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.dll
+C:\Users\raihauti\Desktop\SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.pdb
+C:\Users\raihauti\Desktop\SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.dll
+C:\Users\raihauti\Desktop\SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.Interfaces.dll
+C:\Users\raihauti\Desktop\SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\raihauti\Desktop\SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\MathNet.Numerics.dll
+C:\Users\raihauti\Desktop\SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\System.ValueTuple.dll
+C:\Users\raihauti\Desktop\SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\MathNet.Numerics.xml
+C:\Users\raihauti\Desktop\SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\System.ValueTuple.xml
+C:\Users\raihauti\Desktop\SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CoreCompileInputs.cache
+C:\Users\raihauti\Desktop\SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CopyComplete
+C:\Users\raihauti\Desktop\SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.dll
+C:\Users\raihauti\Desktop\SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.pdb
+C:\Users\loicm\SQ_last_tr\SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.dll
+C:\Users\loicm\SQ_last_tr\SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.pdb
+C:\Users\loicm\SQ_last_tr\SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.dll
+C:\Users\loicm\SQ_last_tr\SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.Interfaces.dll
+C:\Users\loicm\SQ_last_tr\SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\loicm\SQ_last_tr\SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\MathNet.Numerics.dll
+C:\Users\loicm\SQ_last_tr\SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\System.ValueTuple.dll
+C:\Users\loicm\SQ_last_tr\SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\MathNet.Numerics.xml
+C:\Users\loicm\SQ_last_tr\SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\System.ValueTuple.xml
+C:\Users\loicm\SQ_last_tr\SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CoreCompileInputs.cache
+C:\Users\loicm\SQ_last_tr\SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CopyComplete
+C:\Users\loicm\SQ_last_tr\SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.dll
+C:\Users\loicm\SQ_last_tr\SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.pdb
+C:\Users\loicm\SQ_last_tr - Copie\SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.dll
+C:\Users\loicm\SQ_last_tr - Copie\SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.pdb
+C:\Users\loicm\SQ_last_tr - Copie\SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.dll
+C:\Users\loicm\SQ_last_tr - Copie\SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.Interfaces.dll
+C:\Users\loicm\SQ_last_tr - Copie\SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\loicm\SQ_last_tr - Copie\SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\MathNet.Numerics.dll
+C:\Users\loicm\SQ_last_tr - Copie\SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\System.ValueTuple.dll
+C:\Users\loicm\SQ_last_tr - Copie\SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\MathNet.Numerics.xml
+C:\Users\loicm\SQ_last_tr - Copie\SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\System.ValueTuple.xml
+C:\Users\loicm\SQ_last_tr - Copie\SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.AssemblyReference.cache
+C:\Users\loicm\SQ_last_tr - Copie\SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CoreCompileInputs.cache
+C:\Users\loicm\SQ_last_tr - Copie\SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CopyComplete
+C:\Users\loicm\SQ_last_tr - Copie\SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.dll
+C:\Users\loicm\SQ_last_tr - Copie\SQ_Last\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.pdb
+C:\Users\raihauti\Desktop\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.dll
+C:\Users\raihauti\Desktop\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.pdb
+C:\Users\raihauti\Desktop\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.dll
+C:\Users\raihauti\Desktop\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.Interfaces.dll
+C:\Users\raihauti\Desktop\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\raihauti\Desktop\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\MathNet.Numerics.dll
+C:\Users\raihauti\Desktop\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\System.ValueTuple.dll
+C:\Users\raihauti\Desktop\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\MathNet.Numerics.xml
+C:\Users\raihauti\Desktop\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\System.ValueTuple.xml
+C:\Users\raihauti\Desktop\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CoreCompileInputs.cache
+C:\Users\raihauti\Desktop\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CopyComplete
+C:\Users\raihauti\Desktop\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.dll
+C:\Users\raihauti\Desktop\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.pdb
+C:\Users\raihauti\Desktop\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.AssemblyReference.cache
+C:\Users\loicm\SQ_MIN3P_AS_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.dll
+C:\Users\loicm\SQ_MIN3P_AS_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.pdb
+C:\Users\loicm\SQ_MIN3P_AS_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.dll
+C:\Users\loicm\SQ_MIN3P_AS_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.Interfaces.dll
+C:\Users\loicm\SQ_MIN3P_AS_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\loicm\SQ_MIN3P_AS_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\MathNet.Numerics.dll
+C:\Users\loicm\SQ_MIN3P_AS_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\System.ValueTuple.dll
+C:\Users\loicm\SQ_MIN3P_AS_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\MathNet.Numerics.xml
+C:\Users\loicm\SQ_MIN3P_AS_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\System.ValueTuple.xml
+C:\Users\loicm\SQ_MIN3P_AS_Last\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CoreCompileInputs.cache
+C:\Users\loicm\SQ_MIN3P_AS_Last\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CopyComplete
+C:\Users\loicm\SQ_MIN3P_AS_Last\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.dll
+C:\Users\loicm\SQ_MIN3P_AS_Last\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.pdb
+C:\Users\raihauti\Documents\SiriusApril\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.dll
+C:\Users\raihauti\Documents\SiriusApril\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.pdb
+C:\Users\raihauti\Documents\SiriusApril\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.dll
+C:\Users\raihauti\Documents\SiriusApril\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.Interfaces.dll
+C:\Users\raihauti\Documents\SiriusApril\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\raihauti\Documents\SiriusApril\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\MathNet.Numerics.dll
+C:\Users\raihauti\Documents\SiriusApril\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\System.ValueTuple.dll
+C:\Users\raihauti\Documents\SiriusApril\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\MathNet.Numerics.xml
+C:\Users\raihauti\Documents\SiriusApril\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\System.ValueTuple.xml
+C:\Users\raihauti\Documents\SiriusApril\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CoreCompileInputs.cache
+C:\Users\raihauti\Documents\SiriusApril\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CopyComplete
+C:\Users\raihauti\Documents\SiriusApril\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.dll
+C:\Users\raihauti\Documents\SiriusApril\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.pdb
+C:\Users\raihauti\Documents\SiriusApril\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.AssemblyReference.cache
+C:\Users\loicm\SQ_Merge_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.dll
+C:\Users\loicm\SQ_Merge_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.pdb
+C:\Users\loicm\SQ_Merge_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.dll
+C:\Users\loicm\SQ_Merge_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.Interfaces.dll
+C:\Users\loicm\SQ_Merge_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\loicm\SQ_Merge_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\MathNet.Numerics.dll
+C:\Users\loicm\SQ_Merge_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\System.ValueTuple.dll
+C:\Users\loicm\SQ_Merge_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\MathNet.Numerics.xml
+C:\Users\loicm\SQ_Merge_Last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\System.ValueTuple.xml
+C:\Users\loicm\SQ_Merge_Last\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.AssemblyReference.cache
+C:\Users\loicm\SQ_Merge_Last\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CoreCompileInputs.cache
+C:\Users\loicm\SQ_Merge_Last\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CopyComplete
+C:\Users\loicm\SQ_Merge_Last\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.dll
+C:\Users\loicm\SQ_Merge_Last\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.pdb
+C:\Users\raihauti\Documents\Sirius\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.dll
+C:\Users\raihauti\Documents\Sirius\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.pdb
+C:\Users\raihauti\Documents\Sirius\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.dll
+C:\Users\raihauti\Documents\Sirius\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.Interfaces.dll
+C:\Users\raihauti\Documents\Sirius\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\raihauti\Documents\Sirius\Code\Import\Sirius.Model.Import\bin\Debug\MathNet.Numerics.dll
+C:\Users\raihauti\Documents\Sirius\Code\Import\Sirius.Model.Import\bin\Debug\System.ValueTuple.dll
+C:\Users\raihauti\Documents\Sirius\Code\Import\Sirius.Model.Import\bin\Debug\MathNet.Numerics.xml
+C:\Users\raihauti\Documents\Sirius\Code\Import\Sirius.Model.Import\bin\Debug\System.ValueTuple.xml
+C:\Users\raihauti\Documents\Sirius\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CoreCompileInputs.cache
+C:\Users\raihauti\Documents\Sirius\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.dll
+C:\Users\raihauti\Documents\Sirius\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.pdb
+C:\Users\raihauti\Documents\Sirius\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.AssemblyReference.cache
+C:\Users\loicm\SQ_last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.dll
+C:\Users\loicm\SQ_last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.pdb
+C:\Users\loicm\SQ_last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.dll
+C:\Users\loicm\SQ_last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.Interfaces.dll
+C:\Users\loicm\SQ_last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\loicm\SQ_last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\MathNet.Numerics.dll
+C:\Users\loicm\SQ_last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\System.ValueTuple.dll
+C:\Users\loicm\SQ_last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\MathNet.Numerics.xml
+C:\Users\loicm\SQ_last\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\System.ValueTuple.xml
+C:\Users\loicm\SQ_last\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CoreCompileInputs.cache
+C:\Users\loicm\SQ_last\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CopyComplete
+C:\Users\loicm\SQ_last\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.dll
+C:\Users\loicm\SQ_last\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.pdb
+C:\Users\loicm\SQ_last\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.AssemblyReference.cache
+C:\Users\raihauti\Documents\Sirius\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.M.AF3E6F68.Up2Date
+C:\Users\loicm\SQ_Last_2\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.dll
+C:\Users\loicm\SQ_Last_2\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\Sirius.Model.pdb
+C:\Users\loicm\SQ_Last_2\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.dll
+C:\Users\loicm\SQ_Last_2\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Clima.AirT.Interfaces.dll
+C:\Users\loicm\SQ_Last_2\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\CRA.Core.Preconditions.dll
+C:\Users\loicm\SQ_Last_2\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\MathNet.Numerics.dll
+C:\Users\loicm\SQ_Last_2\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\System.ValueTuple.dll
+C:\Users\loicm\SQ_Last_2\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\MathNet.Numerics.xml
+C:\Users\loicm\SQ_Last_2\SiriusCode\Code\Import\Sirius.Model.Import\bin\Debug\System.ValueTuple.xml
+C:\Users\loicm\SQ_Last_2\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.AssemblyReference.cache
+C:\Users\loicm\SQ_Last_2\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.Import.csproj.CoreCompileInputs.cache
+C:\Users\loicm\SQ_Last_2\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.M.AF3E6F68.Up2Date
+C:\Users\loicm\SQ_Last_2\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.dll
+C:\Users\loicm\SQ_Last_2\SiriusCode\Code\Import\Sirius.Model.Import\obj\Debug\Sirius.Model.pdb

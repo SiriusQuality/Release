@@ -11,7 +11,13 @@ namespace Ami.Framework.Tool
         throw new Assert.AssertException(message);
     }
 
-    public static void AssertIsPositive(this double a, string message)
+   public static void AssertIsNotNullBlock<T>(this T[] a, string message) where T : class
+    {
+            if ((object)a == null)
+                throw new Assert.AssertException(message);
+    }
+
+        public static void AssertIsPositive(this double a, string message)
     {
       if (a <= 0.0)
         throw new Assert.AssertException(message);

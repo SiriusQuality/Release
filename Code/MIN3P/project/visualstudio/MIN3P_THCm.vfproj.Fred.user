@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioUserFile ProjectType="typeDynamicLibrary" ProjectCreator="Intel Fortran" Keyword="DLL" Version="11.0" ProjectIdGuid="{AC1D4039-3857-49B0-B662-B3CD96AC31BB}">
+	<Configurations>
+		<Configuration Name="Debug|Win32" WorkingDirectory="C:\min3p"/>
+		<Configuration Name="Release|Win32" WorkingDirectory="C:\min3p"/>
+		<Configuration Name="Debug|x64" WorkingDirectory="C:/min3p"/>
+		<Configuration Name="Release|x64" WorkingDirectory="C:\min3p"/></Configurations></VisualStudioUserFile>

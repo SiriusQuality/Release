@@ -10,498 +10,670 @@ using System.Linq;
 
 namespace Sirius.Model.Weather
 {
-  public class Cache
-  {
-
-    private TemperatureConverter temperatureConverter;
-    private static readonly double ScaleInRadiation = 10.0;
-    private static readonly double ScaleInRain = 10.0;
-    private static readonly double ScaleInTemperature = 100.0;
-    private static readonly double ScaleInVapourPresure = 100.0;
-    private static readonly double ScaleInWind = 1.0;
-    private static readonly double ScaleOutRadiation = 0.1;
-    private static readonly double ScaleOutRain = 0.1;
-    private static readonly double ScaleOutTemperature = 0.01;
-    private static readonly double ScaleOutVapourPresure = 0.01;
-    private static readonly double ScaleOutWind = 1.0;
-    private static readonly Cache<Cache.DataKey, Cache> CacheData = new Cache<Cache.DataKey, Cache>((Func<Cache.DataKey, Cache>) (key => new Cache(key.location, key.input)), (IEqualityComparer<Cache.DataKey>) new Cache.DataKeyEqualityComparer());
-    private static readonly string ReadDateOperation = "read date";
-    private static readonly string ReadRadiationOperation = "read radiation";
-    private static readonly string ReadRainOperation = "read rain";
-    private static readonly string ReadTempMaxOperation = "read temperature max";
-    private static readonly string ReadTempMinOperation = "read temperature min";
-    private static readonly string ReadTempHourlyOperation = "read hourly temperature";
-    private static readonly string ReadVapourPresureOperation = "read vapour presure";
-    private static readonly string ReadWindOperation = "read wind";
-    private const int AllocSize = 36600;
-    private const double Epsilon = 1E-06;
-    private const int InterpolateCount = 5;
-    private const double TextMissingValue = -99.0;
-    private const byte DigitRadiation = 1;
-    private const byte DigitRain = 1;
-    private const byte DigitTemperature = 2;
-    private const byte DigitVapourPresure = 2;
-    private const byte DigitWind = 0;
-    private const double MinRadiation = 0.1;
-    private const double MinRain = 0.0;
-    private const double MinSunHours = 0.0;
-    private const double MinTemperature = -90.0;
-    private const double MinVapourPresure = 0.0;
-    private const double MinWind = 0.0;
-    internal const double MaxRadiation = 50.0;
-    private const double MaxRain = 400.0;
-    private const double MaxSunHours = 24.0;
-    private const double MaxTemperature = 70.0;
-    private const double MaxVapourPresure = 60.0;
-    private const double MaxWind = 3000.0;
-    private readonly double[] bufferRead;
-    private readonly IEnumerable<string> fileEnum;
-    private readonly IWeatherFormat format;
-    private readonly ILocation location;
-    private readonly NumericReader numericReader;
-    private int count;
-    private DateTime? currentDate;
-    private string currentOperation;
-    private DateTime? lastDate;
-    private int maxConsecutiveMissingValuesAllowed;
-    private DateTime? startDate;
-    private short[] radiationArray;
-    private short[] rainArray;
-    private short[] tempMaxArray;
-    private short[] tempMinArray;
-    private short[] tempH0Array;
-    private short[] tempH1Array;
-    private short[] tempH2Array;
-    private short[] tempH3Array;
-    private short[] tempH4Array;
-    private short[] tempH5Array;
-    private short[] tempH6Array;
-    private short[] tempH7Array;
-    private short[] tempH8Array;
-    private short[] tempH9Array;
-    private short[] tempH10Array;
-    private short[] tempH11Array;
-    private short[] tempH12Array;
-    private short[] tempH13Array;
-    private short[] tempH14Array;
-    private short[] tempH15Array;
-    private short[] tempH16Array;
-    private short[] tempH17Array;
-    private short[] tempH18Array;
-    private short[] tempH19Array;
-    private short[] tempH20Array;
-    private short[] tempH21Array;
-    private short[] tempH22Array;
-    private short[] tempH23Array;
-    private short[] vapourPresureArray;
-    private short[] windArray;
-    private byte radiationMissing;
-    private byte rainMissing;
-    private byte tempMaxMissing;
-    private byte tempMinMissing;
-    private byte vapourPresureMissing;
-    private byte windMissing;
-    private byte tempHourlyMissing;
-    private readonly int dayColumn;
-    private readonly int doyColumn;
-    private readonly int monthColumn;
-    private readonly int radiationColumn;
-    private readonly int rainColumn;
-    private readonly int sunHoursColumn;
-    private readonly int tempMaxColumn;
-    private readonly int tempMinColumn;
-    private readonly int tempH0Column;
-    private readonly int tempH1Column;
-    private readonly int tempH2Column;
-    private readonly int tempH3Column;
-    private readonly int tempH4Column;
-    private readonly int tempH5Column;
-    private readonly int tempH6Column;
-    private readonly int tempH7Column;
-    private readonly int tempH8Column;
-    private readonly int tempH9Column;
-    private readonly int tempH10Column;
-    private readonly int tempH11Column;
-    private readonly int tempH12Column;
-    private readonly int tempH13Column;
-    private readonly int tempH14Column;
-    private readonly int tempH15Column;
-    private readonly int tempH16Column;
-    private readonly int tempH17Column;
-    private readonly int tempH18Column;
-    private readonly int tempH19Column;
-    private readonly int tempH20Column;
-    private readonly int tempH21Column;
-    private readonly int tempH22Column;
-    private readonly int tempH23Column;
-
-    private readonly int vapourPresureColumn;
-    private readonly int windColumn;
-    private readonly int yearColumn;
-
-    public DateTime? Start
+    public class Cache
     {
-      get
-      {
-        return this.startDate;
-      }
-    }
 
-    public int Count
-    {
-      get
-      {
-        return this.count;
-      }
-    }
+        private TemperatureConverter temperatureConverter;
+        private static readonly double ScaleInRadiation = 10.0;
+        private static readonly double ScaleInRain = 10.0;
+        private static readonly double ScaleInTemperature = 100.0;
+        private static readonly double ScaleInVapourPresure = 100.0;
+        private static readonly double ScaleInWind = 1.0;
+        private static readonly double ScaleInRadDiff = 1.0;
+        private static readonly double ScaleInRadDir = 1.0;
+        private static readonly double ScaleOutRadiation = 0.1;
+        private static readonly double ScaleOutRain = 0.1;
+        private static readonly double ScaleOutTemperature = 0.01;
+        private static readonly double ScaleOutVapourPresure = 0.01;
+        private static readonly double ScaleOutWind = 1.0;
+        private static readonly Cache<Cache.DataKey, Cache> CacheData = new Cache<Cache.DataKey, Cache>((Func<Cache.DataKey, Cache>)(key => new Cache(key.location, key.input)), (IEqualityComparer<Cache.DataKey>)new Cache.DataKeyEqualityComparer());
+        private static readonly string ReadDateOperation = "read date";
+        private static readonly string ReadDateHOperation = "read date (hourly process)";
+        private static readonly string ReadRadiationOperation = "read radiation";
+        private static readonly string ReadRadiationHOperation = "read hourly radiation";
+        private static readonly string ReadRainOperation = "read rain";
+        private static readonly string ReadRainHOperation = "read hourly rain";
+        private static readonly string ReadTempMaxOperation = "read temperature max";
+        private static readonly string ReadTempMinOperation = "read temperature min";
+        private static readonly string ReadTempHourlyOperation = "read hourly temperature";
+        private static readonly string ReadTempHOperation = "read hourly temperature by line";
+        private static readonly string ReadVapourPresureOperation = "read vapour presure";
+        private static readonly string ReadVapourHPresureOperation = "read hourly vapour presure";
+        private static readonly string ReadWindOperation = "read wind";
+        private static readonly string ReadWindHOperation = "read hourly wind";
+        private const int AllocSize = 36600;
+        private const double Epsilon = 1E-06;
+        private const int InterpolateCount = 5;
+        private const double TextMissingValue = -99.0;
+        private const byte DigitRadiation = 1;
+        private const byte DigitRain = 1;
+        private const byte DigitTemperature = 2;
+        private const byte DigitVapourPresure = 2;
+        private const byte DigitWind = 0;
+        private const double MinRadiation = 0.1;
+        private const double MinRain = 0.0;
+        private const double MinSunHours = 0.0;
+        private const double MinTemperature = -90.0;
+        private const double MinVapourPresure = 0.0;
+        private const double MinWind = 0.0;
+        internal const double MaxRadiation = 50.0;
+        private const double MaxRain = 400.0;
+        private const double MaxSunHours = 24.0;
+        private const double MaxTemperature = 70.0;
+        private const double MaxVapourPresure = 60.0;
+        private const double MaxWind = 3000.0;
+        private readonly double[] bufferRead;
+        private readonly double[][] bufferHourlyRead;
+        private readonly IEnumerable<string> fileEnum;
+        private readonly IWeatherFormat format;
+        private readonly ILocation location;
+        private readonly NumericReader numericReader;
+        private readonly NumericReaderBlock numericReaderBlock;
+        private int count;
+        private DateTime? currentDate;
+        private string currentOperation;
+        private DateTime? lastDate;
+        private int maxConsecutiveMissingValuesAllowed;
+        private DateTime? startDate;
+        private short[] radiationArray;
+        private short[] daylengthArray;
+        private short[][] radiationArrayHourly;
+        private short[] rainArray;
+        private short[][] rainArrayHourly;
+        private short[] tempMaxArray;
+        private short[] tempMinArray;
+        private short[] tempH0Array;
+        private short[] tempH1Array;
+        private short[] tempH2Array;
+        private short[] tempH3Array;
+        private short[] tempH4Array;
+        private short[] tempH5Array;
+        private short[] tempH6Array;
+        private short[] tempH7Array;
+        private short[] tempH8Array;
+        private short[] tempH9Array;
+        private short[] tempH10Array;
+        private short[] tempH11Array;
+        private short[] tempH12Array;
+        private short[] tempH13Array;
+        private short[] tempH14Array;
+        private short[] tempH15Array;
+        private short[] tempH16Array;
+        private short[] tempH17Array;
+        private short[] tempH18Array;
+        private short[] tempH19Array;
+        private short[] tempH20Array;
+        private short[] tempH21Array;
+        private short[] tempH22Array;
+        private short[] tempH23Array;
+        private short[][] tempArrayHourly;
+        private short[] vapourPresureArray;
+        private short[][] vapourPresureArrayHourly;
+        private short[] windArray;
+        private short[][] windArrayHourly;
+        private byte radiationMissing;
+        private byte daylengthMissing;
+        private byte rainMissing;
+        private byte tempMaxMissing;
+        private byte tempMinMissing;
+        private byte vapourPresureMissing;
+        private byte windMissing;
+        private byte tempHourlyMissing;
+        private byte radiationMissingH;
+        private byte rainMissingH;
+        private byte tempMissingH;
+        private byte vapourPresureMissingH;
+        private byte windMissingH;
+        private readonly int dayColumn;
+        private readonly int doyColumn;
+        private readonly int doyColumnHourly;
+        private readonly int monthColumn;
+        private readonly int radiationColumn;
+        private readonly int daylengthColumn;
+        private readonly int radiationHourlyColumn;
+        private readonly int rainColumn;
+        private readonly int rainHourlyColumn;
+        private readonly int sunHoursColumn;
+        private readonly int tempMaxColumn;
+        private readonly int tempMinColumn;
+        private readonly int tempHourlyColumn;
+        private readonly int tempH0Column;
+        private readonly int tempH1Column;
+        private readonly int tempH2Column;
+        private readonly int tempH3Column;
+        private readonly int tempH4Column;
+        private readonly int tempH5Column;
+        private readonly int tempH6Column;
+        private readonly int tempH7Column;
+        private readonly int tempH8Column;
+        private readonly int tempH9Column;
+        private readonly int tempH10Column;
+        private readonly int tempH11Column;
+        private readonly int tempH12Column;
+        private readonly int tempH13Column;
+        private readonly int tempH14Column;
+        private readonly int tempH15Column;
+        private readonly int tempH16Column;
+        private readonly int tempH17Column;
+        private readonly int tempH18Column;
+        private readonly int tempH19Column;
+        private readonly int tempH20Column;
+        private readonly int tempH21Column;
+        private readonly int tempH22Column;
+        private readonly int tempH23Column;
+        private readonly int vapourPresureColumn;
+        private readonly int vapourPresureHourlyColumn;
+        private readonly int windColumn;
+        private readonly int windHourlyColumn;
+        private readonly int yearColumn;
+        private readonly int yearColumnHourly;
 
-    public DateTime? End
-    {
-      get
-      {
-        if (!this.startDate.HasValue)
-          return new DateTime?();
-        return new DateTime?(this.startDate.Value.AddDays((double) (this.count - 1)));
-      }
-    }
-
-    public bool VapourPresureDefined
-    {
-      get
-      {
-        return this.vapourPresureArray != null;
-      }
-    }
-
-    public bool WindDefined
-    {
-      get
-      {
-        return this.windArray != null;
-      }
-    }
-
-    private Cache(ILocation dataLocation, IWeatherInput input)
-    {
-      this.location = dataLocation;
-      this.fileEnum = (IEnumerable<string>) input.Files;
-      this.format = input.Format;
-      this.maxConsecutiveMissingValuesAllowed = input.MaxConsecutiveMissingValuesAllowed;
-
-      this.dayColumn = this.doyColumn = this.monthColumn = this.radiationColumn = this.rainColumn = this.tempMaxColumn = this.tempMinColumn = this.sunHoursColumn = this.vapourPresureColumn = this.windColumn = this.yearColumn = -1;
-      this.tempMaxColumn = this.tempMinColumn = this.tempH0Column = this.tempH1Column = this.tempH2Column = this.tempH3Column = this.tempH4Column = this.tempH5Column = 
-      this.tempH6Column = this.tempH7Column = this.tempH8Column = this.tempH9Column = this.tempH10Column = this.tempH11Column = this.tempH12Column = this.tempH13Column =
-      this.tempH14Column = this.tempH15Column = this.tempH16Column = this.tempH17Column = this.tempH18Column = this.tempH19Column = this.tempH20Column = this.tempH21Column =
-      this.tempH22Column = this.tempH23Column = -1;
-
-      temperatureConverter =new TemperatureConverter();
-
-      this.bufferRead = new double[0];
-      int index = 0;
-      foreach (WeatherFormatID weatherFormatId in (IEnumerable<WeatherFormatID>) this.format)
-      {
-        switch (weatherFormatId)
+        public DateTime? Start
         {
-          case WeatherFormatID.Day:
-            Cache.AddDateColumn(index, ref this.bufferRead, ref this.dayColumn);
-            break;
-          case WeatherFormatID.DayOfYear:
-            Cache.AddDateColumn(index, ref this.bufferRead, ref this.doyColumn);
-            break;
-          case WeatherFormatID.Month:
-            Cache.AddDateColumn(index, ref this.bufferRead, ref this.monthColumn);
-            break;
-          case WeatherFormatID.Radiation:
-            Cache.AddValueColumn(index, ref this.bufferRead, ref this.radiationArray, ref this.radiationColumn);
-            break;
-          case WeatherFormatID.Rain:
-            Cache.AddValueColumn(index, ref this.bufferRead, ref this.rainArray, ref this.rainColumn);
-            break;
-          case WeatherFormatID.SunHours:
-            Cache.AddValueColumn(index, ref this.bufferRead, ref this.radiationArray, ref this.sunHoursColumn);
-            break;
-          case WeatherFormatID.TempMax:
-            Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempMaxArray, ref this.tempMaxColumn);
-            break;
-          case WeatherFormatID.TempMin:
-            Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempMinArray, ref this.tempMinColumn);
-            break;
-          case WeatherFormatID.Unknown:
-            Cache.AddEmptyColumn(ref this.bufferRead);
-            break;
-          case WeatherFormatID.VapourPresure:
-            Cache.AddValueColumn(index, ref this.bufferRead, ref this.vapourPresureArray, ref this.vapourPresureColumn);
-            break;
-          case WeatherFormatID.Wind:
-            Cache.AddValueColumn(index, ref this.bufferRead, ref this.windArray, ref this.windColumn);
-            break;
-          case WeatherFormatID.Year:
-            Cache.AddDateColumn(index, ref this.bufferRead, ref this.yearColumn);
-            break;
-          case WeatherFormatID.TempH0:
-            Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH0Array, ref this.tempH0Column);
-            break;
-          case WeatherFormatID.TempH1:
-            Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH1Array, ref this.tempH1Column);
-            break;
-          case WeatherFormatID.TempH2:
-            Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH2Array, ref this.tempH2Column);
-            break;
-          case WeatherFormatID.TempH3:
-            Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH3Array, ref this.tempH3Column);
-            break;
-          case WeatherFormatID.TempH4:
-            Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH4Array, ref this.tempH4Column);
-            break;
-          case WeatherFormatID.TempH5:
-            Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH5Array, ref this.tempH5Column);
-            break;
-          case WeatherFormatID.TempH6:
-            Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH6Array, ref this.tempH6Column);
-            break;
-          case WeatherFormatID.TempH7:
-            Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH7Array, ref this.tempH7Column);
-            break;
-          case WeatherFormatID.TempH8:
-            Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH8Array, ref this.tempH8Column);
-            break;
-          case WeatherFormatID.TempH9:
-            Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH9Array, ref this.tempH9Column);
-            break;
-          case WeatherFormatID.TempH10:
-            Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH10Array, ref this.tempH10Column);
-            break;
-          case WeatherFormatID.TempH11:
-            Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH11Array, ref this.tempH11Column);
-            break;
-          case WeatherFormatID.TempH12:
-            Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH12Array, ref this.tempH12Column);
-            break;
-          case WeatherFormatID.TempH13:
-            Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH13Array, ref this.tempH13Column);
-            break;
-          case WeatherFormatID.TempH14:
-            Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH14Array, ref this.tempH14Column);
-            break;
-          case WeatherFormatID.TempH15:
-            Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH15Array, ref this.tempH15Column);
-            break;
-          case WeatherFormatID.TempH16:
-            Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH16Array, ref this.tempH16Column);
-            break;
-          case WeatherFormatID.TempH17:
-            Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH17Array, ref this.tempH17Column);
-            break;
-          case WeatherFormatID.TempH18:
-            Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH18Array, ref this.tempH18Column);
-            break;
-          case WeatherFormatID.TempH19:
-            Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH19Array, ref this.tempH19Column);
-            break;
-          case WeatherFormatID.TempH20:
-            Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH20Array, ref this.tempH20Column);
-            break;
-          case WeatherFormatID.TempH21:
-            Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH21Array, ref this.tempH21Column);
-            break;
-          case WeatherFormatID.TempH22:
-            Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH22Array, ref this.tempH22Column);
-            break;
-          case WeatherFormatID.TempH23:
-            Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH23Array, ref this.tempH23Column);
-            break;
-          default:
-            throw new InvalidOperationException("Unknow weather format ID: " + (object) weatherFormatId);
+            get
+            {
+                return this.startDate;
+            }
         }
-        ++index;
-      }
-      this.numericReader = new NumericReader(this.bufferRead, new Action<NumericReader, NumericParser, bool, bool, bool>(this.OnLine), new Action<NumericReader, Exception>(this.OnException));
-      this.numericReader.Read(this.fileEnum);
-      this.ResizeColumn(ref this.radiationArray);
-      this.ResizeColumn(ref this.rainArray);
-      this.ResizeColumn(ref this.tempMaxArray);
-      this.ResizeColumn(ref this.tempMinArray);
-      this.ResizeColumn(ref this.vapourPresureArray);
-      this.ResizeColumn(ref this.windArray);
-        this.ResizeColumn(ref this.tempH0Array);
-        this.ResizeColumn(ref this.tempH1Array);
-        this.ResizeColumn(ref this.tempH2Array);
-        this.ResizeColumn(ref this.tempH3Array);
-        this.ResizeColumn(ref this.tempH4Array);
-        this.ResizeColumn(ref this.tempH5Array);
-        this.ResizeColumn(ref this.tempH6Array);
-        this.ResizeColumn(ref this.tempH7Array);
-        this.ResizeColumn(ref this.tempH8Array);
-        this.ResizeColumn(ref this.tempH9Array);
-        this.ResizeColumn(ref this.tempH10Array);
-        this.ResizeColumn(ref this.tempH11Array);
-        this.ResizeColumn(ref this.tempH12Array);
-        this.ResizeColumn(ref this.tempH13Array);
-        this.ResizeColumn(ref this.tempH14Array);
-        this.ResizeColumn(ref this.tempH15Array);
-        this.ResizeColumn(ref this.tempH16Array);
-        this.ResizeColumn(ref this.tempH17Array);
-        this.ResizeColumn(ref this.tempH18Array);
-        this.ResizeColumn(ref this.tempH19Array);
-        this.ResizeColumn(ref this.tempH20Array);
-        this.ResizeColumn(ref this.tempH21Array);
-        this.ResizeColumn(ref this.tempH22Array);
-        this.ResizeColumn(ref this.tempH23Array);
-      this.numericReader = (NumericReader) null;
-    }
 
-    private static void AddDateColumn(int index, ref double[] bufferRead, ref int columnIndex)
-    {
-      columnIndex = index;
-      CollectionHelper.Add<double>(ref bufferRead, 0.0);
-    }
-
-    private static void AddValueColumn(int index, ref double[] bufferRead, ref short[] valueArray, ref int columnIndex)
-    {
-      columnIndex = index;
-      CollectionHelper.Add<double>(ref bufferRead, 0.0);
-      if (valueArray != null)
-        return;
-      valueArray = new short[36600];
-    }
-
-    private static void AddEmptyColumn(ref double[] bufferRead)
-    {
-      CollectionHelper.Add<double>(ref bufferRead, 0.0);
-    }
-
-    private void ResizeColumn(ref short[] array)
-    {
-      if (array == null)
-        return;
-      Array.Resize<short>(ref array, this.count);
-    }
-
-    private void OnLine(NumericReader nR, NumericParser numericParser, bool lineIsEmpty, bool tooManyValues, bool tooFewValues)
-    {
-      this.currentOperation = (string) null;
-      if (lineIsEmpty)
-        return;
-      double radiation;
-      double rain;
-      double sunHours;
-      double temperatureMax = -1 ;
-      double temperatureMin = -1; ;
-      double[] temperatureH = new double[24];
-
-      double vapourPresure;
-      double wind;
-      int day;
-      int doy;
-      int month;
-      int year;
-
-      bool hourlyTemp = (this.tempMaxColumn == -1 && this.tempMinColumn == -1); 
-
-      if (!tooFewValues)
-      {
-        radiation = this.GetDoubleValue(this.radiationColumn);
-        rain = this.GetDoubleValue(this.rainColumn);
-        sunHours = this.GetDoubleValue(this.sunHoursColumn);
-        if (!hourlyTemp)
+        public int Count
         {
-            temperatureMax = this.GetDoubleValue(this.tempMaxColumn);
-            temperatureMin = this.GetDoubleValue(this.tempMinColumn);
+            get
+            {
+                return this.count;
+            }
         }
-        else
-        {
-            temperatureH[0]= this.GetDoubleValue(this.tempH0Column);
-            temperatureH[1] = this.GetDoubleValue(this.tempH1Column);
-            temperatureH[2] = this.GetDoubleValue(this.tempH2Column);
-            temperatureH[3] = this.GetDoubleValue(this.tempH3Column);
-            temperatureH[4] = this.GetDoubleValue(this.tempH4Column);
-            temperatureH[5] = this.GetDoubleValue(this.tempH5Column);
-            temperatureH[6] = this.GetDoubleValue(this.tempH6Column);
-            temperatureH[7] = this.GetDoubleValue(this.tempH7Column);
-            temperatureH[8] = this.GetDoubleValue(this.tempH8Column);
-            temperatureH[9] = this.GetDoubleValue(this.tempH9Column);
-            temperatureH[10] = this.GetDoubleValue(this.tempH10Column);
-            temperatureH[11] = this.GetDoubleValue(this.tempH11Column);
-            temperatureH[12] = this.GetDoubleValue(this.tempH12Column);
-            temperatureH[13] = this.GetDoubleValue(this.tempH13Column);
-            temperatureH[14] = this.GetDoubleValue(this.tempH14Column);
-            temperatureH[15] = this.GetDoubleValue(this.tempH15Column);
-            temperatureH[16] = this.GetDoubleValue(this.tempH16Column);
-            temperatureH[17] = this.GetDoubleValue(this.tempH17Column);
-            temperatureH[18] = this.GetDoubleValue(this.tempH18Column);
-            temperatureH[19] = this.GetDoubleValue(this.tempH19Column);
-            temperatureH[20] = this.GetDoubleValue(this.tempH20Column);
-            temperatureH[21] = this.GetDoubleValue(this.tempH21Column);
-            temperatureH[22] = this.GetDoubleValue(this.tempH22Column);
-            temperatureH[23] = this.GetDoubleValue(this.tempH23Column);
-        }
-        vapourPresure = this.GetDoubleValue(this.vapourPresureColumn);
-        wind = this.GetDoubleValue(this.windColumn);
-        day = this.GetIntValue(this.dayColumn);
-        doy = this.GetIntValue(this.doyColumn);
-        month = this.GetIntValue(this.monthColumn);
-        year = this.GetIntValue(this.yearColumn);
-      }
-      else
-      {
-        radiation = double.NaN;
-        rain = double.NaN;
-        sunHours = double.NaN;
-        if (!hourlyTemp)
-        {
-            temperatureMax = double.NaN;
-            temperatureMin = double.NaN;
-        }
-        else
-        {
-            temperatureH[0] = double.NaN;
-            temperatureH[1] = double.NaN;
-            temperatureH[2] = double.NaN;
-            temperatureH[3] = double.NaN;
-            temperatureH[4] = double.NaN;
-            temperatureH[5] = double.NaN;
-            temperatureH[6] = double.NaN;
-            temperatureH[7] = double.NaN;
-            temperatureH[8] = double.NaN;
-            temperatureH[9] = double.NaN;
-            temperatureH[10] = double.NaN;
-            temperatureH[11] = double.NaN;
-            temperatureH[12] = double.NaN;
-            temperatureH[13] = double.NaN;
-            temperatureH[14] = double.NaN;
-            temperatureH[15] = double.NaN;
-            temperatureH[16] = double.NaN;
-            temperatureH[17] = double.NaN;
-            temperatureH[18] = double.NaN;
-            temperatureH[19] = double.NaN;
-            temperatureH[20] = double.NaN;
-            temperatureH[21] = double.NaN;
-            temperatureH[22] = double.NaN;
-            temperatureH[23] = double.NaN;
-        }
-        vapourPresure = double.NaN;
-        wind = double.NaN;
-        day = int.MinValue;
-        doy = int.MinValue;
-        month = int.MinValue;
-        year = int.MinValue;
-      }
 
-      if (!hourlyTemp)
-      {
-          if (this.doyColumn != -1)
-              this.ProcessLine(year, doy, radiation, rain, temperatureMax, temperatureMin, sunHours, vapourPresure, wind);
-          else
-              this.ProcessLine(year, month, day, radiation, rain, temperatureMax, temperatureMin, sunHours, vapourPresure, wind);
-      }
-      else
-      {
-          if (this.doyColumn != -1)
-              this.ProcessLine(year, doy, radiation, rain, temperatureH, sunHours, vapourPresure, wind);
-          else
-              this.ProcessLine(year, month, day, radiation, rain, temperatureH, sunHours, vapourPresure, wind);
-      }
-    }
+        public DateTime? End
+        {
+            get
+            {
+                if (!this.startDate.HasValue)
+                    return new DateTime?();
+                return new DateTime?(this.startDate.Value.AddDays((double)(this.count - 1)));
+            }
+        }
+
+        public bool VapourPresureDefined
+        {
+            get
+            {
+                return this.vapourPresureArray != null;
+            }
+        }
+
+        public bool WindDefined
+        {
+            get
+            {
+                return this.windArray != null;
+            }
+        }
+
+        public bool HourlyDefined
+        {
+            get
+            {
+                return this.tempArrayHourly != null;
+            }
+        }
+
+        private Cache(ILocation dataLocation, IWeatherInput input)
+        {
+            this.location = dataLocation;
+            this.fileEnum = (IEnumerable<string>)input.Files;
+            this.format = input.Format;
+            this.maxConsecutiveMissingValuesAllowed = input.MaxConsecutiveMissingValuesAllowed;
+
+            this.dayColumn = this.doyColumn = this.monthColumn = this.radiationColumn = this.rainColumn = this.tempMaxColumn = this.tempMinColumn = this.sunHoursColumn = this.vapourPresureColumn = this.windColumn = this.yearColumn = this.daylengthColumn = -1;
+            this.tempMaxColumn = this.tempMinColumn = this.tempH0Column = this.tempH1Column = this.tempH2Column = this.tempH3Column = this.tempH4Column = this.tempH5Column =
+            this.tempH6Column = this.tempH7Column = this.tempH8Column = this.tempH9Column = this.tempH10Column = this.tempH11Column = this.tempH12Column = this.tempH13Column =
+            this.tempH14Column = this.tempH15Column = this.tempH16Column = this.tempH17Column = this.tempH18Column = this.tempH19Column = this.tempH20Column = this.tempH21Column =
+            this.tempH22Column = this.tempH23Column = this.windColumn = this.radiationHourlyColumn = this.rainHourlyColumn = this.tempHourlyColumn = this.windHourlyColumn = this.vapourPresureHourlyColumn = -1;
+
+            temperatureConverter = new TemperatureConverter();
+
+            this.bufferRead = new double[0];
+            this.bufferHourlyRead = new double[24][];
+            for (int ihour = 0; ihour < 24; ihour++) this.bufferHourlyRead[ihour] = new double[0];
+            int index = 0;
+            foreach (WeatherFormatID weatherFormatId in (IEnumerable<WeatherFormatID>)this.format)
+            {
+                switch (weatherFormatId)
+                {
+                    case WeatherFormatID.Day:
+                        Cache.AddDateColumn(index, ref this.bufferRead, ref this.dayColumn);
+                        break;
+                    case WeatherFormatID.DayOfYear:
+                        Cache.AddDateColumn(index, ref this.bufferRead, ref this.doyColumn);
+                        break;
+                    case WeatherFormatID.DayOfYearHourly:
+                        Cache.AddDateBlock(index, ref this.bufferHourlyRead, ref this.doyColumnHourly);
+                        break;
+                    case WeatherFormatID.Month:
+                        Cache.AddDateColumn(index, ref this.bufferRead, ref this.monthColumn);
+                        break;
+                    case WeatherFormatID.Radiation:
+                        Cache.AddValueColumn(index, ref this.bufferRead, ref this.radiationArray, ref this.radiationColumn);
+                        break;
+                    case WeatherFormatID.Rain:
+                        Cache.AddValueColumn(index, ref this.bufferRead, ref this.rainArray, ref this.rainColumn);
+                        break;
+                    case WeatherFormatID.SunHours:
+                        Cache.AddValueColumn(index, ref this.bufferRead, ref this.radiationArray, ref this.sunHoursColumn);
+                        break;
+                    case WeatherFormatID.TempMax:
+                        Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempMaxArray, ref this.tempMaxColumn);
+                        break;
+                    case WeatherFormatID.TempMin:
+                        Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempMinArray, ref this.tempMinColumn);
+                        break;
+                    case WeatherFormatID.Unknown:
+                        Cache.AddEmptyColumn(ref this.bufferRead);
+                        break;
+                    case WeatherFormatID.VapourPresure:
+                        Cache.AddValueColumn(index, ref this.bufferRead, ref this.vapourPresureArray, ref this.vapourPresureColumn);
+                        break;
+                    case WeatherFormatID.Wind:
+                        Cache.AddValueColumn(index, ref this.bufferRead, ref this.windArray, ref this.windColumn);
+                        break;
+                    case WeatherFormatID.DayLength:
+                        //DL
+                        Cache.AddValueColumn(index, ref this.bufferRead, ref this.daylengthArray, ref this.daylengthColumn);
+                        //
+                        break;
+                    case WeatherFormatID.Year:
+                        Cache.AddDateColumn(index, ref this.bufferRead, ref this.yearColumn);
+                        break;
+                    case WeatherFormatID.YearHourly:
+                        Cache.AddDateBlock(index, ref this.bufferHourlyRead, ref this.yearColumnHourly);
+                        break;
+                    case WeatherFormatID.TempH0:
+                        Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH0Array, ref this.tempH0Column);
+                        break;
+                    case WeatherFormatID.TempH1:
+                        Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH1Array, ref this.tempH1Column);
+                        break;
+                    case WeatherFormatID.TempH2:
+                        Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH2Array, ref this.tempH2Column);
+                        break;
+                    case WeatherFormatID.TempH3:
+                        Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH3Array, ref this.tempH3Column);
+                        break;
+                    case WeatherFormatID.TempH4:
+                        Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH4Array, ref this.tempH4Column);
+                        break;
+                    case WeatherFormatID.TempH5:
+                        Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH5Array, ref this.tempH5Column);
+                        break;
+                    case WeatherFormatID.TempH6:
+                        Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH6Array, ref this.tempH6Column);
+                        break;
+                    case WeatherFormatID.TempH7:
+                        Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH7Array, ref this.tempH7Column);
+                        break;
+                    case WeatherFormatID.TempH8:
+                        Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH8Array, ref this.tempH8Column);
+                        break;
+                    case WeatherFormatID.TempH9:
+                        Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH9Array, ref this.tempH9Column);
+                        break;
+                    case WeatherFormatID.TempH10:
+                        Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH10Array, ref this.tempH10Column);
+                        break;
+                    case WeatherFormatID.TempH11:
+                        Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH11Array, ref this.tempH11Column);
+                        break;
+                    case WeatherFormatID.TempH12:
+                        Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH12Array, ref this.tempH12Column);
+                        break;
+                    case WeatherFormatID.TempH13:
+                        Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH13Array, ref this.tempH13Column);
+                        break;
+                    case WeatherFormatID.TempH14:
+                        Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH14Array, ref this.tempH14Column);
+                        break;
+                    case WeatherFormatID.TempH15:
+                        Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH15Array, ref this.tempH15Column);
+                        break;
+                    case WeatherFormatID.TempH16:
+                        Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH16Array, ref this.tempH16Column);
+                        break;
+                    case WeatherFormatID.TempH17:
+                        Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH17Array, ref this.tempH17Column);
+                        break;
+                    case WeatherFormatID.TempH18:
+                        Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH18Array, ref this.tempH18Column);
+                        break;
+                    case WeatherFormatID.TempH19:
+                        Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH19Array, ref this.tempH19Column);
+                        break;
+                    case WeatherFormatID.TempH20:
+                        Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH20Array, ref this.tempH20Column);
+                        break;
+                    case WeatherFormatID.TempH21:
+                        Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH21Array, ref this.tempH21Column);
+                        break;
+                    case WeatherFormatID.TempH22:
+                        Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH22Array, ref this.tempH22Column);
+                        break;
+                    case WeatherFormatID.TempH23:
+                        Cache.AddValueColumn(index, ref this.bufferRead, ref this.tempH23Array, ref this.tempH23Column);
+                        break;
+                    case WeatherFormatID.RadiationHourly:
+                        Cache.AddValueBlock(index, ref this.bufferHourlyRead, ref this.radiationArrayHourly, ref this.radiationHourlyColumn);
+                        break;
+                    case WeatherFormatID.RainHourly:
+                        Cache.AddValueBlock(index, ref this.bufferHourlyRead, ref this.rainArrayHourly, ref this.rainHourlyColumn);
+                        break;
+                    case WeatherFormatID.TempHourly:
+                        Cache.AddValueBlock(index, ref this.bufferHourlyRead, ref this.tempArrayHourly, ref this.tempHourlyColumn);
+                        break;
+                    case WeatherFormatID.VapourPressureHourly:
+                        Cache.AddValueBlock(index, ref this.bufferHourlyRead, ref this.vapourPresureArrayHourly, ref this.vapourPresureHourlyColumn);
+                        break;
+                    case WeatherFormatID.WindHourly:
+                        Cache.AddValueBlock(index, ref this.bufferHourlyRead, ref this.windArrayHourly, ref this.windHourlyColumn);
+                        break;
+                    default:
+                        throw new InvalidOperationException("Unknow weather format ID: " + (object)weatherFormatId);
+                }
+                ++index;
+            }
+
+            if (HourlyDefined)
+            {
+
+                this.numericReaderBlock = new NumericReaderBlock(this.bufferHourlyRead, new Action<NumericReaderBlock, NumericParserBlock, bool[], bool[], bool[]>(this.OnLineBlock), new Action<NumericReaderBlock, Exception>(this.OnExceptionBlock));
+                this.numericReaderBlock.Read(this.fileEnum);
+                this.ResizeColumnBlock(ref this.radiationArrayHourly);
+                this.ResizeColumnBlock(ref this.rainArrayHourly);
+                this.ResizeColumnBlock(ref this.vapourPresureArrayHourly);
+                this.ResizeColumnBlock(ref this.windArrayHourly);
+                this.ResizeColumnBlock(ref this.tempArrayHourly);
+
+
+            }
+            else
+            {
+                this.numericReader = new NumericReader(this.bufferRead, new Action<NumericReader, NumericParser, bool, bool, bool>(this.OnLine), new Action<NumericReader, Exception>(this.OnException));
+                this.numericReader.Read(this.fileEnum);
+                this.ResizeColumn(ref this.radiationArray);
+                this.ResizeColumn(ref this.daylengthArray);
+                this.ResizeColumn(ref this.rainArray);
+                this.ResizeColumn(ref this.tempMaxArray);
+                this.ResizeColumn(ref this.tempMinArray);
+                this.ResizeColumn(ref this.vapourPresureArray);
+                this.ResizeColumn(ref this.windArray);
+                this.ResizeColumn(ref this.tempH0Array);
+                this.ResizeColumn(ref this.tempH1Array);
+                this.ResizeColumn(ref this.tempH2Array);
+                this.ResizeColumn(ref this.tempH3Array);
+                this.ResizeColumn(ref this.tempH4Array);
+                this.ResizeColumn(ref this.tempH5Array);
+                this.ResizeColumn(ref this.tempH6Array);
+                this.ResizeColumn(ref this.tempH7Array);
+                this.ResizeColumn(ref this.tempH8Array);
+                this.ResizeColumn(ref this.tempH9Array);
+                this.ResizeColumn(ref this.tempH10Array);
+                this.ResizeColumn(ref this.tempH11Array);
+                this.ResizeColumn(ref this.tempH12Array);
+                this.ResizeColumn(ref this.tempH13Array);
+                this.ResizeColumn(ref this.tempH14Array);
+                this.ResizeColumn(ref this.tempH15Array);
+                this.ResizeColumn(ref this.tempH16Array);
+                this.ResizeColumn(ref this.tempH17Array);
+                this.ResizeColumn(ref this.tempH18Array);
+                this.ResizeColumn(ref this.tempH19Array);
+                this.ResizeColumn(ref this.tempH20Array);
+                this.ResizeColumn(ref this.tempH21Array);
+                this.ResizeColumn(ref this.tempH22Array);
+                this.ResizeColumn(ref this.tempH23Array);
+            }
+
+
+            this.numericReader = (NumericReader)null;
+        }
+
+        private static void AddDateColumn(int index, ref double[] bufferRead, ref int columnIndex)
+        {
+            columnIndex = index;
+            CollectionHelper.Add<double>(ref bufferRead, 0.0);
+        }
+
+        private static void AddDateBlock(int index, ref double[][] bufferRead, ref int columnIndex)
+        {
+            columnIndex = index;
+            for (int ihour = 0; ihour < 24; ihour++) CollectionHelper.Add<double>(ref bufferRead[ihour], 0.0);
+
+        }
+
+        private static void AddValueColumn(int index, ref double[] bufferRead, ref short[] valueArray, ref int columnIndex)
+        {
+            columnIndex = index;
+            CollectionHelper.Add<double>(ref bufferRead, 0.0);
+            if (valueArray != null)
+                return;
+            valueArray = new short[36600];
+        }
+
+        private static void AddValueBlock(int index, ref double[][] bufferRead, ref short[][] valueArray, ref int columnIndex)
+        {
+            columnIndex = index;
+            CollectionHelper.AddBlock<double>(ref bufferRead, 0.0);
+            if (valueArray != null)
+                return;
+            valueArray = new short[24][];
+            for(int ihour=0;ihour<24;ihour++) valueArray[ihour] = new short[36600];
+        }
+
+        private static void AddEmptyColumn(ref double[] bufferRead)
+        {
+            CollectionHelper.Add<double>(ref bufferRead, 0.0);
+        }
+
+        private void ResizeColumn(ref short[] array)
+        {
+            if (array == null)
+                return;
+            Array.Resize<short>(ref array, this.count);
+        }
+
+        private void ResizeColumnBlock(ref short[][] array)
+        {
+            if (array == null)
+                return;
+            for (int ihour = 0; ihour < 24; ihour++) Array.Resize<short>(ref array[ihour], this.count);
+        }
+
+        private void OnLineBlock(NumericReaderBlock nR, NumericParserBlock numericParser, bool[] lineIsEmpty, bool[] tooManyValues, bool[] tooFewValues)
+        {
+            this.currentOperation = (string)null;
+
+            double radiation = double.NaN;
+            double rain = double.NaN;
+            double temperature = double.NaN;
+
+            double vapourPresure = double.NaN;
+            double wind = double.NaN;
+            int doy;
+            int year;
+
+            for (int ihour = 0; ihour < 24; ihour++)
+            {
+
+                if (lineIsEmpty[ihour])
+                    return;
+
+
+                if (!tooFewValues[ihour])
+                {
+                    radiation = this.GetDoubleBlock(this.radiationHourlyColumn, ihour);
+                    rain = this.GetDoubleBlock(this.rainHourlyColumn, ihour);
+                    temperature = this.GetDoubleBlock(this.tempHourlyColumn, ihour);
+                    vapourPresure = this.GetDoubleBlock(this.vapourPresureHourlyColumn, ihour);
+                    wind = this.GetDoubleBlock(this.windHourlyColumn, ihour);
+                    doy = this.GetIntValueBlock(this.doyColumnHourly, ihour);
+                    year = this.GetIntValueBlock(this.yearColumnHourly, ihour);
+                }
+                else
+                {
+                    radiation = double.NaN;
+                    rain = double.NaN;
+                    temperature = double.NaN;
+                    vapourPresure = double.NaN;
+                    wind = double.NaN;
+
+                    doy = int.MinValue;
+                    year = int.MinValue;
+                }
+                this.ProcessBlock(year, doy, radiation, rain, temperature, vapourPresure, wind, ihour);
+            }
+        }
+
+        private void OnLine(NumericReader nR, NumericParser numericParser, bool lineIsEmpty, bool tooManyValues, bool tooFewValues)
+        {
+            this.currentOperation = (string)null;
+            if (lineIsEmpty)
+                return;
+            double radiation;
+            double daylength;
+            double rain;
+            double sunHours;
+            double temperatureMax = -1;
+            double temperatureMin = -1; ;
+            double[] temperatureH = new double[24];
+
+            double vapourPresure;
+            double wind;
+            int day;
+            int doy;
+            int month;
+            int year;
+
+            bool hourlyTemp = (this.tempMaxColumn == -1 && this.tempMinColumn == -1);
+
+            if (!tooFewValues)
+            {
+
+                radiation = this.GetDoubleValue(this.radiationColumn);
+                rain = this.GetDoubleValue(this.rainColumn);
+                sunHours = this.GetDoubleValue(this.sunHoursColumn);
+
+                if (!hourlyTemp)
+                {
+                    temperatureMax = this.GetDoubleValue(this.tempMaxColumn);
+                    temperatureMin = this.GetDoubleValue(this.tempMinColumn);
+
+                }
+                else
+                {
+                    temperatureH[0] = this.GetDoubleValue(this.tempH0Column);
+                    temperatureH[1] = this.GetDoubleValue(this.tempH1Column);
+                    temperatureH[2] = this.GetDoubleValue(this.tempH2Column);
+                    temperatureH[3] = this.GetDoubleValue(this.tempH3Column);
+                    temperatureH[4] = this.GetDoubleValue(this.tempH4Column);
+                    temperatureH[5] = this.GetDoubleValue(this.tempH5Column);
+                    temperatureH[6] = this.GetDoubleValue(this.tempH6Column);
+                    temperatureH[7] = this.GetDoubleValue(this.tempH7Column);
+                    temperatureH[8] = this.GetDoubleValue(this.tempH8Column);
+                    temperatureH[9] = this.GetDoubleValue(this.tempH9Column);
+                    temperatureH[10] = this.GetDoubleValue(this.tempH10Column);
+                    temperatureH[11] = this.GetDoubleValue(this.tempH11Column);
+                    temperatureH[12] = this.GetDoubleValue(this.tempH12Column);
+                    temperatureH[13] = this.GetDoubleValue(this.tempH13Column);
+                    temperatureH[14] = this.GetDoubleValue(this.tempH14Column);
+                    temperatureH[15] = this.GetDoubleValue(this.tempH15Column);
+                    temperatureH[16] = this.GetDoubleValue(this.tempH16Column);
+                    temperatureH[17] = this.GetDoubleValue(this.tempH17Column);
+                    temperatureH[18] = this.GetDoubleValue(this.tempH18Column);
+                    temperatureH[19] = this.GetDoubleValue(this.tempH19Column);
+                    temperatureH[20] = this.GetDoubleValue(this.tempH20Column);
+                    temperatureH[21] = this.GetDoubleValue(this.tempH21Column);
+                    temperatureH[22] = this.GetDoubleValue(this.tempH22Column);
+                    temperatureH[23] = this.GetDoubleValue(this.tempH23Column);
+                }
+                vapourPresure = this.GetDoubleValue(this.vapourPresureColumn);
+                wind = this.GetDoubleValue(this.windColumn);
+                daylength = this.GetDoubleValue(this.daylengthColumn);
+                day = this.GetIntValue(this.dayColumn);
+                doy = this.GetIntValue(this.doyColumn);
+                month = this.GetIntValue(this.monthColumn);
+                year = this.GetIntValue(this.yearColumn);
+            }
+            else
+            {
+                radiation = double.NaN;
+                rain = double.NaN;
+                sunHours = double.NaN;
+
+                if (!hourlyTemp)
+                {
+                    temperatureMax = double.NaN;
+                    temperatureMin = double.NaN;
+                }
+                else
+                {
+                    temperatureH[0] = double.NaN;
+                    temperatureH[1] = double.NaN;
+                    temperatureH[2] = double.NaN;
+                    temperatureH[3] = double.NaN;
+                    temperatureH[4] = double.NaN;
+                    temperatureH[5] = double.NaN;
+                    temperatureH[6] = double.NaN;
+                    temperatureH[7] = double.NaN;
+                    temperatureH[8] = double.NaN;
+                    temperatureH[9] = double.NaN;
+                    temperatureH[10] = double.NaN;
+                    temperatureH[11] = double.NaN;
+                    temperatureH[12] = double.NaN;
+                    temperatureH[13] = double.NaN;
+                    temperatureH[14] = double.NaN;
+                    temperatureH[15] = double.NaN;
+                    temperatureH[16] = double.NaN;
+                    temperatureH[17] = double.NaN;
+                    temperatureH[18] = double.NaN;
+                    temperatureH[19] = double.NaN;
+                    temperatureH[20] = double.NaN;
+                    temperatureH[21] = double.NaN;
+                    temperatureH[22] = double.NaN;
+                    temperatureH[23] = double.NaN;
+                }
+                vapourPresure = double.NaN;
+                wind = double.NaN;
+                daylength = double.NaN;
+                day = int.MinValue;
+                doy = int.MinValue;
+                month = int.MinValue;
+                year = int.MinValue;
+            }
+
+            if (!hourlyTemp)
+            {
+                if (this.doyColumn != -1)
+                {
+                    if (this.daylengthColumn == -1)
+                    {
+                        this.ProcessLine(year, doy, radiation, rain, temperatureMax, temperatureMin, sunHours, vapourPresure, wind);
+                    }
+                    else
+                    {
+                        this.ProcessLine(year, doy, radiation, rain, temperatureMax, temperatureMin, sunHours, vapourPresure, wind, daylength);
+                    }
+                }
+                else
+                {
+                    this.ProcessLine(year, month, day, radiation, rain, temperatureMax, temperatureMin, sunHours, vapourPresure, wind);
+                }
+            }
+            else
+            {
+                if (this.doyColumn != -1)
+                    this.ProcessLine(year, doy, radiation, rain, temperatureH, sunHours, vapourPresure, wind);
+                else
+                    this.ProcessLine(year, month, day, radiation, rain, temperatureH, sunHours, vapourPresure, wind);
+            }
+        }
 
     private double GetDoubleValue(int indexColumn)
     {
@@ -513,7 +685,31 @@ namespace Sirius.Model.Weather
       return a;
     }
 
-    private int GetIntValue(int indexColumn)
+        private double GetDoubleBlock(int indexColumn,int ihour)
+        {
+            double val = 0.0;
+
+            if (indexColumn == -1) val = double.NaN;
+            else
+            {
+                double a = this.bufferHourlyRead[ihour][indexColumn];
+                if (Calc.Equals(a, -99.0, 1E-06))
+                    a = double.NaN;
+                val = a;
+            }
+            
+            return val;
+        }
+
+         private int GetIntValueBlock(int indexColumn,int ihour)
+        {
+            double doubleValue = this.GetDoubleBlock(indexColumn,ihour);
+            if (!double.IsNaN(doubleValue) && Calc.RespectDigit(doubleValue, (byte)0))
+                return (int)doubleValue;
+            return int.MinValue;
+        }
+
+        private int GetIntValue(int indexColumn)
     {
       double doubleValue = this.GetDoubleValue(indexColumn);
       if (!double.IsNaN(doubleValue) && Calc.RespectDigit(doubleValue, (byte) 0))
@@ -530,7 +726,16 @@ namespace Sirius.Model.Weather
       this.ProcessLine(radiation, rain, temperatureMax, temperatureMin, sunHours, vapourPresure, wind);
     }
 
-    private void ProcessLine(int year, int month, int day, double radiation, double rain, double temperatureMax, double temperatureMin, double sunHours, double vapourPresure, double wind)
+        private void ProcessLine(int year, int doy, double radiation, double rain, double temperatureMax, double temperatureMin, double sunHours, double vapourPresure, double wind, double daylength)
+        {
+            this.currentOperation = Cache.ReadDateOperation;
+            this.currentDate = new DateTime?();
+            if (year != int.MinValue && doy != int.MinValue)
+                this.currentDate = new DateTime?(DateHelper.Date(year, doy));
+            this.ProcessLine(radiation, rain, temperatureMax, temperatureMin, sunHours, vapourPresure, wind, daylength);
+        }
+
+        private void ProcessLine(int year, int month, int day, double radiation, double rain, double temperatureMax, double temperatureMin, double sunHours, double vapourPresure, double wind)
     {
       this.currentOperation = Cache.ReadDateOperation;
       this.currentDate = new DateTime?();
@@ -548,7 +753,18 @@ namespace Sirius.Model.Weather
         this.ProcessLine(radiation, rain, temperatureH, sunHours, vapourPresure, wind);
     }
 
-    private void ProcessLine(int year, int month, int day, double radiation, double rain, double[] temperatureH, double sunHours, double vapourPresure, double wind)
+     
+
+        private void ProcessBlock(int year, int doy, double radiation, double rain, double temperatureH, double vapourPresure, double wind,int ihour)
+        {
+       this.currentOperation = Cache.ReadDateHOperation;
+       this.currentDate = new DateTime?();
+       if (year != int.MinValue && doy != int.MinValue)
+          this.currentDate = new DateTime?(DateHelper.Date(year, doy));
+       this.ProcessBlock(radiation, rain, temperatureH, vapourPresure, wind, ihour);
+    }
+
+        private void ProcessLine(int year, int month, int day, double radiation, double rain, double[] temperatureH, double sunHours, double vapourPresure, double wind)
     {
         this.currentOperation = Cache.ReadDateOperation;
         this.currentDate = new DateTime?();
@@ -579,33 +795,184 @@ namespace Sirius.Model.Weather
         DateTime? nullable2 = this.lastDate;
         if ((nullable1.HasValue & nullable2.HasValue ? (nullable1.GetValueOrDefault() <= nullable2.GetValueOrDefault() ? 1 : 0) : 0) != 0)
         {
-          if (this.numericReader.CurrentLineNumbber < 2)
-            throw new FileFormatException("Date are not ordered (current = " + DateHelper.DateToString(this.currentDate.Value) + ", previous = " + DateHelper.DateToString(this.lastDate.Value) + "). Check the end and beginning of your files.");
-          throw new FileFormatException("Date are not ordered (current = " + DateHelper.DateToString(this.currentDate.Value) + ", previous = " + DateHelper.DateToString(this.lastDate.Value) + ").");
+                    if (!HourlyDefined)
+                    {
+                        if (this.numericReader.CurrentLineNumbber < 2)
+                            throw new FileFormatException("Date are not ordered (current = " + DateHelper.DateToString(this.currentDate.Value) + ", previous = " + DateHelper.DateToString(this.lastDate.Value) + "). Check the end and beginning of your files.");
+                    }
+                    else
+                    {
+                        if (this.numericReaderBlock.CurrentLineNumbber < 2 * 24)
+                            throw new FileFormatException("Date are not ordered (current = " + DateHelper.DateToString(this.currentDate.Value) + ", previous = " + DateHelper.DateToString(this.lastDate.Value) + ").");
+                    }
+
+                throw new FileFormatException("Date are not ordered (current = " + DateHelper.DateToString(this.currentDate.Value) + ", previous = " + DateHelper.DateToString(this.lastDate.Value) + ").");
         }
         DateTime? nullable3 = this.currentDate;
         DateTime dateTime = this.lastDate.Value.AddDays(1.0);
         if ((!nullable3.HasValue ? 0 : (nullable3.GetValueOrDefault() == dateTime ? 1 : 0)) != 0)
         {
-          this.ProcessValues(radiation, rain, temperatureMax, temperatureMin, sunHours, vapourPresure, wind);
+          this.ProcessValues(radiation, rain, temperatureMax, temperatureMin, sunHours, vapourPresure, wind, double.NaN);
         }
         else
         {
           int num = (int) (this.currentDate.Value - this.lastDate.Value).TotalDays - 1;
           for (int index = 0; index < num; ++index)
-            this.ProcessValues(double.NaN, double.NaN, double.NaN, double.NaN, double.NaN, double.NaN, double.NaN);
-          this.ProcessValues(radiation, rain, temperatureMax, temperatureMin, sunHours, vapourPresure, wind);
+            this.ProcessValues(double.NaN, double.NaN, double.NaN, double.NaN, double.NaN, double.NaN, double.NaN, double.NaN);
+          this.ProcessValues(radiation, rain, temperatureMax, temperatureMin, sunHours, vapourPresure, wind, double.NaN);
         }
       }
       else
       {
         this.startDate = this.currentDate;
-        this.ProcessValues(radiation, rain, temperatureMax, temperatureMin, sunHours, vapourPresure, wind);
+        this.ProcessValues(radiation, rain, temperatureMax, temperatureMin, sunHours, vapourPresure, wind, double.NaN);
       }
       this.lastDate = this.currentDate;
     }
 
-    private void ProcessLine(double radiation, double rain, double[] temperatureH, double sunHours, double vapourPresure, double wind)
+        private void ProcessLine(double radiation, double rain, double temperatureMax, double temperatureMin, double sunHours, double vapourPresure, double wind, double daylength)
+        {
+            if (this.lastDate.HasValue && !this.currentDate.HasValue)
+            {
+                this.currentDate = new DateTime?(this.lastDate.Value.AddDays(1.0));
+                double num;
+                wind = num = double.NaN;
+                vapourPresure = num;
+                sunHours = num;
+                temperatureMin = num;
+                temperatureMax = num;
+                rain = num;
+                radiation = num;
+                daylength = num;
+            }
+            if (!this.currentDate.HasValue)
+                throw new FileFormatException("First line of the weather file enumeration is corrupted.");
+            if (this.lastDate.HasValue)
+            {
+                DateTime? nullable1 = this.currentDate;
+                DateTime? nullable2 = this.lastDate;
+                if ((nullable1.HasValue & nullable2.HasValue ? (nullable1.GetValueOrDefault() <= nullable2.GetValueOrDefault() ? 1 : 0) : 0) != 0)
+                {
+                    if (!HourlyDefined)
+                    {
+                        if (this.numericReader.CurrentLineNumbber < 2)
+                            throw new FileFormatException("Date are not ordered (current = " + DateHelper.DateToString(this.currentDate.Value) + ", previous = " + DateHelper.DateToString(this.lastDate.Value) + "). Check the end and beginning of your files.");
+                    }
+                    else
+                    {
+                        if (this.numericReaderBlock.CurrentLineNumbber < 2 * 24)
+                            throw new FileFormatException("Date are not ordered (current = " + DateHelper.DateToString(this.currentDate.Value) + ", previous = " + DateHelper.DateToString(this.lastDate.Value) + ").");
+                    }
+
+                    throw new FileFormatException("Date are not ordered (current = " + DateHelper.DateToString(this.currentDate.Value) + ", previous = " + DateHelper.DateToString(this.lastDate.Value) + ").");
+                }
+                DateTime? nullable3 = this.currentDate;
+                DateTime dateTime = this.lastDate.Value.AddDays(1.0);
+                if ((!nullable3.HasValue ? 0 : (nullable3.GetValueOrDefault() == dateTime ? 1 : 0)) != 0)
+                {
+                    this.ProcessValues(radiation, rain, temperatureMax, temperatureMin, sunHours, vapourPresure, wind, daylength);
+                }
+                else
+                {
+                    int num = (int)(this.currentDate.Value - this.lastDate.Value).TotalDays - 1;
+                    for (int index = 0; index < num; ++index)
+                        this.ProcessValues(double.NaN, double.NaN, double.NaN, double.NaN, double.NaN, double.NaN, double.NaN, double.NaN);
+                    this.ProcessValues(radiation, rain, temperatureMax, temperatureMin, sunHours, vapourPresure, wind, daylength);
+                }
+            }
+            else
+            {
+                this.startDate = this.currentDate;
+                this.ProcessValues(radiation, rain, temperatureMax, temperatureMin, sunHours, vapourPresure, wind, daylength);
+            }
+            this.lastDate = this.currentDate;
+        }
+
+        private void ProcessBlock(double radiation, double rain, double temperature, double vapourPresure, double wind,int ihour)
+        {
+            if (ihour == 0)
+            {
+                if (this.lastDate.HasValue && !this.currentDate.HasValue)
+                {
+                    this.currentDate = new DateTime?(this.lastDate.Value.AddDays(1.0));
+
+                    wind = double.NaN;
+                    vapourPresure = double.NaN;
+                    temperature = double.NaN;
+                    rain = double.NaN;
+                    radiation = double.NaN;
+                }
+                if (!this.currentDate.HasValue)
+                    throw new FileFormatException("First line of the weather file enumeration is corrupted.");
+                if (this.lastDate.HasValue)
+                {
+                    DateTime? nullable1 = this.currentDate;
+                    DateTime? nullable2 = this.lastDate;
+                    if ((nullable1.HasValue & nullable2.HasValue ? (nullable1.GetValueOrDefault() <= nullable2.GetValueOrDefault() ? 1 : 0) : 0) != 0)
+                    {
+
+                        if (this.numericReaderBlock.CurrentLineNumbber < 2 * 24)
+                            throw new FileFormatException("Date are not ordered (current = " + DateHelper.DateToString(this.currentDate.Value) + ", previous = " + DateHelper.DateToString(this.lastDate.Value) + "). Check the end and beginning of your files.");
+
+                        throw new FileFormatException("Date are not ordered (current = " + DateHelper.DateToString(this.currentDate.Value) + ", previous = " + DateHelper.DateToString(this.lastDate.Value) + ").");
+                    }
+                    DateTime? nullable3 = this.currentDate;
+                    DateTime dateTime = this.lastDate.Value.AddDays(1.0);
+                    if ((!nullable3.HasValue ? 0 : (nullable3.GetValueOrDefault() == dateTime ? 1 : 0)) != 0)
+                    {
+                        this.ProcessValuesBlock(radiation, rain, temperature, vapourPresure, wind,ihour);
+                    }
+                    else
+                    {
+                        int num = (int)(this.currentDate.Value - this.lastDate.Value).TotalDays - 1;
+                        for (int index = 0; index < num; ++index)
+                        {
+                            for (int i = 0; i < 24; i++)
+                            {
+
+                                double radiationtemp = double.NaN;
+                                double raintemp = double.NaN;
+                                double temperaturetemp = double.NaN;
+                                double vapourPresuretemp = double.NaN;
+                                double windtemp = double.NaN;
+                                this.ProcessValuesBlock(radiationtemp, raintemp, temperaturetemp, vapourPresuretemp, windtemp, i);
+
+                                
+                            }
+                        }
+                        this.ProcessValuesBlock(radiation, rain, temperature, vapourPresure, wind,ihour);
+                    }
+                }
+                else
+                {
+                    this.startDate = this.currentDate;
+                    this.ProcessValuesBlock(radiation, rain, temperature, vapourPresure, wind,ihour);
+                }
+                this.lastDate = this.currentDate;
+            }
+            else
+            {
+                if (this.lastDate.HasValue && !this.currentDate.HasValue)
+                {
+
+                        wind = double.NaN;
+                        vapourPresure = double.NaN;
+                        temperature = double.NaN;
+                        rain = double.NaN;
+                        radiation = double.NaN;
+
+                        this.ProcessValuesBlock(radiation, rain, temperature, vapourPresure, wind, ihour);
+
+                }
+
+                if (this.lastDate != this.currentDate)
+                    throw new Exception("Hour" + ihour.ToString() + "is missing between dates" + this.lastDate.ToString() + "and" + this.currentDate.ToString());
+
+                    this.ProcessValuesBlock(radiation, rain, temperature, vapourPresure, wind,ihour);
+            }
+        }
+
+        private void ProcessLine(double radiation, double rain, double[] temperatureH, double sunHours, double vapourPresure, double wind)
     {
         if (this.lastDate.HasValue && !this.currentDate.HasValue)
         {
@@ -623,12 +990,13 @@ namespace Sirius.Model.Weather
         {
             DateTime? nullable1 = this.currentDate;
             DateTime? nullable2 = this.lastDate;
-            if ((nullable1.HasValue & nullable2.HasValue ? (nullable1.GetValueOrDefault() <= nullable2.GetValueOrDefault() ? 1 : 0) : 0) != 0)
-            {
-                if (this.numericReader.CurrentLineNumbber < 2)
-                    throw new FileFormatException("Date are not ordered (current = " + DateHelper.DateToString(this.currentDate.Value) + ", previous = " + DateHelper.DateToString(this.lastDate.Value) + "). Check the end and beginning of your files.");
-                throw new FileFormatException("Date are not ordered (current = " + DateHelper.DateToString(this.currentDate.Value) + ", previous = " + DateHelper.DateToString(this.lastDate.Value) + ").");
-            }
+                if ((nullable1.HasValue & nullable2.HasValue ? (nullable1.GetValueOrDefault() <= nullable2.GetValueOrDefault() ? 1 : 0) : 0) != 0)
+                {
+                    if (this.numericReader.CurrentLineNumbber < 2)
+                        throw new FileFormatException("Date are not ordered (current = " + DateHelper.DateToString(this.currentDate.Value) + ", previous = " + DateHelper.DateToString(this.lastDate.Value) + "). Check the end and beginning of your files.");
+
+                    throw new FileFormatException("Date are not ordered (current = " + DateHelper.DateToString(this.currentDate.Value) + ", previous = " + DateHelper.DateToString(this.lastDate.Value) + ").");
+                }
             DateTime? nullable3 = this.currentDate;
             DateTime dateTime = this.lastDate.Value.AddDays(1.0);
             if ((!nullable3.HasValue ? 0 : (nullable3.GetValueOrDefault() == dateTime ? 1 : 0)) != 0)
@@ -655,7 +1023,75 @@ namespace Sirius.Model.Weather
         this.lastDate = this.currentDate;
     }
 
-    private void ProcessValues(double radiation, double rain, double temperatureMax, double temperatureMin, double sunHours, double vapourPresure, double wind)
+        private void ProcessValuesBlock(double radiation, double rain, double temperature, double vapourPresure, double wind,int ihour)
+        {
+
+                //interpolation for missing or erronous temperature values
+                if (double.IsNaN(temperature) || !Calc.IsBetween(temperature, -90.0, 70.0, 1E-06))
+                {
+                    this.currentOperation = Cache.ReadTempHOperation;
+                    this.AddInterpolatedValueHourly(ref this.tempArrayHourly[ihour], this.tempArrayHourly, ref this.tempMissingH,ihour);
+
+                }
+                else
+                {
+                    this.currentOperation = Cache.ReadTempHOperation;
+                    this.AddValue(temperature, ref this.tempArrayHourly[ihour], ref this.tempMissingH, Cache.ScaleInTemperature);
+                }
+                this.currentOperation = Cache.ReadRainHOperation;
+                if (!double.IsNaN(rain))
+                {
+                    if (!Calc.IsBetween(rain, 0.0, 400.0, 1E-06))
+                        this.AddNulledValue(ref rainArrayHourly[ihour], ref this.rainMissingH);
+                    else
+                        this.AddValue(rain, ref this.rainArrayHourly[ihour], ref this.rainMissingH, Cache.ScaleInRain);
+                }
+                else
+                    this.AddNulledValue(ref this.rainArrayHourly[ihour], ref this.rainMissingH);
+                this.currentOperation = Cache.ReadRadiationHOperation;
+                if (!double.IsNaN(radiation))
+                {
+                    if (!Calc.IsBetween(radiation, 0.0, 50.0, 1E-06))
+                    {
+                        this.AddInterpolatedValueHourly(ref this.radiationArrayHourly[ihour], this.radiationArrayHourly, ref this.radiationMissingH, ihour);
+                    }
+                    else
+                        this.AddValue(radiation, ref this.radiationArrayHourly[ihour], ref this.radiationMissingH, Cache.ScaleInRadiation);
+                }
+                else
+                    this.AddInterpolatedValueHourly(ref this.radiationArrayHourly[ihour], this.radiationArrayHourly, ref this.radiationMissingH, ihour);
+                if (this.vapourPresureHourlyColumn != -1)
+                {
+                    this.currentOperation = Cache.ReadVapourHPresureOperation;
+                    if (!double.IsNaN(vapourPresure))
+                    {
+                        if (!Calc.IsBetween(vapourPresure, 0.0, 60.0))
+                            this.AddInterpolatedValueHourly(ref this.vapourPresureArrayHourly[ihour], this.vapourPresureArrayHourly, ref this.vapourPresureMissingH, ihour);
+                        else
+                            this.AddValue(vapourPresure, ref this.vapourPresureArrayHourly[ihour], ref this.vapourPresureMissingH, Cache.ScaleInVapourPresure);
+                    }
+                    else
+                        this.AddInterpolatedValueHourly(ref this.vapourPresureArrayHourly[ihour], this.vapourPresureArrayHourly, ref this.vapourPresureMissingH, ihour);
+                }
+            if (this.windHourlyColumn != -1)
+            {
+                this.currentOperation = Cache.ReadWindHOperation;
+                if (!double.IsNaN(vapourPresure))
+                {
+                    if (!Calc.IsBetween(wind, 0.0, 3000.0))
+                        this.AddInterpolatedValueHourly(ref this.windArrayHourly[ihour], this.windArrayHourly, ref this.windMissingH, ihour);
+                    else
+                        this.AddValue(wind, ref this.windArrayHourly[ihour], ref this.windMissingH, Cache.ScaleInWind);
+                }
+                else
+                    this.AddInterpolatedValueHourly(ref this.windArrayHourly[ihour], this.windArrayHourly, ref this.windMissingH, ihour);
+            }
+                
+        if(ihour==23)
+                ++this.count;
+        }
+
+        private void ProcessValues(double radiation, double rain, double temperatureMax, double temperatureMin, double sunHours, double vapourPresure, double wind, double daylength)
     {
       //interpolation for missing or erronous temperature values
       if (double.IsNaN(temperatureMax) || double.IsNaN(temperatureMin) || (temperatureMax < temperatureMin || !Calc.IsBetween(temperatureMax, -90.0, 70.0, 1E-06)) || !Calc.IsBetween(temperatureMin, -90.0, 70.0, 1E-06))
@@ -683,48 +1119,58 @@ namespace Sirius.Model.Weather
       else
         this.AddNulledValue(ref this.rainArray, ref this.rainMissing);
       this.currentOperation = Cache.ReadRadiationOperation;
-      if (!double.IsNaN(radiation))
-      {
-        if (!Calc.IsBetween(radiation, 0.1, 50.0, 1E-06))
-        {
-          if (!double.IsNaN(sunHours))
-          {
-            if (!Calc.IsBetween(sunHours, 0.0, 24.0, 1E-06))
+            if (!double.IsNaN(daylength))
             {
-              this.AddInterpolatedValue(ref this.radiationArray, ref this.radiationMissing);
+                if (!Calc.IsBetween(daylength, 0.0, 24.0, 1E-06))
+                {
+
+                    this.AddInterpolatedValue(ref this.daylengthArray, ref this.daylengthMissing);
+                }
+                else
+                    this.AddValueDay(daylength, ref this.daylengthArray, ref this.daylengthMissing);
+            }
+            if (!double.IsNaN(radiation))
+            {
+                if (!Calc.IsBetween(radiation, 0.1, 50.0, 1E-06))
+                {
+                    if (!double.IsNaN(sunHours))
+                    {
+                        if (!Calc.IsBetween(sunHours, 0.0, 24.0, 1E-06))
+                        {
+                            this.AddInterpolatedValue(ref this.radiationArray, ref this.radiationMissing);
+                        }
+                        else
+                        {
+                            radiation = Conversion.SunHoursToRadiations(sunHours, this.currentDate.Value, this.location);
+                            if (!Calc.IsBetween(radiation, 0.1, 50.0))
+                                this.AddInterpolatedValue(ref this.radiationArray, ref this.radiationMissing);
+                            else
+                                this.AddValue(radiation, ref this.radiationArray, ref this.radiationMissing, Cache.ScaleInRadiation);
+                        }
+                    }
+                    else
+                        this.AddInterpolatedValue(ref this.radiationArray, ref this.radiationMissing);
+                }
+                else
+                    this.AddValue(radiation, ref this.radiationArray, ref this.radiationMissing, Cache.ScaleInRadiation);
+            }
+            else if (!double.IsNaN(sunHours))
+            {
+                if (!Calc.IsBetween(sunHours, 0.0, 24.0, 1E-06))
+                {
+                    this.AddInterpolatedValue(ref this.radiationArray, ref this.radiationMissing);
+                }
+                else
+                {
+                    radiation = Conversion.SunHoursToRadiations(sunHours, this.currentDate.Value, this.location);
+                    if (!Calc.IsBetween(radiation, 0.1, 50.0))
+                        this.AddInterpolatedValue(ref this.radiationArray, ref this.radiationMissing);
+                    else
+                        this.AddValue(radiation, ref this.radiationArray, ref this.radiationMissing, Cache.ScaleInRadiation);
+                }
             }
             else
-            {
-              radiation = Conversion.SunHoursToRadiations(sunHours, this.currentDate.Value, this.location);
-              if (!Calc.IsBetween(radiation, 0.1, 50.0))
                 this.AddInterpolatedValue(ref this.radiationArray, ref this.radiationMissing);
-              else
-                this.AddValue(radiation, ref this.radiationArray, ref this.radiationMissing, Cache.ScaleInRadiation);
-            }
-          }
-          else
-            this.AddInterpolatedValue(ref this.radiationArray, ref this.radiationMissing);
-        }
-        else
-          this.AddValue(radiation, ref this.radiationArray, ref this.radiationMissing, Cache.ScaleInRadiation);
-      }
-      else if (!double.IsNaN(sunHours))
-      {
-        if (!Calc.IsBetween(sunHours, 0.0, 24.0, 1E-06))
-        {
-          this.AddInterpolatedValue(ref this.radiationArray, ref this.radiationMissing);
-        }
-        else
-        {
-          radiation = Conversion.SunHoursToRadiations(sunHours, this.currentDate.Value, this.location);
-          if (!Calc.IsBetween(radiation, 0.1, 50.0))
-            this.AddInterpolatedValue(ref this.radiationArray, ref this.radiationMissing);
-          else
-            this.AddValue(radiation, ref this.radiationArray, ref this.radiationMissing, Cache.ScaleInRadiation);
-        }
-      }
-      else
-        this.AddInterpolatedValue(ref this.radiationArray, ref this.radiationMissing);
       if (this.vapourPresureColumn != -1)
       {
         this.currentOperation = Cache.ReadVapourPresureOperation;
@@ -794,48 +1240,48 @@ namespace Sirius.Model.Weather
         else
             this.AddNulledValue(ref this.rainArray, ref this.rainMissing);
         this.currentOperation = Cache.ReadRadiationOperation;
-        if (!double.IsNaN(radiation))
-        {
-            if (!Calc.IsBetween(radiation, 0.1, 50.0, 1E-06))
+            if (!double.IsNaN(radiation))
             {
-                if (!double.IsNaN(sunHours))
+                if (!Calc.IsBetween(radiation, 0.1, 50.0, 1E-06))
                 {
-                    if (!Calc.IsBetween(sunHours, 0.0, 24.0, 1E-06))
+                    if (!double.IsNaN(sunHours))
                     {
-                        this.AddInterpolatedValue(ref this.radiationArray, ref this.radiationMissing);
+                        if (!Calc.IsBetween(sunHours, 0.0, 24.0, 1E-06))
+                        {
+                            this.AddInterpolatedValue(ref this.radiationArray, ref this.radiationMissing);
+                        }
+                        else
+                        {
+                            radiation = Conversion.SunHoursToRadiations(sunHours, this.currentDate.Value, this.location);
+                            if (!Calc.IsBetween(radiation, 0.1, 50.0))
+                                this.AddInterpolatedValue(ref this.radiationArray, ref this.radiationMissing);
+                            else
+                                this.AddValue(radiation, ref this.radiationArray, ref this.radiationMissing, Cache.ScaleInRadiation);
+                        }
                     }
                     else
-                    {
-                        radiation = Conversion.SunHoursToRadiations(sunHours, this.currentDate.Value, this.location);
-                        if (!Calc.IsBetween(radiation, 0.1, 50.0))
-                            this.AddInterpolatedValue(ref this.radiationArray, ref this.radiationMissing);
-                        else
-                            this.AddValue(radiation, ref this.radiationArray, ref this.radiationMissing, Cache.ScaleInRadiation);
-                    }
+                        this.AddInterpolatedValue(ref this.radiationArray, ref this.radiationMissing);
                 }
-                else
-                    this.AddInterpolatedValue(ref this.radiationArray, ref this.radiationMissing);
-            }
-            else
-                this.AddValue(radiation, ref this.radiationArray, ref this.radiationMissing, Cache.ScaleInRadiation);
-        }
-        else if (!double.IsNaN(sunHours))
-        {
-            if (!Calc.IsBetween(sunHours, 0.0, 24.0, 1E-06))
-            {
-                this.AddInterpolatedValue(ref this.radiationArray, ref this.radiationMissing);
-            }
-            else
-            {
-                radiation = Conversion.SunHoursToRadiations(sunHours, this.currentDate.Value, this.location);
-                if (!Calc.IsBetween(radiation, 0.1, 50.0))
-                    this.AddInterpolatedValue(ref this.radiationArray, ref this.radiationMissing);
                 else
                     this.AddValue(radiation, ref this.radiationArray, ref this.radiationMissing, Cache.ScaleInRadiation);
             }
-        }
-        else
-            this.AddInterpolatedValue(ref this.radiationArray, ref this.radiationMissing);
+            else if (!double.IsNaN(sunHours))
+            {
+                if (!Calc.IsBetween(sunHours, 0.0, 24.0, 1E-06))
+                {
+                    this.AddInterpolatedValue(ref this.radiationArray, ref this.radiationMissing);
+                }
+                else
+                {
+                    radiation = Conversion.SunHoursToRadiations(sunHours, this.currentDate.Value, this.location);
+                    if (!Calc.IsBetween(radiation, 0.1, 50.0))
+                        this.AddInterpolatedValue(ref this.radiationArray, ref this.radiationMissing);
+                    else
+                        this.AddValue(radiation, ref this.radiationArray, ref this.radiationMissing, Cache.ScaleInRadiation);
+                }
+            }
+            else
+                this.AddInterpolatedValue(ref this.radiationArray, ref this.radiationMissing);
         if (this.vapourPresureColumn != -1)
         {
             this.currentOperation = Cache.ReadVapourPresureOperation;
@@ -872,19 +1318,39 @@ namespace Sirius.Model.Weather
       return Calc.Sum(valueArray, Math.Max(val1, 0), stop) / 5.0;
     }
 
-    private void AddValue(double value, ref short[] valueArray, ref byte missingCount, double scaleIn)
+        private double InterpolatedValueHourly(short[][] valueArray,int ihour)
+        {
+            return valueArray[ihour][this.count-1];
+        }
+
+        private void AddValue(double value, ref short[] valueArray, ref byte missingCount, double scaleIn)
     {
       missingCount = (byte) 0;
       CollectionHelper.Add<short>(ref valueArray, (short) Math.Round(value * scaleIn), this.count, 36600);
     }
+        private void AddValueDay(double value, ref short[] valueArray, ref byte missingCount)
+        {
+            missingCount = (byte)0;
+            CollectionHelper.Add<short>(ref valueArray, (short)(value * 100.0), this.count, 36600);
+        }
 
-    private void AddInterpolatedValue(ref short[] valueArray, ref byte missingCount)
-    {
-      this.CheckCanAddInterpolate(ref missingCount);
-      CollectionHelper.Add<short>(ref valueArray, (short) this.InterpolatedValue(valueArray), this.count, 36600);
-    }
 
-    private void AddNulledValue(ref short[] valueArray, ref byte missingCount)
+        private void AddInterpolatedValue(ref short[] valueArray, ref byte missingCount)
+        {
+            this.CheckCanAddInterpolate(ref missingCount);
+            CollectionHelper.Add<short>(ref valueArray, (short)this.InterpolatedValue(valueArray), this.count, 36600);
+
+        }
+
+        private void AddInterpolatedValueHourly(ref short[] valueArray,short[][] pastValue, ref byte missingCount,int ihour)
+        {
+            this.CheckCanAddInterpolate(ref missingCount);
+            CollectionHelper.Add<short>(ref valueArray, (short)this.InterpolatedValueHourly(pastValue,ihour), this.count, 36600);
+
+        }
+
+
+        private void AddNulledValue(ref short[] valueArray, ref byte missingCount)
     {
       this.CheckCanAddInterpolate(ref missingCount);
       CollectionHelper.Add<short>(ref valueArray, (short) 0, this.count, 36600);
@@ -895,33 +1361,68 @@ namespace Sirius.Model.Weather
       if (this.count == 0)
         throw new FileFormatException("A missing value is not accepted for the first day.");
       ++missingCount;
-      if ((int) missingCount < this.maxConsecutiveMissingValuesAllowed)
-        return;
-      if (this.numericReader.CurrentLineNumbber <= this.maxConsecutiveMissingValuesAllowed)
-        throw new FileFormatException("Too much consecutive missing values(" + (object) missingCount + "). Check the end and the beginning of your files.");
+            if (!HourlyDefined)
+            {
+                if ((int)missingCount < this.maxConsecutiveMissingValuesAllowed)
+                    return;
+            }
+            else {
+                if ((int)missingCount < this.maxConsecutiveMissingValuesAllowed*24)
+                    return;
+            }
+            if (!HourlyDefined)
+            {
+                if (this.numericReader.CurrentLineNumbber <= this.maxConsecutiveMissingValuesAllowed)
+                    throw new FileFormatException("Too much consecutive missing values(" + (object)missingCount + "). Check the end and the beginning of your files.");
+            }
+
       throw new Exception("Too much consecutive missing values (" + (object) missingCount + ").");
     }
 
-    private void OnException(NumericReader nR, Exception e)
+        private void OnExceptionBlock(NumericReaderBlock nR, Exception e)
+  {
+            this.startDate = new DateTime?();
+            this.count = 0;
+            this.radiationArrayHourly = (short[][])null;
+            this.rainArrayHourly = (short[][])null;
+            this.tempArrayHourly = (short[][])null;
+            this.vapourPresureArrayHourly = (short[][])null;
+            this.windArrayHourly = (short[][])null;
+
+            Uri result;
+            if (Uri.TryCreate(nR.CurrentFile, UriKind.RelativeOrAbsolute, out result))
+            //    // throw new FileFormatException(result, "Read weather file exception.\r\nOperation : " + (object)this.currentOperation + ".\r\nLine " + (string)(object)nR.CurrentLineNumbber.ToString() + ", column " + (string)(object)nR.CurrentColumnNumber.ToString() + ".\r\nError \"" + e.Message + "\".\r\nFile \"" + nR.CurrentFile + "\".");
+                throw new FileFormatException(result, "Read weather file exception.\r\nOperation : " + (object)this.currentOperation + ".\r\nLine " + (string)(object)nR.CurrentLineNumbber.ToString() + ", column " + (string)(object)nR.CurrentColumnNumber.ToString() + "" + "" + "\".\r\nFile \"" + nR.CurrentFile + "\".");
+            //// throw new FileFormatException("Read weather file exception.\r\nOperation : " + (object)this.currentOperation + ".\r\nLine " + (string)(object)nR.CurrentLineNumbber.ToString() + ", column " + (string)(object)nR.CurrentColumnNumber.ToString() + ".\r\nError \"" + e.Message + "\".\r\\nFile \"" + nR.CurrentFile + "\".");
+
+
+        }
+
+        private void OnException(NumericReader nR, Exception e)
     {
-      this.startDate = new DateTime?();
-      this.count = 0;
-      this.radiationArray = (short[]) null;
-      this.rainArray = (short[]) null;
-      this.tempMaxArray = (short[]) null;
-      this.tempMinArray = (short[]) null;
-      this.vapourPresureArray = (short[]) null;
-      this.windArray = (short[]) null;
-      Uri result;
-      if (Uri.TryCreate(nR.CurrentFile, UriKind.RelativeOrAbsolute, out result))
-     // throw new FileFormatException(result, "Read weather file exception.\r\nOperation : " + (object)this.currentOperation + ".\r\nLine " + (string)(object)nR.CurrentLineNumbber.ToString() + ", column " + (string)(object)nR.CurrentColumnNumber.ToString() + ".\r\nError \"" + e.Message + "\".\r\nFile \"" + nR.CurrentFile + "\".");
-     throw new FileFormatException(result, "Read weather file exception.\r\nOperation : " + (object)this.currentOperation + ".\r\nLine " + (string)(object)nR.CurrentLineNumbber.ToString() + ", column " + (string)(object)nR.CurrentColumnNumber.ToString() + "" + "" + "\".\r\nFile \"" + nR.CurrentFile + "\".");
-     // throw new FileFormatException("Read weather file exception.\r\nOperation : " + (object)this.currentOperation + ".\r\nLine " + (string)(object)nR.CurrentLineNumbber.ToString() + ", column " + (string)(object)nR.CurrentColumnNumber.ToString() + ".\r\nError \"" + e.Message + "\".\r\\nFile \"" + nR.CurrentFile + "\".");
-    }
+            this.startDate = new DateTime?();
+            this.count = 0;
+            this.radiationArray = (short[])null;
+            this.daylengthArray = (short[])null;
+            this.rainArray = (short[])null;
+            this.tempMaxArray = (short[])null;
+            this.tempMinArray = (short[])null;
+            this.vapourPresureArray = (short[])null;
+            this.windArray = (short[])null;
+            Uri result;
+            if (Uri.TryCreate(nR.CurrentFile, UriKind.RelativeOrAbsolute, out result))
+            // throw new FileFormatException(result, "Read weather file exception.\r\nOperation : " + (object)this.currentOperation + ".\r\nLine " + (string)(object)nR.CurrentLineNumbber.ToString() + ", column " + (string)(object)nR.CurrentColumnNumber.ToString() + ".\r\nError \"" + e.Message + "\".\r\nFile \"" + nR.CurrentFile + "\".");
+            //throw new FileFormatException(result, "Read weather file exception.\r\nOperation : " + (object)this.currentOperation + ".\r\nLine " + (string)(object)nR.CurrentLineNumbber.ToString() + ", column " + (string)(object)nR.CurrentColumnNumber.ToString() + "" + "" + "\".\r\nFile \"" + nR.CurrentFile + "\".");
+             throw new FileFormatException("Read weather file exception.\r\nOperation : " + (object)this.currentOperation + ".\r\nLine " + (string)(object)nR.CurrentLineNumbber.ToString() + ", column " + (string)(object)nR.CurrentColumnNumber.ToString() + ".\r\nError \"" + e.Message + "\".\r\\nFile \"" + nR.CurrentFile + "\".");
+        }
 
     public int IndexOf(DateTime date)
     {
-      return (int) (date - this.startDate.Value).TotalDays;
+            int idof = (int)(date - this.startDate.Value).TotalDays;
+
+            if(idof<=-2) throw new Exception("You try to begin the simulation before the start of the weather file: Check your managment file");
+
+            return idof;
     }
 
     public bool Contains(int index)
@@ -938,22 +1439,81 @@ namespace Sirius.Model.Weather
 
     public double Radiation(int index)
     {
-      return Cache.GetValue(this.radiationArray, index, Cache.ScaleOutRadiation);
+            double res = Cache.GetValue(this.radiationArray, index, Cache.ScaleOutRadiation);
+
+            if (res != -999) return res;
+            else return 0;
     }
+
+        public double DayLength(int index)
+        {
+            double res = Cache.GetValue(this.daylengthArray, index, 1.0);
+
+           return res;
+
+        }
+
+        public double[] RadiationHourly(int index)
+     {
+            double[] res = Cache.GetValueHourly(this.radiationArrayHourly, index, Cache.ScaleOutRadiation);
+
+            if (res != null) return res;
+            else
+            {
+                double[] res0 = new double[24];
+                for (int i = 0; i < 24; i++) res0[i] = 0.0;
+                return res0;
+
+
+            }
+     }
 
     public double Radiation(DateTime date)
     {
       return this.Radiation(this.IndexOf(date));
     }
 
+        public double DayLength(DateTime date)
+        {
+            return this.DayLength(this.IndexOf(date));
+        }
+
+        public double[] RadiationHourly(DateTime date)
+    {
+            return this.RadiationHourly(this.IndexOf(date));
+    }
+
     public double Rain(int index)
     {
-      return Cache.GetValue(this.rainArray, index, Cache.ScaleOutRain);
+
+            double res = Cache.GetValue(this.rainArray, index, Cache.ScaleOutRain); ;
+            if (res != 999) return res;
+            else return 0.0;
+
+    }
+
+    public double[] RainHourly(int index)
+    {
+            double[] res= Cache.GetValueHourly(this.rainArrayHourly, index, Cache.ScaleOutRain);
+
+            if (res != null) return res;
+            else
+            {
+                double[] res0 = new double[24];
+
+                for (int i = 0; i < 24; i++) res0[i] = 0.0;
+                return res0;
+            }
     }
 
     public double Rain(DateTime date)
     {
       return this.Rain(this.IndexOf(date));
+    }
+
+    public double[] RainHourly(DateTime date)
+    {
+      return this.RainHourly(this.IndexOf(date));
     }
 
     public double Rain(int index, int nbDays)
@@ -962,12 +1522,25 @@ namespace Sirius.Model.Weather
       return Calc.Sum(this.rainArray, Math.Max(0, stop - nbDays), stop) * Cache.ScaleOutRain;
     }
 
+    public double[] RainHourly(int index, int nbDays)
+    {
+      double[] arr = new double[24];
+      int stop = index + 1;
+      for(int ihour=0;ihour<24;ihour++) arr[ihour]=Calc.Sum(this.rainArrayHourly[ihour], Math.Max(0, stop - nbDays), stop) * Cache.ScaleOutRain;
+      return arr;
+    }
+
     public double Rain(DateTime date, int nbDays)
     {
       return this.Rain(this.IndexOf(date), nbDays);
     }
 
-    public double[] HourlyTemperature(int index)
+    public double[] RainHourly(DateTime date, int nbDays)
+    {
+       return this.RainHourly(this.IndexOf(date), nbDays);
+    }
+
+        public double[] HourlyTemperature(int index)
     {
         if (this.tempH0Column != -1 && this.tempH1Column != -1 && this.tempH2Column != -1 && this.tempH3Column != -1 && this.tempH4Column != -1 && this.tempH5Column != -1 && this.tempH6Column != -1 &&
             this.tempH7Column != -1 && this.tempH8Column != -1 && this.tempH9Column != -1 && this.tempH10Column != -1 && this.tempH11Column != -1 && this.tempH12Column != -1 && this.tempH13Column != -1 &&
@@ -1027,7 +1600,9 @@ namespace Sirius.Model.Weather
     {
         if (this.tempMaxColumn != -1)
         {
-            return Cache.GetValue(this.tempMaxArray, index, Cache.ScaleOutTemperature);
+                double res= Cache.GetValue(this.tempMaxArray, index, Cache.ScaleOutTemperature);
+                if (res != 999) return res;
+                else return -999;
         }
         else
         {
@@ -1035,12 +1610,37 @@ namespace Sirius.Model.Weather
         }
     }
 
-    public double TemperatureMax(DateTime date)
+    public double[] TemperatureHourly(int index)
+    {
+            double[] res= Cache.GetValueHourly(this.tempArrayHourly, index, Cache.ScaleOutTemperature);
+            if (res != null) return res;
+            else
+            {
+                double[] res0 = new double[24];
+
+                for (int i = 0; i < 12; i++) res0[i] = 999;
+                for (int i = 12; i < 24; i++) res0[i] = -999;
+
+                return res0;
+            }
+            //}
+            //else
+            //{
+            //    return TemperatureConverter.HourlyToMax(HourlyTemperature(index));
+            //}
+        }
+
+     public double TemperatureMax(DateTime date)
     {
       return this.TemperatureMax(this.IndexOf(date));
     }
 
-    public double TemperatureMin(int index)
+    public double[] TemperatureHourly(DateTime date)
+    {
+            return this.TemperatureHourly(this.IndexOf(date));
+    }
+
+        public double TemperatureMin(int index)
     {
         if (this.tempMinColumn != -1)
         {
@@ -1053,90 +1653,218 @@ namespace Sirius.Model.Weather
 
     }
 
-    public double TemperatureMin(DateTime date)
-    {
-      return this.TemperatureMin(this.IndexOf(date));
-    }
-
-    public double TemperatureMean(int index)
-    {
-        if (this.tempMinColumn != -1 && this.tempMaxColumn!= -1)
+        public double TemperatureMin(DateTime date)
         {
-            return Calc.Mean(TemperatureMin(index), TemperatureMax(index));
-        }
-        else
-        {
-            return Calc.MeanHourly(HourlyTemperature(index));
-        }
-    }
+            return this.TemperatureMin(this.IndexOf(date));
 
-    public double TemperatureMean(DateTime date)
+        }
+
+        public double TemperatureMean(int index)
+        {
+            if (this.tempMinColumn != -1 && this.tempMaxColumn != -1)
+            {
+                return Calc.Mean(TemperatureMin(index), TemperatureMax(index));
+            }
+            else
+            {
+                return Calc.MeanHourly(HourlyTemperature(index));
+            }
+        }
+
+        public double TemperatureMeanHourly(int index)
+        {
+            return Calc.MeanHourly(TemperatureHourly(index));
+        }
+
+        public double TemperatureMean(DateTime date)
     {
       return this.TemperatureMean(this.IndexOf(date));
     }
 
-    public double TemperatureMean(int index, int nbDays)
+        public double TemperatureMeanHourly(DateTime date)
+        {
+            return this.TemperatureMeanHourly(this.IndexOf(date));
+        }
+
+        public double TemperatureMean(int index, int nbDays)
     {
       int stop = index + 1;
-      if (this.tempMinColumn != -1 && this.tempMaxColumn != -1)
-      {
-          return Calc.Mean(this.tempMaxArray, this.tempMinArray, Math.Max(0, stop - nbDays), stop) * Cache.ScaleOutTemperature;
-      }
-      else
-      {
-          int start=  Math.Max(0, stop - nbDays);
-          if (start ==stop)
-          {
-              return 0.0;
-          }
-          else
-          {
-              double sum = 0;
-              for (int i = start; i < stop; i++)
-              {
-                  sum += TemperatureMean(i);
-              }
-              return sum / (double)(2 * (stop - start));
-          }
-      }
+
+            if ((this.tempMinColumn != -1 && this.tempMaxColumn != -1 ))
+            {
+                return Calc.Mean(this.tempMaxArray, this.tempMinArray, Math.Max(0, stop - nbDays), stop) * Cache.ScaleOutTemperature;
+            }
+            else
+            {
+                int start = Math.Max(0, stop - nbDays);
+                if (start == stop)
+                {
+                    return 0.0;
+                }
+                else
+                {
+                    double sum = 0;
+                    for (int i = start; i < stop; i++)
+                    {
+                        sum += TemperatureMean(i);
+                    }
+                    return sum / (double)(/*2 **/ (stop - start));
+                }
+            }
+
     }
 
-    public double TemperatureMean(DateTime date, int nbDays)
+        public double TemperatureMeanHourly(int index, int nbDays)
+        {
+            int stop = index + 1;
+
+            int start = Math.Max(0, stop - nbDays);
+            if (start == stop)
+            {
+                return 0.0;
+            }
+            else
+            {
+                double sum = 0;
+                for (int i = start; i < stop; i++)
+                {
+                    sum += TemperatureMeanHourly(i);
+                }
+                return sum / (double)(/*2 **/ (stop - start));
+            }
+
+        }
+
+        public double TemperatureMean(DateTime date, int nbDays)
     {
       return this.TemperatureMean(this.IndexOf(date), nbDays);
     }
 
-    public double VapourPresure(int index)
+    public double TemperatureMeanHourly(DateTime date, int nbDays)
+     {
+       return this.TemperatureMeanHourly(this.IndexOf(date), nbDays);
+     }
+
+        public double VapourPresure(int index)
     {
-      return Cache.GetValue(this.vapourPresureArray, index, Cache.ScaleOutVapourPresure);
+            double res= Cache.GetValue(this.vapourPresureArray, index, Cache.ScaleOutVapourPresure);
+            if (res != 999) return res;
+            else return 0.0;
+    }
+
+    public double[] VapourPresureHourly(int index)
+    {
+
+            double[] res= Cache.GetValueHourly(this.vapourPresureArrayHourly, index, Cache.ScaleOutVapourPresure);
+
+            if (res != null) return res;
+            else
+            {
+                double[] res0 = new double[24];
+                for (int i = 0; i < 24; i++) res0[i] = 0;
+                return res0;
+            }
     }
 
     public double VapourPresure(DateTime date)
     {
-      return Cache.GetValue(this.vapourPresureArray, this.IndexOf(date), Cache.ScaleOutVapourPresure);
+
+            double res= Cache.GetValue(this.vapourPresureArray, this.IndexOf(date), Cache.ScaleOutVapourPresure);
+            if (res != 999) return res;
+            else return 0;
+    }
+
+    public double[] VapourPresureHourly(DateTime date)
+    {
+            double[] res = Cache.GetValueHourly(this.vapourPresureArrayHourly, this.IndexOf(date), Cache.ScaleOutVapourPresure);
+
+            if (res != null) return res;
+            else
+            {
+                double[] res0 = new double[24];
+                for (int i = 0; i < 24; i++) res0[i] = 0.0;
+                return res0;
+            }
+
+            
     }
 
     public double Wind(int index)
     {
-      return Cache.GetValue(this.windArray, index, Cache.ScaleOutWind);
+            double res = Cache.GetValue(this.windArray, index, Cache.ScaleOutWind);
+            if (res != 999) return res;
+            else { 
+
+                return 0.0;
+            }
+    }
+
+    public double[] WindHourly(int index)
+    {
+            double[] res= Cache.GetValueHourly(this.windArrayHourly, index, Cache.ScaleOutWind);
+
+            if (res != null) return res;
+            else {
+                double[] res0 = new double[24];
+                for (int i = 0; i < 24; i++) res0[i] = 0.0;
+                return res0;
+            
+            }
     }
 
     public double Wind(DateTime date)
     {
-      return Cache.GetValue(this.windArray, this.IndexOf(date), Cache.ScaleOutWind);
+            double res= Cache.GetValue(this.windArray, this.IndexOf(date), Cache.ScaleOutWind);
+            if (res != 999) return res;
+            else return 0.0;
+    }
+
+    public double[] WindHourly(DateTime date)
+    {
+
+            double[] res = Cache.GetValueHourly(this.windArrayHourly, this.IndexOf(date), Cache.ScaleOutWind);
+            if (res != null) return res;
+            else
+            {
+                double[] res0 = new double[24];
+                for(int i = 0; i < 24; i++)
+                {
+                    res0[i] = 0.0;
+                }
+                return res0;
+            }
     }
 
     private static double GetValue(short[] valueArray, int index, double scaleOut)
     {
-        if (index < valueArray.Length)
+
+        if (index < valueArray.Length-1)
         {
             return (double)valueArray[index] * scaleOut;
         }
         else
         {
-            throw new Exception("try to reach past the end of the meteo file");
+                //throw new Exception("try to reach past the end of the meteo file");
+                return 999;
         }
     }
+
+        private static double[] GetValueHourly(short[][] valueArray, int index, double scaleOut)
+        {
+        if (index < valueArray[0].Length - 1)
+        {
+            double[] arr = new double[24];
+
+            for (int ihour = 0; ihour < 24; ihour++) arr[ihour] = (double)valueArray[ihour][index] * scaleOut;
+
+            return arr;
+        }
+        else
+        {
+                return null;
+            //throw new Exception("try to reach past the end of the meteo file");
+        }
+        }
 
     public static Cache Get(ILocation geoPosition, IWeatherInput input)
     {

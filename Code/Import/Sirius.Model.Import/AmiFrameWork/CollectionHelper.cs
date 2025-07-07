@@ -31,7 +31,18 @@ namespace Ami.Framework.Tool
       array[length] = toPush;
     }
 
-    public static void Add<T>(ref T[] array, T toAdd, int index, int allocSize)
+    public static void AddBlock<T>(ref T[][] array, T toPush)
+     {
+       int length = array[0].Length;
+           
+            for (int ihour = 0; ihour < 24; ihour++)
+            {
+                Array.Resize<T>(ref array[ihour], length + 1);
+                array[ihour][length] = toPush;
+            }
+     }
+
+        public static void Add<T>(ref T[] array, T toAdd, int index, int allocSize)
     {
       if (index >= array.Length)
         Array.Resize<T>(ref array, array.Length + allocSize);

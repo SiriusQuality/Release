@@ -1,0 +1,11 @@
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\Import_Export_SQ_ICASA\Import_Export_SQ_ICASA\bin\Release\Import_Export_SQ_ICASA.dll.config
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\Import_Export_SQ_ICASA\Import_Export_SQ_ICASA\bin\Release\Import_Export_SQ_ICASA.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\Import_Export_SQ_ICASA\Import_Export_SQ_ICASA\bin\Release\Import_Export_SQ_ICASA.pdb
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\Import_Export_SQ_ICASA\Import_Export_SQ_ICASA\bin\Release\Newtonsoft.Json.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\Import_Export_SQ_ICASA\Import_Export_SQ_ICASA\bin\Release\Newtonsoft.Json.pdb
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\Import_Export_SQ_ICASA\Import_Export_SQ_ICASA\bin\Release\Newtonsoft.Json.xml
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\Import_Export_SQ_ICASA\Import_Export_SQ_ICASA\obj\Release\Import_Export_SQ_ICASA.csprojAssemblyReference.cache
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\Import_Export_SQ_ICASA\Import_Export_SQ_ICASA\obj\Release\Import_Export_SQ_ICASA.csproj.CoreCompileInputs.cache
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\Import_Export_SQ_ICASA\Import_Export_SQ_ICASA\obj\Release\Import_Export_SQ_ICASA.csproj.CopyComplete
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\Import_Export_SQ_ICASA\Import_Export_SQ_ICASA\obj\Release\Import_Export_SQ_ICASA.dll
+C:\Users\mancealo\Documents\GitSiriusCode\SiriusCode0\SiriusCode\Code\Import_Export_SQ_ICASA\Import_Export_SQ_ICASA\obj\Release\Import_Export_SQ_ICASA.pdb

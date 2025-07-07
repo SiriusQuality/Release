@@ -1,0 +1,162 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\loicm\\SQ_Last_2\\SiriusCode\\Code\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6E748ACE-D7B8-48E3-9AD1-11748EE1182F}|SiriusView\\SiriusQuality-View.csproj|C:\\Users\\loicm\\SQ_Last_2\\SiriusCode\\Code\\siriusview\\file\\weagraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E748ACE-D7B8-48E3-9AD1-11748EE1182F}|SiriusView\\SiriusQuality-View.csproj|solutionrelative:siriusview\\file\\weagraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E748ACE-D7B8-48E3-9AD1-11748EE1182F}|SiriusView\\SiriusQuality-View.csproj|C:\\Users\\loicm\\SQ_Last_2\\SiriusCode\\Code\\siriusview\\file\\siteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E748ACE-D7B8-48E3-9AD1-11748EE1182F}|SiriusView\\SiriusQuality-View.csproj|solutionrelative:siriusview\\file\\siteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E748ACE-D7B8-48E3-9AD1-11748EE1182F}|SiriusView\\SiriusQuality-View.csproj|c:\\users\\loicm\\sq_last_2\\siriuscode\\code\\siriusview\\base\\controlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E748ACE-D7B8-48E3-9AD1-11748EE1182F}|SiriusView\\SiriusQuality-View.csproj|solutionrelative:siriusview\\base\\controlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E748ACE-D7B8-48E3-9AD1-11748EE1182F}|SiriusView\\SiriusQuality-View.csproj|C:\\Users\\loicm\\SQ_Last_2\\SiriusCode\\Code\\siriusview\\file\\weagraph.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E748ACE-D7B8-48E3-9AD1-11748EE1182F}|SiriusView\\SiriusQuality-View.csproj|solutionrelative:siriusview\\file\\weagraph.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E748ACE-D7B8-48E3-9AD1-11748EE1182F}|SiriusView\\SiriusQuality-View.csproj|c:\\users\\loicm\\sq_last_2\\siriuscode\\code\\siriusview\\file\\weagraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6E748ACE-D7B8-48E3-9AD1-11748EE1182F}|SiriusView\\SiriusQuality-View.csproj|solutionrelative:siriusview\\file\\weagraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E748ACE-D7B8-48E3-9AD1-11748EE1182F}|SiriusView\\SiriusQuality-View.csproj|c:\\users\\loicm\\sq_last_2\\siriuscode\\code\\siriusview\\folderrundialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E748ACE-D7B8-48E3-9AD1-11748EE1182F}|SiriusView\\SiriusQuality-View.csproj|solutionrelative:siriusview\\folderrundialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E748ACE-D7B8-48E3-9AD1-11748EE1182F}|SiriusView\\SiriusQuality-View.csproj|C:\\Users\\loicm\\SQ_Last_2\\SiriusCode\\Code\\siriusview\\file\\siteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6E748ACE-D7B8-48E3-9AD1-11748EE1182F}|SiriusView\\SiriusQuality-View.csproj|solutionrelative:siriusview\\file\\siteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E22DE22-EEEE-48FE-BCC3-070617A2318B}|SiriusModel\\SiriusQuality-Model.csproj|c:\\users\\loicm\\sq_last_2\\siriuscode\\code\\siriusmodel\\inout\\siteitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E22DE22-EEEE-48FE-BCC3-070617A2318B}|SiriusModel\\SiriusQuality-Model.csproj|solutionrelative:siriusmodel\\inout\\siteitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FolderRunDialog.cs",
+              "DocumentMoniker": "C:\\Users\\loicm\\SQ_Last_2\\SiriusCode\\Code\\SiriusView\\FolderRunDialog.cs",
+              "RelativeDocumentMoniker": "SiriusView\\FolderRunDialog.cs",
+              "ToolTip": "C:\\Users\\loicm\\SQ_Last_2\\SiriusCode\\Code\\SiriusView\\FolderRunDialog.cs",
+              "RelativeToolTip": "SiriusView\\FolderRunDialog.cs",
+              "ViewState": "AgIAANYAAAAAAAAAAAAYwOYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T11:59:41.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ControlHelper.cs",
+              "DocumentMoniker": "C:\\Users\\loicm\\SQ_Last_2\\SiriusCode\\Code\\SiriusView\\Base\\ControlHelper.cs",
+              "RelativeDocumentMoniker": "SiriusView\\Base\\ControlHelper.cs",
+              "ToolTip": "C:\\Users\\loicm\\SQ_Last_2\\SiriusCode\\Code\\SiriusView\\Base\\ControlHelper.cs",
+              "RelativeToolTip": "SiriusView\\Base\\ControlHelper.cs",
+              "ViewState": "AgIAAKEAAAAAAAAAAAD4v6wAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T10:43:23.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SiteItem.cs",
+              "DocumentMoniker": "C:\\Users\\loicm\\SQ_Last_2\\SiriusCode\\Code\\SiriusModel\\InOut\\SiteItem.cs",
+              "RelativeDocumentMoniker": "SiriusModel\\InOut\\SiteItem.cs",
+              "ToolTip": "C:\\Users\\loicm\\SQ_Last_2\\SiriusCode\\Code\\SiriusModel\\InOut\\SiteItem.cs",
+              "RelativeToolTip": "SiriusModel\\InOut\\SiteItem.cs",
+              "ViewState": "AgIAANQBAAAAAAAAAAAuwOMBAACeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T09:01:39.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SiteForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\loicm\\SQ_Last_2\\SiriusCode\\Code\\SiriusView\\File\\SiteForm.cs",
+              "RelativeDocumentMoniker": "SiriusView\\File\\SiteForm.cs",
+              "ToolTip": "C:\\Users\\loicm\\SQ_Last_2\\SiriusCode\\Code\\SiriusView\\File\\SiteForm.cs [Design]",
+              "RelativeToolTip": "SiriusView\\File\\SiteForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T10:29:25.633Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SiteForm.cs",
+              "DocumentMoniker": "C:\\Users\\loicm\\SQ_Last_2\\SiriusCode\\Code\\SiriusView\\File\\SiteForm.cs",
+              "RelativeDocumentMoniker": "SiriusView\\File\\SiteForm.cs",
+              "ToolTip": "C:\\Users\\loicm\\SQ_Last_2\\SiriusCode\\Code\\SiriusView\\File\\SiteForm.cs",
+              "RelativeToolTip": "SiriusView\\File\\SiteForm.cs",
+              "ViewState": "AgIAAGQDAAAAAAAAAAAtwG8DAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:44:52.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WEAGraph.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\loicm\\SQ_Last_2\\SiriusCode\\Code\\SiriusView\\File\\WEAGraph.cs",
+              "RelativeDocumentMoniker": "SiriusView\\File\\WEAGraph.cs",
+              "ToolTip": "C:\\Users\\loicm\\SQ_Last_2\\SiriusCode\\Code\\SiriusView\\File\\WEAGraph.cs [Design]",
+              "RelativeToolTip": "SiriusView\\File\\WEAGraph.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T11:16:06.358Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WEAGraph.cs",
+              "DocumentMoniker": "C:\\Users\\loicm\\SQ_Last_2\\SiriusCode\\Code\\SiriusView\\File\\WEAGraph.cs",
+              "RelativeDocumentMoniker": "SiriusView\\File\\WEAGraph.cs",
+              "ToolTip": "C:\\Users\\loicm\\SQ_Last_2\\SiriusCode\\Code\\SiriusView\\File\\WEAGraph.cs",
+              "RelativeToolTip": "SiriusView\\File\\WEAGraph.cs",
+              "ViewState": "AgIAANQBAAAAAAAAAAAAwN8BAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T13:07:15.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WEAGraph.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\loicm\\SQ_Last_2\\SiriusCode\\Code\\SiriusView\\File\\WEAGraph.Designer.cs",
+              "RelativeDocumentMoniker": "SiriusView\\File\\WEAGraph.Designer.cs",
+              "ToolTip": "C:\\Users\\loicm\\SQ_Last_2\\SiriusCode\\Code\\SiriusView\\File\\WEAGraph.Designer.cs",
+              "RelativeToolTip": "SiriusView\\File\\WEAGraph.Designer.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAD4vyYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T13:06:50.167Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
